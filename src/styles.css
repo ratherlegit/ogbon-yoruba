@@ -7,9 +7,12 @@
   --surface-2: #ebe4cf;
   --text: #101a3d;
   --text-muted: #3b4a7d;
-  --primary: #14307a;
+  --primary: #075c42;
   --on-primary: #f6f0e0;
   --accent: #14307a;
+  --emerald-card: #075c42;
+  --texture: #075c42;
+  --texture-opacity: 0.09;
   --border: #aab4d6;
   --line: #14307a;
   --gold: #c99a2e;
@@ -49,11 +52,17 @@
     --chip-bg: #e3b84f;
     --chip-text: #101a3d;
     --tint-mix: 45%;
+    --emerald-card: #064d38;
+    --texture: #f1ecde;
+    --texture-opacity: 0.05;
   }
 }
 
 :root[data-theme="dark"] {
   --tint-mix: 45%;
+  --emerald-card: #064d38;
+  --texture: #f1ecde;
+  --texture-opacity: 0.05;
   color-scheme: dark;
   --bg: #0b1634;
   --surface: #13265a;
@@ -192,6 +201,7 @@ svg[role="img"] { transition: transform 0.25s ease; }
 .site-header { border-bottom: 3px solid var(--gold); }
 .site-header a, .site-footer a { color: var(--text); }
 .header-bar { padding: 0.75rem 1.5rem; display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; justify-content: space-between; }
+.site-header a.brand, .site-footer strong { color: #e3b84f; }
 .brand { font-family: "Ojuju Variable", system-ui, sans-serif; font-weight: 800; font-size: 1.7rem; letter-spacing: 0.01em; text-decoration: none; }
 .header-nav { display: flex; gap: 1.25rem; align-items: center; flex-wrap: wrap; }
 .header-nav > a { position: relative; text-decoration: none; }
@@ -310,10 +320,10 @@ svg[role="img"] { transition: transform 0.25s ease; }
 @media (min-width: 40rem) { .today { grid-template-columns: 1.4fr 1fr; } }
 .today h2 { margin: 0; font-size: 1.15rem; }
 .today-yo { font-family: "Readex Pro Variable", sans-serif; font-size: 1.6rem; font-weight: 700; line-height: 1.2; }
-.today-continue { display: grid; gap: 0.5rem; align-content: start; padding: 1.2rem; border-radius: 1.2rem; background: #14307a; color: #f6f0e0; border: 2px solid #c99a2e; box-shadow: 6px 6px 0 #c99a2e; text-decoration: none; transition: transform 0.18s ease, box-shadow 0.18s ease; }
+.today-continue { display: grid; gap: 0.5rem; align-content: start; padding: 1.2rem; border-radius: 1.2rem; background: var(--emerald-card); color: #f6f0e0; border: 2px solid #c99a2e; box-shadow: 6px 6px 0 #c99a2e; text-decoration: none; transition: transform 0.18s ease, box-shadow 0.18s ease; }
 .today-continue:hover { transform: translate(-2px, -2px); box-shadow: 8px 8px 0 #c99a2e; }
 .today-continue .today-yo { color: #e3b84f; }
-.today-topic { color: #cdd6f6; line-height: 1.45; }
+.today-topic { color: #d3f1e4; line-height: 1.45; }
 .today-go { justify-self: start; background: #e3b84f; color: #101a3d; font-weight: 700; border-radius: 0.7rem; padding: 0.45rem 1rem; }
 .today-word { display: grid; gap: 0.35rem; align-content: start; border-radius: 1.2rem; }
 .today-word-row { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; }
@@ -322,7 +332,7 @@ svg[role="img"] { transition: transform 0.25s ease; }
 
 /* A faint adire diamond-and-dot texture behind the home page content. Drawn as a mask so it takes the text colour in both themes. */
 .home-texture { position: relative; isolation: isolate; }
-.home-texture::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; background: var(--text); opacity: 0.05;
+.home-texture::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; background: var(--texture); opacity: var(--texture-opacity);
   -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cpath d='M24 8l8 8-8 8-8-8z' fill='none' stroke='black' stroke-width='1.2'/%3E%3Ccircle cx='24' cy='24' r='1.6'/%3E%3Ccircle cx='0' cy='0' r='1.6'/%3E%3Ccircle cx='48' cy='0' r='1.6'/%3E%3Ccircle cx='0' cy='48' r='1.6'/%3E%3Ccircle cx='48' cy='48' r='1.6'/%3E%3C/svg%3E") 0 0 / 48px 48px;
   mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cpath d='M24 8l8 8-8 8-8-8z' fill='none' stroke='black' stroke-width='1.2'/%3E%3Ccircle cx='24' cy='24' r='1.6'/%3E%3Ccircle cx='0' cy='0' r='1.6'/%3E%3Ccircle cx='48' cy='0' r='1.6'/%3E%3Ccircle cx='0' cy='48' r='1.6'/%3E%3Ccircle cx='48' cy='48' r='1.6'/%3E%3C/svg%3E") 0 0 / 48px 48px; }
 .stats-strip { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem 1.5rem; }
