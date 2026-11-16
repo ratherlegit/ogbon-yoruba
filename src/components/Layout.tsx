@@ -7,7 +7,7 @@ export function Layout() {
     <div className="shell">
       <header className="site-header">
         <div className="header-bar">
-          <Link to="/" className="brand">Ọgbọ́n</Link>
+          <Link to="/" className="brand">Ọgbọ́n Yorùbá</Link>
           <nav className="header-nav">
             <ActivitiesMenu />
             <Link to="/stats">Stats</Link>
@@ -20,7 +20,7 @@ export function Layout() {
       <div className="shell-main"><Outlet /></div>
       <footer className="site-footer">
         <div className="page">
-          <strong>Ọgbọ́n</strong>
+          <strong>Ọgbọ́n Yorùbá</strong>
           <p className="muted" style={{ margin: "0.25rem 0 0" }}>Learn Yoruba from zero, with tone marks and audio.</p>
         </div>
       </footer>
