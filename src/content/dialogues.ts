@@ -1,4 +1,5 @@
 import type { Confidence, LevelId } from "./types";
+import { EXTRA_DIALOGUES } from "./dialogues-extra";
 
 // Dialogues: realistic two-person conversations, grouped by level and situation. The learner
 // reads each line in Yoruba with its English, hears it in the speaker's voice (a woman and a
@@ -29,15 +30,20 @@ export const MAX_LINES = 12;
 
 export const SITUATIONS: Situation[] = [
   { id: "meeting", level: "getting-started", title: "Meeting someone", summary: "Greet someone, say your name and where you are from." },
+  { id: "new-friends", level: "getting-started", title: "Chatting with a new friend", summary: "Talk about languages, family, what you like and where you are from." },
   { id: "market", level: "beginner", title: "At the market", summary: "Ask for food, say what you do not want, and talk about the price." },
+  { id: "at-home", level: "beginner", title: "At home with a friend", summary: "Ask politely, say what there is, say where things are and what you want." },
   { id: "getting-around", level: "intermediate", title: "Getting around", summary: "Ask where someone is going, ask the way, and take a bus." },
+  { id: "errands", level: "intermediate", title: "Errands and plans", summary: "Buy what you need, find what you lost, and make plans." },
   { id: "friends-home", level: "advanced", title: "Visiting a friend's home", summary: "Be welcomed, talk about family, and say goodbye." },
+  { id: "work", level: "advanced", title: "At work", summary: "Help each other, pass on news, and say what not to worry about." },
   { id: "elder", level: "mastery", title: "Talking with an elder", summary: "Ask for advice, hear a proverb, and give thanks." },
+  { id: "celebration", level: "mastery", title: "At a celebration", summary: "Give blessings, say what has or has not happened yet, and settle a quarrel." },
 ];
 
 const SOURCE = "Written by the author of this code for this site, using words and patterns from the level's lessons; no published source.";
 
-export const DIALOGUES: Dialogue[] = [
+const BASE_DIALOGUES: Dialogue[] = [
   {
     id: "gs-morning",
     level: "getting-started",
@@ -390,3 +396,5 @@ export const DIALOGUES: Dialogue[] = [
     note: "Check \"dúpẹ́ lọ́wọ́\" (give thanks to), \"kì í ṣe èmi\" (it is not me), the \"bí ... bá ... ǹ bá ti\" (if ... would have) sentence, and \"nígbàkúùgbà\" (whenever). All of this Yoruba was written by the author with no published source, so every line needs a native speaker.",
   },
 ];
+
+export const DIALOGUES: Dialogue[] = [...BASE_DIALOGUES, ...EXTRA_DIALOGUES];

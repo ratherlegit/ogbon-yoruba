@@ -415,6 +415,61 @@
     "group": "grammar"
   },
   {
+    "key": "mo gbọ́ yorùbá",
+    "text": "Mo gbọ́ Yorùbá",
+    "group": "grammar"
+  },
+  {
+    "key": "mo sọ gẹ̀ẹ́sì",
+    "text": "Mo sọ Gẹ̀ẹ́sì",
+    "group": "grammar"
+  },
+  {
+    "key": "mo gbọ́ yorùbá díẹ̀",
+    "text": "Mo gbọ́ Yorùbá díẹ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "èdè wo ni o sọ",
+    "text": "Èdè wo ni o sọ",
+    "group": "grammar"
+  },
+  {
+    "key": "yorùbá",
+    "text": "Yorùbá",
+    "group": "grammar"
+  },
+  {
+    "key": "gẹ̀ẹ́sì",
+    "text": "Gẹ̀ẹ́sì",
+    "group": "grammar"
+  },
+  {
+    "key": "igbo",
+    "text": "Igbo",
+    "group": "grammar"
+  },
+  {
+    "key": "hausa",
+    "text": "Hausa",
+    "group": "grammar"
+  },
+  {
+    "key": "faransé",
+    "text": "Faransé",
+    "group": "grammar"
+  },
+  {
+    "key": "mo sọ gẹ̀ẹ́sì dáadáa",
+    "text": "Mo sọ Gẹ̀ẹ́sì dáadáa",
+    "group": "grammar"
+  },
+  {
+    "key": "mo sọ yorùbá àti gẹ̀ẹ́sì",
+    "text": "Mo sọ Yorùbá àti Gẹ̀ẹ́sì",
+    "group": "grammar"
+  },
+  {
     "key": "mo jẹ́ olùkọ́",
     "text": "Mo jẹ́ olùkọ́",
     "group": "grammar"
@@ -760,6 +815,221 @@
     "group": "grammar"
   },
   {
+    "key": "ẹ wá",
+    "text": "Ẹ wá",
+    "group": "grammar"
+  },
+  {
+    "key": "jọ̀wọ́ jókòó",
+    "text": "Jọ̀wọ́ jókòó",
+    "group": "grammar"
+  },
+  {
+    "key": "ẹ jọ̀ọ́ ẹ jókòó",
+    "text": "Ẹ jọ̀ọ́ ẹ jókòó",
+    "group": "grammar"
+  },
+  {
+    "key": "fún mi ní omi",
+    "text": "Fún mi ní omi",
+    "group": "grammar"
+  },
+  {
+    "key": "jọ̀wọ́ fún mi ní búrẹ́dì",
+    "text": "Jọ̀wọ́ fún mi ní búrẹ́dì",
+    "group": "grammar"
+  },
+  {
+    "key": "jókòó",
+    "text": "jókòó",
+    "group": "grammar"
+  },
+  {
+    "key": "dìde",
+    "text": "dìde",
+    "group": "grammar"
+  },
+  {
+    "key": "dúró",
+    "text": "dúró",
+    "group": "grammar"
+  },
+  {
+    "key": "wò",
+    "text": "wò",
+    "group": "grammar"
+  },
+  {
+    "key": "o wá",
+    "text": "O wá",
+    "group": "grammar"
+  },
+  {
+    "key": "jọ̀wọ́ fún mi ní omi",
+    "text": "Jọ̀wọ́ fún mi ní omi",
+    "group": "grammar"
+  },
+  {
+    "key": "ẹ kà ìwé",
+    "text": "Ẹ kà ìwé",
+    "group": "grammar"
+  },
+  {
+    "key": "omi wà",
+    "text": "Omi wà",
+    "group": "grammar"
+  },
+  {
+    "key": "kò sí omi",
+    "text": "Kò sí omi",
+    "group": "grammar"
+  },
+  {
+    "key": "ṣé ẹja wà",
+    "text": "Ṣé ẹja wà",
+    "group": "grammar"
+  },
+  {
+    "key": "n kò ní owó",
+    "text": "N kò ní owó",
+    "group": "grammar"
+  },
+  {
+    "key": "a ò ní omi",
+    "text": "A ò ní omi",
+    "group": "grammar"
+  },
+  {
+    "key": "owó",
+    "text": "owó",
+    "group": "grammar"
+  },
+  {
+    "key": "bẹ́ẹ̀ ni ó wà",
+    "text": "Bẹ́ẹ̀ ni, ó wà",
+    "group": "grammar"
+  },
+  {
+    "key": "rárá kò sí",
+    "text": "Rárá, kò sí",
+    "group": "grammar"
+  },
+  {
+    "key": "mo wà ní ọjà",
+    "text": "Mo wà ní ọjà",
+    "group": "grammar"
+  },
+  {
+    "key": "ó wà ní ilé",
+    "text": "Ó wà ní ilé",
+    "group": "grammar"
+  },
+  {
+    "key": "a wà ní ilé-ìwé",
+    "text": "A wà ní ilé-ìwé",
+    "group": "grammar"
+  },
+  {
+    "key": "níbo ni o wà",
+    "text": "Níbo ni o wà",
+    "group": "grammar"
+  },
+  {
+    "key": "níbo ni ọ̀rẹ́ rẹ wà",
+    "text": "Níbo ni ọ̀rẹ́ rẹ wà",
+    "group": "grammar"
+  },
+  {
+    "key": "ọjà",
+    "text": "ọjà",
+    "group": "grammar"
+  },
+  {
+    "key": "ilé-ìwé",
+    "text": "ilé-ìwé",
+    "group": "grammar"
+  },
+  {
+    "key": "ọ́fíìsì",
+    "text": "ọ́fíìsì",
+    "group": "grammar"
+  },
+  {
+    "key": "níbí",
+    "text": "níbí",
+    "group": "grammar"
+  },
+  {
+    "key": "níbẹ̀",
+    "text": "níbẹ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "ṣé o wà ní ilé",
+    "text": "Ṣé o wà ní ilé?",
+    "group": "grammar"
+  },
+  {
+    "key": "kò sí ní ilé",
+    "text": "Kò sí ní ilé",
+    "group": "grammar"
+  },
+  {
+    "key": "mo jẹ́ ní ilé-ìwé",
+    "text": "Mo jẹ́ ní ilé-ìwé",
+    "group": "grammar"
+  },
+  {
+    "key": "ó wà ní ọjà",
+    "text": "Ó wà ní ọjà",
+    "group": "grammar"
+  },
+  {
+    "key": "mo wà ní níbí",
+    "text": "Mo wà ní níbí",
+    "group": "grammar"
+  },
+  {
+    "key": "mo fẹ́ lọ",
+    "text": "Mo fẹ́ lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "ó fẹ́ jẹun",
+    "text": "Ó fẹ́ jẹun",
+    "group": "grammar"
+  },
+  {
+    "key": "n kò fẹ́ jẹun",
+    "text": "N kò fẹ́ jẹun",
+    "group": "grammar"
+  },
+  {
+    "key": "ṣé o fẹ́ lọ",
+    "text": "Ṣé o fẹ́ lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "mo fẹ́ jẹ ẹja",
+    "text": "Mo fẹ́ jẹ ẹja",
+    "group": "grammar"
+  },
+  {
+    "key": "a fẹ́ sùn",
+    "text": "A fẹ́ sùn",
+    "group": "grammar"
+  },
+  {
+    "key": "mo fẹ́ràn ẹja",
+    "text": "Mo fẹ́ràn ẹja",
+    "group": "grammar"
+  },
+  {
+    "key": "ṣé o fẹ́ sùn",
+    "text": "Ṣé o fẹ́ sùn?",
+    "group": "grammar"
+  },
+  {
     "key": "mo ti jẹun",
     "text": "Mo ti jẹun",
     "group": "grammar"
@@ -902,11 +1172,6 @@
   {
     "key": "bàtà",
     "text": "bàtà",
-    "group": "grammar"
-  },
-  {
-    "key": "owó",
-    "text": "owó",
     "group": "grammar"
   },
   {
@@ -1077,6 +1342,181 @@
   {
     "key": "ọmọ wo",
     "text": "Ọmọ wo?",
+    "group": "grammar"
+  },
+  {
+    "key": "ilé mi tóbi ju ilé rẹ lọ",
+    "text": "Ilé mi tóbi ju ilé rẹ lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "ajá mi kéré ju ajá rẹ lọ",
+    "text": "Ajá mi kéré ju ajá rẹ lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "ọkọ̀ mi yára ju ọkọ̀ rẹ lọ",
+    "text": "Ọkọ̀ mi yára ju ọkọ̀ rẹ lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "ẹja dùn ju búrẹ́dì lọ",
+    "text": "Ẹja dùn ju búrẹ́dì lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "ọ̀nà gùn jù",
+    "text": "Ọ̀nà gùn jù",
+    "group": "grammar"
+  },
+  {
+    "key": "tóbi",
+    "text": "tóbi",
+    "group": "grammar"
+  },
+  {
+    "key": "kéré",
+    "text": "kéré",
+    "group": "grammar"
+  },
+  {
+    "key": "yára",
+    "text": "yára",
+    "group": "grammar"
+  },
+  {
+    "key": "dùn",
+    "text": "dùn",
+    "group": "grammar"
+  },
+  {
+    "key": "gùn",
+    "text": "gùn",
+    "group": "grammar"
+  },
+  {
+    "key": "ṣé ìwé rẹ dára ju ìwé mi lọ",
+    "text": "Ṣé ìwé rẹ dára ju ìwé mi lọ?",
+    "group": "grammar"
+  },
+  {
+    "key": "ọkọ̀ rẹ yára ju ọkọ̀ mi lọ",
+    "text": "Ọkọ̀ rẹ yára ju ọkọ̀ mi lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "ilé mi tóbi ju ilé rẹ",
+    "text": "Ilé mi tóbi ju ilé rẹ",
+    "group": "grammar"
+  },
+  {
+    "key": "ìwé wà lórí tábìlì",
+    "text": "Ìwé wà lórí tábìlì",
+    "group": "grammar"
+  },
+  {
+    "key": "aṣọ wà nínú àpótí",
+    "text": "Aṣọ wà nínú àpótí",
+    "group": "grammar"
+  },
+  {
+    "key": "bàtà wà lábẹ́ àga",
+    "text": "Bàtà wà lábẹ́ àga",
+    "group": "grammar"
+  },
+  {
+    "key": "ajá wà lábẹ́ tábìlì",
+    "text": "Ajá wà lábẹ́ tábìlì",
+    "group": "grammar"
+  },
+  {
+    "key": "níbo ni ìwé wà",
+    "text": "Níbo ni ìwé wà",
+    "group": "grammar"
+  },
+  {
+    "key": "lórí",
+    "text": "lórí",
+    "group": "grammar"
+  },
+  {
+    "key": "nínú",
+    "text": "nínú",
+    "group": "grammar"
+  },
+  {
+    "key": "lábẹ́",
+    "text": "lábẹ́",
+    "group": "grammar"
+  },
+  {
+    "key": "tábìlì",
+    "text": "tábìlì",
+    "group": "grammar"
+  },
+  {
+    "key": "àga",
+    "text": "àga",
+    "group": "grammar"
+  },
+  {
+    "key": "àpótí",
+    "text": "àpótí",
+    "group": "grammar"
+  },
+  {
+    "key": "owó wà nínú àpò",
+    "text": "Owó wà nínú àpò",
+    "group": "grammar"
+  },
+  {
+    "key": "ó wà lórí tábìlì",
+    "text": "Ó wà lórí tábìlì",
+    "group": "grammar"
+  },
+  {
+    "key": "ìwé wà ní lórí tábìlì",
+    "text": "Ìwé wà ní lórí tábìlì",
+    "group": "grammar"
+  },
+  {
+    "key": "mo ní láti lọ",
+    "text": "Mo ní láti lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "n kò ní láti lọ",
+    "text": "N kò ní láti lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "mo gbọ́dọ̀ kà ìwé",
+    "text": "Mo gbọ́dọ̀ kà ìwé",
+    "group": "grammar"
+  },
+  {
+    "key": "o ò gbọ́dọ̀ lọ",
+    "text": "O ò gbọ́dọ̀ lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "mo nílò owó",
+    "text": "Mo nílò owó",
+    "group": "grammar"
+  },
+  {
+    "key": "ó ní láti jẹun",
+    "text": "Ó ní láti jẹun",
+    "group": "grammar"
+  },
+  {
+    "key": "ṣé o nílò omi",
+    "text": "Ṣé o nílò omi?",
+    "group": "grammar"
+  },
+  {
+    "key": "n kò gbọ́dọ̀ lọ",
+    "text": "N kò gbọ́dọ̀ lọ",
     "group": "grammar"
   },
   {
@@ -1295,16 +1735,6 @@
     "group": "grammar"
   },
   {
-    "key": "ọjà",
-    "text": "ọjà",
-    "group": "grammar"
-  },
-  {
-    "key": "ilé-ìwé",
-    "text": "ilé-ìwé",
-    "group": "grammar"
-  },
-  {
     "key": "ó gbé aṣọ lọ",
     "text": "Ó gbé aṣọ lọ",
     "group": "grammar"
@@ -1362,6 +1792,131 @@
   {
     "key": "gbé",
     "text": "gbé",
+    "group": "grammar"
+  },
+  {
+    "key": "ó sọ pé ó ti lọ",
+    "text": "Ó sọ pé ó ti lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "ó sọ pé òun ń lọ",
+    "text": "Ó sọ pé òun ń lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "mo rò pé ó dára",
+    "text": "Mo rò pé ó dára",
+    "group": "grammar"
+  },
+  {
+    "key": "mo mọ̀ pé ó wà ní ilé",
+    "text": "Mo mọ̀ pé ó wà ní ilé",
+    "group": "grammar"
+  },
+  {
+    "key": "mo gbọ́ pé ó ti lọ",
+    "text": "Mo gbọ́ pé ó ti lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "sọ",
+    "text": "sọ",
+    "group": "grammar"
+  },
+  {
+    "key": "rò",
+    "text": "rò",
+    "group": "grammar"
+  },
+  {
+    "key": "ṣé o mọ̀ pé ó ti lọ",
+    "text": "Ṣé o mọ̀ pé ó ti lọ?",
+    "group": "grammar"
+  },
+  {
+    "key": "ó sọ ó ti lọ",
+    "text": "Ó sọ ó ti lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "mo lè lọ",
+    "text": "Mo lè lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "n kò lè lọ",
+    "text": "N kò lè lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "a ò lè sùn",
+    "text": "A ò lè sùn",
+    "group": "grammar"
+  },
+  {
+    "key": "ṣé o lè wá",
+    "text": "Ṣé o lè wá",
+    "group": "grammar"
+  },
+  {
+    "key": "ó lè kà ìwé",
+    "text": "Ó lè kà ìwé",
+    "group": "grammar"
+  },
+  {
+    "key": "bẹ́ẹ̀ ni mo lè wá",
+    "text": "Bẹ́ẹ̀ ni, mo lè wá",
+    "group": "grammar"
+  },
+  {
+    "key": "rárá n kò lè wá",
+    "text": "Rárá, n kò lè wá",
+    "group": "grammar"
+  },
+  {
+    "key": "mo gbọ́dọ̀ lọ",
+    "text": "Mo gbọ́dọ̀ lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "má lọ",
+    "text": "Má lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "ẹ má wá",
+    "text": "Ẹ má wá",
+    "group": "grammar"
+  },
+  {
+    "key": "jọ̀wọ́ má lọ",
+    "text": "Jọ̀wọ́ má lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "má jẹ ẹja",
+    "text": "Má jẹ ẹja",
+    "group": "grammar"
+  },
+  {
+    "key": "ẹ má bínú",
+    "text": "Ẹ má bínú",
+    "group": "grammar"
+  },
+  {
+    "key": "bínú",
+    "text": "bínú",
+    "group": "grammar"
+  },
+  {
+    "key": "máa lọ",
+    "text": "Máa lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "jọ̀wọ́ má jẹ ẹja",
+    "text": "Jọ̀wọ́ má jẹ ẹja",
     "group": "grammar"
   },
   {
@@ -1665,6 +2220,71 @@
     "group": "grammar"
   },
   {
+    "key": "kí ọlọ́run bá ọ lọ",
+    "text": "Kí Ọlọ́run bá ọ lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "kí ó dára fún ọ",
+    "text": "Kí ó dára fún ọ",
+    "group": "grammar"
+  },
+  {
+    "key": "kí o wà ní àlàáfíà",
+    "text": "Kí o wà ní àlàáfíà",
+    "group": "grammar"
+  },
+  {
+    "key": "kí ọmọ rẹ dàgbà",
+    "text": "Kí ọmọ rẹ dàgbà",
+    "group": "grammar"
+  },
+  {
+    "key": "kí n bá ọ lọ",
+    "text": "Kí n bá ọ lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "àmín",
+    "text": "Àmín",
+    "group": "grammar"
+  },
+  {
+    "key": "ó ṣì wà ní ilé",
+    "text": "Ó ṣì wà ní ilé",
+    "group": "grammar"
+  },
+  {
+    "key": "mo ṣì ń kà ìwé",
+    "text": "Mo ṣì ń kà ìwé",
+    "group": "grammar"
+  },
+  {
+    "key": "n kò tíì jẹun",
+    "text": "N kò tíì jẹun",
+    "group": "grammar"
+  },
+  {
+    "key": "kò tíì lọ",
+    "text": "Kò tíì lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "ṣé o ti jẹun",
+    "text": "Ṣé o ti jẹun",
+    "group": "grammar"
+  },
+  {
+    "key": "ó ṣì ń sùn",
+    "text": "Ó ṣì ń sùn",
+    "group": "grammar"
+  },
+  {
+    "key": "rárá n kò tíì jẹun",
+    "text": "Rárá, n kò tíì jẹun",
+    "group": "grammar"
+  },
+  {
     "key": "ẹ kúuṣẹ́",
     "text": "ẹ kúuṣẹ́",
     "group": "vocab-word",
@@ -1685,12 +2305,6 @@
   {
     "key": "ẹ jọ̀ọ́",
     "text": "ẹ jọ̀ọ́",
-    "group": "vocab-word",
-    "level": "getting-started"
-  },
-  {
-    "key": "ẹ má bínú",
-    "text": "ẹ má bínú",
     "group": "vocab-word",
     "level": "getting-started"
   },
@@ -1793,6 +2407,150 @@
   {
     "key": "èso",
     "text": "èso",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "fóònù",
+    "text": "fóònù",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "aago",
+    "text": "aago",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "dígí",
+    "text": "dígí",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "ìlẹ̀kẹ̀",
+    "text": "ìlẹ̀kẹ̀",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "agboòrùn",
+    "text": "agboòrùn",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "ọ̀pá",
+    "text": "ọ̀pá",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "ògiri",
+    "text": "ògiri",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "ẹnu ọ̀nà",
+    "text": "ẹnu ọ̀nà",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "ọgbà",
+    "text": "ọgbà",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "kànga",
+    "text": "kànga",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "àtùpà",
+    "text": "àtùpà",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "àkàbà",
+    "text": "àkàbà",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "pẹpẹ",
+    "text": "pẹpẹ",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "òpó",
+    "text": "òpó",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "àgbàlá",
+    "text": "àgbàlá",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "pátákó",
+    "text": "pátákó",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "wàrà",
+    "text": "wàrà",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "tíì",
+    "text": "tíì",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "ṣúgà",
+    "text": "ṣúgà",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "epo",
+    "text": "epo",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "àkàrà",
+    "text": "àkàrà",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "dòdò",
+    "text": "dòdò",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "ẹ̀bà",
+    "text": "ẹ̀bà",
+    "group": "vocab-word",
+    "level": "getting-started"
+  },
+  {
+    "key": "ògì",
+    "text": "ògì",
     "group": "vocab-word",
     "level": "getting-started"
   },
@@ -1917,18 +2675,6 @@
     "level": "beginner"
   },
   {
-    "key": "àga",
-    "text": "àga",
-    "group": "vocab-word",
-    "level": "beginner"
-  },
-  {
-    "key": "tábìlì",
-    "text": "tábìlì",
-    "group": "vocab-word",
-    "level": "beginner"
-  },
-  {
     "key": "ibùsùn",
     "text": "ibùsùn",
     "group": "vocab-word",
@@ -2027,6 +2773,186 @@
   {
     "key": "lẹ́yìn náà",
     "text": "lẹ́yìn náà",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọjọ́ ajé",
+    "text": "Ọjọ́ Ajé",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọjọ́ ìṣẹ́gun",
+    "text": "Ọjọ́ Ìṣẹ́gun",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọjọ́rú",
+    "text": "Ọjọ́rú",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọjọ́bọ̀",
+    "text": "Ọjọ́bọ̀",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọjọ́ ẹtì",
+    "text": "Ọjọ́ Ẹtì",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọjọ́ àbámẹ́ta",
+    "text": "Ọjọ́ Àbámẹ́ta",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọjọ́ àìkú",
+    "text": "Ọjọ́ Àìkú",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọ̀sán",
+    "text": "ọ̀sán",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ìrọ̀lẹ́",
+    "text": "ìrọ̀lẹ́",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọ̀gànjọ́",
+    "text": "ọ̀gànjọ́",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ẹyẹ",
+    "text": "ẹyẹ",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "eku",
+    "text": "eku",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ìjàpá",
+    "text": "ìjàpá",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "kìnnìún",
+    "text": "kìnnìún",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ẹkùn",
+    "text": "ẹkùn",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ẹlẹ́dẹ̀",
+    "text": "ẹlẹ́dẹ̀",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ẹfọn",
+    "text": "ẹfọn",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọ̀kẹ́rẹ́",
+    "text": "ọ̀kẹ́rẹ́",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọ̀pọ̀lọ́",
+    "text": "ọ̀pọ̀lọ́",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "aláǹtakùn",
+    "text": "aláǹtakùn",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọsàn",
+    "text": "ọsàn",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọ̀gẹ̀dẹ̀",
+    "text": "ọ̀gẹ̀dẹ̀",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "mángòrò",
+    "text": "mángòrò",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "tòmátì",
+    "text": "tòmátì",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "àlùbọ́sà",
+    "text": "àlùbọ́sà",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ẹ̀fọ́",
+    "text": "ẹ̀fọ́",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ẹ̀gúsí",
+    "text": "ẹ̀gúsí",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ẹ̀pà",
+    "text": "ẹ̀pà",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "àgbàdo",
+    "text": "àgbàdo",
+    "group": "vocab-word",
+    "level": "beginner"
+  },
+  {
+    "key": "ọ̀dùnkún",
+    "text": "ọ̀dùnkún",
     "group": "vocab-word",
     "level": "beginner"
   },
@@ -2199,8 +3125,158 @@
     "level": "intermediate"
   },
   {
-    "key": "dúró",
-    "text": "dúró",
+    "key": "ilé ìdáná",
+    "text": "ilé ìdáná",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "sè",
+    "text": "sè",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "dín",
+    "text": "dín",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "yan",
+    "text": "yan",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "àwo",
+    "text": "àwo",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "ife",
+    "text": "ife",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "ìyẹ̀fun",
+    "text": "ìyẹ̀fun",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "fọ̀",
+    "text": "fọ̀",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "ìdárayá",
+    "text": "ìdárayá",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "ìdíje",
+    "text": "ìdíje",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "ẹgbẹ́",
+    "text": "ẹgbẹ́",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "ìtàn",
+    "text": "ìtàn",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "àwòrán",
+    "text": "àwòrán",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "yàwòrán",
+    "text": "yàwòrán",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "ayò",
+    "text": "ayò",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "lúwẹ̀ẹ́",
+    "text": "lúwẹ̀ẹ́",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "bọ́ọ̀lù àfẹsẹ̀gbá",
+    "text": "bọ́ọ̀lù àfẹsẹ̀gbá",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "bọ́ọ̀sì",
+    "text": "bọ́ọ̀sì",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "takisí",
+    "text": "takisí",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "kẹ̀kẹ́",
+    "text": "kẹ̀kẹ́",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "alùpùpù",
+    "text": "alùpùpù",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "ọkọ̀ òfurufú",
+    "text": "ọkọ̀ òfurufú",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "ọkọ̀ ojú irin",
+    "text": "ọkọ̀ ojú irin",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "ọkọ̀ ojú omi",
+    "text": "ọkọ̀ ojú omi",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "tikẹ́ẹ̀tì",
+    "text": "tikẹ́ẹ̀tì",
+    "group": "vocab-word",
+    "level": "intermediate"
+  },
+  {
+    "key": "pápákọ̀ òfurufú",
+    "text": "pápákọ̀ òfurufú",
     "group": "vocab-word",
     "level": "intermediate"
   },
@@ -2409,18 +3485,6 @@
     "level": "advanced"
   },
   {
-    "key": "jókòó",
-    "text": "jókòó",
-    "group": "vocab-word",
-    "level": "advanced"
-  },
-  {
-    "key": "dìde",
-    "text": "dìde",
-    "group": "vocab-word",
-    "level": "advanced"
-  },
-  {
     "key": "wẹ̀",
     "text": "wẹ̀",
     "group": "vocab-word",
@@ -2453,6 +3517,180 @@
   {
     "key": "pè",
     "text": "pè",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "kọ̀ǹpútà",
+    "text": "kọ̀ǹpútà",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ayélujára",
+    "text": "ayélujára",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ránṣẹ́",
+    "text": "ránṣẹ́",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ìránṣẹ́",
+    "text": "ìránṣẹ́",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "rédíò",
+    "text": "rédíò",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "tẹlifíṣọ̀n",
+    "text": "tẹlifíṣọ̀n",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ẹ̀rọ",
+    "text": "ẹ̀rọ",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "bátìrì",
+    "text": "bátìrì",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "kàmẹ́rà",
+    "text": "kàmẹ́rà",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "bọ́tìnnì",
+    "text": "bọ́tìnnì",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ayẹyẹ",
+    "text": "ayẹyẹ",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "àsè",
+    "text": "àsè",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ẹ̀bùn",
+    "text": "ẹ̀bùn",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ìlù",
+    "text": "ìlù",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ọjọ́ ìbí",
+    "text": "ọjọ́ ìbí",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ìsìnkú",
+    "text": "ìsìnkú",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ọkọ ìyàwó",
+    "text": "ọkọ ìyàwó",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "aṣọ ìbílẹ̀",
+    "text": "aṣọ ìbílẹ̀",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ọdún kérésìmesì",
+    "text": "ọdún kérésìmesì",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ọdún ìléyá",
+    "text": "ọdún ìléyá",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ilẹ̀",
+    "text": "ilẹ̀",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "irúgbìn",
+    "text": "irúgbìn",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "gbìn",
+    "text": "gbìn",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "kórè",
+    "text": "kórè",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "alágbẹ̀dẹ",
+    "text": "alágbẹ̀dẹ",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "agbẹ́gilére",
+    "text": "agbẹ́gilére",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "onídìrí",
+    "text": "onídìrí",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "télọ̀",
+    "text": "télọ̀",
+    "group": "vocab-word",
+    "level": "advanced"
+  },
+  {
+    "key": "ọdẹ",
+    "text": "ọdẹ",
     "group": "vocab-word",
     "level": "advanced"
   },
@@ -2739,6 +3977,180 @@
     "level": "mastery"
   },
   {
+    "key": "aláàfin",
+    "text": "Aláàfin",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ọ̀ọ̀ni",
+    "text": "Ọ̀ọ̀ni",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "báálẹ̀",
+    "text": "báálẹ̀",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ìyálóde",
+    "text": "ìyálóde",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "babaláwo",
+    "text": "babaláwo",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ọmọ ọba",
+    "text": "ọmọ ọba",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ayaba",
+    "text": "ayaba",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ààrẹ",
+    "text": "ààrẹ",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ọ̀jọ̀gbọ́n",
+    "text": "ọ̀jọ̀gbọ́n",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "alákòóso",
+    "text": "alákòóso",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ìbùkún",
+    "text": "ìbùkún",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "oore",
+    "text": "oore",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ire",
+    "text": "ire",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ẹ̀mí",
+    "text": "ẹ̀mí",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ọrọ̀",
+    "text": "ọrọ̀",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ògo",
+    "text": "ògo",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ìyìn",
+    "text": "ìyìn",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ọlá",
+    "text": "ọlá",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ààbò",
+    "text": "ààbò",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ọ̀rọ̀",
+    "text": "ọ̀rọ̀",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "àlọ́",
+    "text": "àlọ́",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ìbéèrè",
+    "text": "ìbéèrè",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ìdáhùn",
+    "text": "ìdáhùn",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ìjíròrò",
+    "text": "ìjíròrò",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "gbólóhùn",
+    "text": "gbólóhùn",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ìtumọ̀",
+    "text": "ìtumọ̀",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ìkíni",
+    "text": "ìkíni",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ìkìlọ̀",
+    "text": "ìkìlọ̀",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "àsọyé",
+    "text": "àsọyé",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
     "key": "ẹ káàárọ̀ oòrùn ti yọ",
     "text": "Ẹ káàárọ̀, oòrùn ti yọ.",
     "group": "vocab-sentence",
@@ -2975,6 +4387,186 @@
   {
     "key": "ọsàn jẹ́ èso",
     "text": "Ọsàn jẹ́ èso.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo ń kà ìwé ní alẹ́",
+    "text": "Mo ń kà ìwé ní alẹ́.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo gbé àpò lé èjìká mi",
+    "text": "Mo gbé àpò lé èjìká mi.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo ná owó ní ọjà",
+    "text": "Mo ná owó ní ọjà.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo fi fóònù pe ìyá mi",
+    "text": "Mo fi fóònù pe ìyá mi.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo wo aago ó ti pé agogo mẹ́jọ",
+    "text": "Mo wo aago, ó ti pé agogo mẹ́jọ.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo kó aṣọ sínú àpótí tí ó ní ìdérí",
+    "text": "Mo kó aṣọ sínú àpótí tí ó ní ìdérí.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo wo ojú mi nínú dígí",
+    "text": "Mo wo ojú mi nínú dígí.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "ó fi ìlẹ̀kẹ̀ sí ọrùn rẹ̀",
+    "text": "Ó fi ìlẹ̀kẹ̀ sí ọrùn rẹ̀.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo ṣí agboòrùn nítorí òjò ń rọ̀",
+    "text": "Mo ṣí agboòrùn nítorí òjò ń rọ̀.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "àgbàlagbà náà fi ọ̀pá rìn",
+    "text": "Àgbàlagbà náà fi ọ̀pá rìn.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo kan àwòrán mọ́ ògiri",
+    "text": "Mo kan àwòrán mọ́ ògiri.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "ẹnu ọ̀nà ilé wa ṣí sílẹ̀",
+    "text": "Ẹnu ọ̀nà ilé wa ṣí sílẹ̀.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo gbin òdòdó sínú ọgbà",
+    "text": "Mo gbin òdòdó sínú ọgbà.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo fa omi láti inú kànga",
+    "text": "Mo fa omi láti inú kànga.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo tan àtùpà nítorí òkùnkùn ti ṣú",
+    "text": "Mo tan àtùpà nítorí òkùnkùn ti ṣú.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo fi àkàbà gun orí ilé",
+    "text": "Mo fi àkàbà gun orí ilé.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo gbé ìwé lé orí pẹpẹ",
+    "text": "Mo gbé ìwé lé orí pẹpẹ.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "òpó iná ṣubú nítorí ẹ̀fúùfù líle",
+    "text": "Òpó iná ṣubú nítorí ẹ̀fúùfù líle.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "gbogbo ìdílé péjọ sí àgbàlá lálẹ́",
+    "text": "Gbogbo ìdílé péjọ sí àgbàlá lálẹ́.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "olùkọ́ kọ ọ̀rọ̀ sórí pátákó",
+    "text": "Olùkọ́ kọ ọ̀rọ̀ sórí pátákó.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "ọmọ ọwọ́ náà mu wàrà ìyá rẹ̀",
+    "text": "Ọmọ ọwọ́ náà mu wàrà ìyá rẹ̀.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo ṣe tíì gbígbóná fún àlejò",
+    "text": "Mo ṣe tíì gbígbóná fún àlejò.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo fi ṣúgà sí ohun mímu mi kí ó dùn",
+    "text": "Mo fi ṣúgà sí ohun mímu mi kí ó dùn.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "ata yìí gbóná débi pé ojú mi pọ́n",
+    "text": "Ata yìí gbóná débi pé ojú mi pọ́n.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo dín ẹyin nínú epo",
+    "text": "Mo dín ẹyin nínú epo.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "ìyá mi sè ọbẹ̀ ẹ̀fọ́ fún wa",
+    "text": "Ìyá mi sè ọbẹ̀ ẹ̀fọ́ fún wa.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo ra àkàrà tí a fi ẹ̀wà ṣe",
+    "text": "Mo ra àkàrà tí a fi ẹ̀wà ṣe.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "dòdò ni wọ́n dín láti inú ọ̀gẹ̀dẹ̀ tí ó pọ́n",
+    "text": "Dòdò ni wọ́n dín láti inú ọ̀gẹ̀dẹ̀ tí ó pọ́n.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "mo ń jẹ ẹ̀bà tí a fi gaàrí ṣe",
+    "text": "Mo ń jẹ ẹ̀bà tí a fi gaàrí ṣe.",
+    "group": "vocab-sentence",
+    "level": "getting-started"
+  },
+  {
+    "key": "ìyá mi ń sè ògì fún ọmọ ọwọ́ ní àárọ̀",
+    "text": "Ìyá mi ń sè ògì fún ọmọ ọwọ́ ní àárọ̀.",
     "group": "vocab-sentence",
     "level": "getting-started"
   },
@@ -3279,6 +4871,186 @@
     "level": "beginner"
   },
   {
+    "key": "ọjọ́ ajé ni ọjọ́ tí a ń bẹ̀rẹ̀ iṣẹ́ ní ọ̀sẹ̀",
+    "text": "Ọjọ́ Ajé ni ọjọ́ tí a ń bẹ̀rẹ̀ iṣẹ́ ní ọ̀sẹ̀.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ọjọ́ ìṣẹ́gun ni ọjọ́ tí ó tẹ̀lé ọjọ́ ajé",
+    "text": "Ọjọ́ Ìṣẹ́gun ni ọjọ́ tí ó tẹ̀lé Ọjọ́ Ajé.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ọjọ́rú wà láàrin ọjọ́ ìṣẹ́gun àti ọjọ́bọ̀",
+    "text": "Ọjọ́rú wà láàrin Ọjọ́ Ìṣẹ́gun àti Ọjọ́bọ̀.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ọjọ́bọ̀ ni ọjọ́ tí ó wà ṣáájú ọjọ́ ẹtì",
+    "text": "Ọjọ́bọ̀ ni ọjọ́ tí ó wà ṣáájú Ọjọ́ Ẹtì.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ní ọjọ́ ẹtì àwọn mùsùlùmí ń lọ sí mọ́sálásí",
+    "text": "Ní Ọjọ́ Ẹtì, àwọn Mùsùlùmí ń lọ sí mọ́sálásí.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ọjọ́ àbámẹ́ta ni ọjọ́ tí ó kẹ́yìn ọ̀sẹ̀",
+    "text": "Ọjọ́ Àbámẹ́ta ni ọjọ́ tí ó kẹ́yìn ọ̀sẹ̀.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ní ọjọ́ àìkú àwọn kristẹni ń lọ sí ṣọ́ọ̀ṣì",
+    "text": "Ní Ọjọ́ Àìkú, àwọn Kristẹni ń lọ sí ṣọ́ọ̀ṣì.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "mo jẹun ní ọ̀sán nígbà tí oòrùn gbóná jù",
+    "text": "Mo jẹun ní ọ̀sán nígbà tí oòrùn gbóná jù.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ní ìrọ̀lẹ́ oòrùn ń wọ̀",
+    "text": "Ní ìrọ̀lẹ́, oòrùn ń wọ̀.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ní ọ̀gànjọ́ gbogbo ilé ti dákẹ́",
+    "text": "Ní ọ̀gànjọ́, gbogbo ilé ti dákẹ́.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ẹyẹ náà fò lọ sórí igi",
+    "text": "Ẹyẹ náà fò lọ sórí igi.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ológbò ń le eku kiri ilé",
+    "text": "Ológbò ń le eku kiri ilé.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ìjàpá ń rìn lọ́ra ó sì ní ikarahun",
+    "text": "Ìjàpá ń rìn lọ́ra, ó sì ní ikarahun.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "kìnnìún ni ọba igbó",
+    "text": "Kìnnìún ni ọba igbó.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ẹkùn ní àmì dúdú lára",
+    "text": "Ẹkùn ní àmì dúdú lára.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ẹlẹ́dẹ̀ ń yí nínú ẹrẹ̀",
+    "text": "Ẹlẹ́dẹ̀ ń yí nínú ẹrẹ̀.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ẹfọn ta mí lára lálẹ́",
+    "text": "Ẹfọn ta mí lára lálẹ́.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ọ̀kẹ́rẹ́ ń gun igi láti kó èso",
+    "text": "Ọ̀kẹ́rẹ́ ń gun igi láti kó èso.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ọ̀pọ̀lọ́ fò sínú odò ó sì ń kọrin lálẹ́",
+    "text": "Ọ̀pọ̀lọ́ fò sínú odò, ó sì ń kọrin lálẹ́.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "aláǹtakùn hun ìkọ́ rẹ̀ sí igun ògiri",
+    "text": "Aláǹtakùn hun ìkọ́ rẹ̀ sí igun ògiri.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "mo fa ọsàn pa mo sì mu omi rẹ̀",
+    "text": "Mo fa ọsàn pa, mo sì mu omi rẹ̀.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ọ̀gẹ̀dẹ̀ gígùn ó sì ní èpo tí a ń bó",
+    "text": "Ọ̀gẹ̀dẹ̀ gígùn, ó sì ní èpo tí a ń bó.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "mángòrò ní kóró ńlá nínú",
+    "text": "Mángòrò ní kóró ńlá nínú.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "mo fi tòmátì ṣe ọbẹ̀ pupa",
+    "text": "Mo fi tòmátì ṣe ọbẹ̀ pupa.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "àlùbọ́sà mú mi sunkún nígbà tí mo gé e",
+    "text": "Àlùbọ́sà mú mi sunkún nígbà tí mo gé e.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ẹ̀fọ́ jẹ́ ewé tútù tí a fi ń sè ọbẹ̀",
+    "text": "Ẹ̀fọ́ jẹ́ ewé tútù tí a fi ń sè ọbẹ̀.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "mo lọ ẹ̀gúsí fún ọbẹ̀",
+    "text": "Mo lọ ẹ̀gúsí fún ọbẹ̀.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "wọ́n fi ẹ̀pà ṣe òróró",
+    "text": "Wọ́n fi ẹ̀pà ṣe òróró.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "mo sun àgbàdo mo sì fi iyọ̀ sí i",
+    "text": "Mo sun àgbàdo, mo sì fi iyọ̀ sí i.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
+    "key": "ọ̀dùnkún hù sínú ilẹ̀ a sì ń gbẹ́ e jáde",
+    "text": "Ọ̀dùnkún hù sínú ilẹ̀, a sì ń gbẹ́ e jáde.",
+    "group": "vocab-sentence",
+    "level": "beginner"
+  },
+  {
     "key": "aláàfin ni ọba ìlú ọ̀yọ́",
     "text": "Aláàfin ni ọba ìlú Ọ̀yọ́.",
     "group": "vocab-sentence",
@@ -3575,6 +5347,186 @@
   {
     "key": "ilẹ̀ ti ṣú ó sì rẹ̀ mí mo fẹ́ lọ sùn",
     "text": "Ilẹ̀ ti ṣú, ó sì rẹ̀ mí, mo fẹ́ lọ sùn.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "ìyá mi wà ní ilé ìdáná ó ń ṣe oúnjẹ",
+    "text": "Ìyá mi wà ní ilé ìdáná, ó ń ṣe oúnjẹ.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo fi igi dá iná",
+    "text": "Mo fi igi dá iná.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo máa sè ìrẹsì fún ìdílé",
+    "text": "Mo máa sè ìrẹsì fún ìdílé.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo dín ẹyin nínú epo gbígbóná",
+    "text": "Mo dín ẹyin nínú epo gbígbóná.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "ó yan búrẹ́dì nínú ààrò",
+    "text": "Ó yan búrẹ́dì nínú ààrò.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo fi ṣíbí jẹ ìrẹsì",
+    "text": "Mo fi ṣíbí jẹ ìrẹsì.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo gbé oúnjẹ sórí àwo",
+    "text": "Mo gbé oúnjẹ sórí àwo.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo mu omi nínú ife",
+    "text": "Mo mu omi nínú ife.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "a fi ìyẹ̀fun ṣe búrẹ́dì",
+    "text": "A fi ìyẹ̀fun ṣe búrẹ́dì.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo fọ̀ ìkòkò lẹ́yìn oúnjẹ",
+    "text": "Mo fọ̀ ìkòkò lẹ́yìn oúnjẹ.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "àwọn ọmọ ń ṣeré ní àgbàlá",
+    "text": "Àwọn ọmọ ń ṣeré ní àgbàlá.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo ń ṣe ìdárayá ní òwúrọ̀ kí ara mi lè le",
+    "text": "Mo ń ṣe ìdárayá ní òwúrọ̀ kí ara mi lè le.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "wọ́n ṣe ìdíje láti mọ ẹni tí yóò borí",
+    "text": "Wọ́n ṣe ìdíje láti mọ ẹni tí yóò borí.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo wà nínú ẹgbẹ́ tí ó ní ènìyàn mọ́kànlá",
+    "text": "Mo wà nínú ẹgbẹ́ tí ó ní ènìyàn mọ́kànlá.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "bàbá àgbà ń sọ ìtàn fún wa lálẹ́",
+    "text": "Bàbá àgbà ń sọ ìtàn fún wa lálẹ́.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo fi àwòrán ìdílé wa hàn ọ́",
+    "text": "Mo fi àwòrán ìdílé wa hàn ọ́.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo fẹ́ yàwòrán ẹyẹ lórí bébà",
+    "text": "Mo fẹ́ yàwòrán ẹyẹ lórí bébà.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "àwọn àgbà ń ṣe ayò lábẹ́ igi",
+    "text": "Àwọn àgbà ń ṣe ayò lábẹ́ igi.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo lúwẹ̀ẹ́ nínú odò",
+    "text": "Mo lúwẹ̀ẹ́ nínú odò.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "wọ́n ń gbá bọ́ọ̀lù àfẹsẹ̀gbá lórí pápá",
+    "text": "Wọ́n ń gbá bọ́ọ̀lù àfẹsẹ̀gbá lórí pápá.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "bọ́ọ̀sì ńlá tí ó ń gbé ogún èèyàn dúró níbẹ̀",
+    "text": "Bọ́ọ̀sì ńlá tí ó ń gbé ogún èèyàn dúró níbẹ̀.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo gbé takisí kan tí ó gbé mi nìkan lọ sílé",
+    "text": "Mo gbé takisí kan tí ó gbé mi nìkan lọ sílé.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo fi ẹsẹ̀ tẹ kẹ̀kẹ́ lọ sí ilé-ìwé",
+    "text": "Mo fi ẹsẹ̀ tẹ kẹ̀kẹ́ lọ sí ilé-ìwé.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "alùpùpù ní tàyà méjì àti ẹ̀rọ",
+    "text": "Alùpùpù ní tàyà méjì àti ẹ̀rọ.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "ọkọ̀ òfurufú ń fò lójú ọ̀run",
+    "text": "Ọkọ̀ òfurufú ń fò lójú ọ̀run.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "ọkọ̀ ojú irin ń rìn lórí ọ̀nà irin",
+    "text": "Ọkọ̀ ojú irin ń rìn lórí ọ̀nà irin.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "ọkọ̀ ojú omi ń lọ lójú òkun",
+    "text": "Ọkọ̀ ojú omi ń lọ lójú òkun.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo ra tikẹ́ẹ̀tì kí n tó wọ ọkọ̀",
+    "text": "Mo ra tikẹ́ẹ̀tì kí n tó wọ ọkọ̀.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "awakọ̀ náà wa ọkọ̀ pẹ̀lú ìṣọ́ra",
+    "text": "Awakọ̀ náà wa ọkọ̀ pẹ̀lú ìṣọ́ra.",
+    "group": "vocab-sentence",
+    "level": "intermediate"
+  },
+  {
+    "key": "mo dé pápákọ̀ òfurufú ní kùtùkùtù",
+    "text": "Mo dé pápákọ̀ òfurufú ní kùtùkùtù.",
     "group": "vocab-sentence",
     "level": "intermediate"
   },
@@ -3879,6 +5831,186 @@
     "level": "advanced"
   },
   {
+    "key": "mo ń lo kọ̀ǹpútà láti kọ ìwé",
+    "text": "Mo ń lo kọ̀ǹpútà láti kọ ìwé.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "mo rí ìròyìn yìí lórí ayélujára",
+    "text": "Mo rí ìròyìn yìí lórí ayélujára.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "mo fẹ́ ránṣẹ́ sí ọ̀rẹ́ mi kí ó mọ̀ pé mo ti dé",
+    "text": "Mo fẹ́ ránṣẹ́ sí ọ̀rẹ́ mi kí ó mọ̀ pé mo ti dé.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "mo gba ìránṣẹ́ kan lọ́wọ́ rẹ̀ lónìí",
+    "text": "Mo gba ìránṣẹ́ kan lọ́wọ́ rẹ̀ lónìí.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "mo ń gbọ́ orin lórí rédíò",
+    "text": "Mo ń gbọ́ orin lórí rédíò.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "mo ń wo eré lórí tẹlifíṣọ̀n",
+    "text": "Mo ń wo eré lórí tẹlifíṣọ̀n.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "wọ́n fi ẹ̀rọ ṣe iṣẹ́ ńlá yìí dípò ọwọ́",
+    "text": "Wọ́n fi ẹ̀rọ ṣe iṣẹ́ ńlá yìí dípò ọwọ́.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "bátìrì fóònù mi ti tán",
+    "text": "Bátìrì fóònù mi ti tán.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "mo yà àwòrán pẹ̀lú kàmẹ́rà tuntun",
+    "text": "Mo yà àwòrán pẹ̀lú kàmẹ́rà tuntun.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "tẹ bọ́tìnnì pupa yìí",
+    "text": "Tẹ bọ́tìnnì pupa yìí.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "ayẹyẹ ọdún yìí kún fún ayọ̀ àti ijó",
+    "text": "Ayẹyẹ ọdún yìí kún fún ayọ̀ àti ijó.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "a ṣe àsè ńlá a sì pa màlúù",
+    "text": "A ṣe àsè ńlá, a sì pa màlúù.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "mo fún ọ ní ẹ̀bùn tí a fi bébà dì",
+    "text": "Mo fún ọ ní ẹ̀bùn tí a fi bébà dì.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "onílù ń lu ìlù àwọn èèyàn sì ń jó",
+    "text": "Onílù ń lu ìlù, àwọn èèyàn sì ń jó.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "ọjọ́ ìbí mi ni ọjọ́ tí a bí mi",
+    "text": "Ọjọ́ ìbí mi ni ọjọ́ tí a bí mi.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "ọ̀pọ̀ èèyàn péjọ sí ìsìnkú àgbàlagbà náà",
+    "text": "Ọ̀pọ̀ èèyàn péjọ sí ìsìnkú àgbàlagbà náà.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "ọkọ ìyàwó dúró lẹ́gbẹ̀ẹ́ ìyàwó rẹ̀",
+    "text": "Ọkọ ìyàwó dúró lẹ́gbẹ̀ẹ́ ìyàwó rẹ̀.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "wọ́n wọ aṣọ ìbílẹ̀ ní ọjọ́ ọdún",
+    "text": "Wọ́n wọ aṣọ ìbílẹ̀ ní ọjọ́ ọdún.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "ní ọdún kérésìmesì àwọn kristẹni ń rántí ìbí jésù",
+    "text": "Ní ọdún kérésìmesì, àwọn Kristẹni ń rántí ìbí Jésù.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "wọ́n pa àgbò ní ọdún ìléyá",
+    "text": "Wọ́n pa àgbò ní ọdún ìléyá.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "bàbá mi ń ṣiṣẹ́ ní oko lójoojúmọ́",
+    "text": "Bàbá mi ń ṣiṣẹ́ ní oko lójoojúmọ́.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "òjò rọ̀ títí tí ilẹ̀ fi tutù",
+    "text": "Òjò rọ̀ títí tí ilẹ̀ fi tutù.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "irúgbìn kékeré lè di igi ńlá",
+    "text": "Irúgbìn kékeré lè di igi ńlá.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "mo gbìn àgbàdo ní oṣù kẹta",
+    "text": "Mo gbìn àgbàdo ní oṣù kẹta.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "a kórè ẹ̀wà ní òpin ọdún",
+    "text": "A kórè ẹ̀wà ní òpin ọdún.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "alágbẹ̀dẹ fi irin ṣe ọkọ́ fún àgbẹ̀",
+    "text": "Alágbẹ̀dẹ fi irin ṣe ọkọ́ fún àgbẹ̀.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "agbẹ́gilére gbẹ́ ère láti inú igi",
+    "text": "Agbẹ́gilére gbẹ́ ère láti inú igi.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "onídìrí hun irun ọmọbìnrin náà",
+    "text": "Onídìrí hun irun ọmọbìnrin náà.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "télọ̀ gé aṣọ ó sì rán ṣòkòtò fún mi",
+    "text": "Télọ̀ gé aṣọ, ó sì rán ṣòkòtò fún mi.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
+    "key": "ọdẹ gbé ìbọn lọ sí igbó láti pa ẹran",
+    "text": "Ọdẹ gbé ìbọn lọ sí igbó láti pa ẹran.",
+    "group": "vocab-sentence",
+    "level": "advanced"
+  },
+  {
     "key": "òdìkejì irọ́ ni òtítọ́",
     "text": "Òdìkejì irọ́ ni òtítọ́.",
     "group": "vocab-sentence",
@@ -4175,6 +6307,186 @@
   {
     "key": "àrùn yìí máa ń ràn láti ara ẹnì kan sí ẹlòmíràn nítorí náà wọ́n ya àwọn aláìsàn sọ́tọ̀",
     "text": "Àrùn yìí máa ń ràn láti ara ẹnì kan sí ẹlòmíràn, nítorí náà wọ́n ya àwọn aláìsàn sọ́tọ̀.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "aláàfin jókòó lórí ìtẹ́ ní ààfin ọ̀yọ́",
+    "text": "Aláàfin jókòó lórí ìtẹ́ ní ààfin Ọ̀yọ́.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ọ̀ọ̀ni ni ọba tí ó wà ní ilé-ifẹ̀",
+    "text": "Ọ̀ọ̀ni ni ọba tí ó wà ní Ilé-Ifẹ̀.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "báálẹ̀ ni olórí abúlé wa",
+    "text": "Báálẹ̀ ni olórí abúlé wa.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ìyálóde ni olórí àwọn obìnrin ní ìlú",
+    "text": "Ìyálóde ni olórí àwọn obìnrin ní ìlú.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "babaláwo ń ṣe ìwádìí ifá fún olùbẹ̀wò",
+    "text": "Babaláwo ń ṣe ìwádìí Ifá fún olùbẹ̀wò.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ọmọ ọba ni yóò jọba lẹ́yìn bàbá rẹ̀",
+    "text": "Ọmọ ọba ni yóò jọba lẹ́yìn bàbá rẹ̀.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ayaba ni ìyàwó ọba",
+    "text": "Ayaba ni ìyàwó ọba.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ààrẹ orílẹ̀-èdè ń bá àwọn ará ìlú sọ̀rọ̀",
+    "text": "Ààrẹ orílẹ̀-èdè ń bá àwọn ará ìlú sọ̀rọ̀.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ọ̀jọ̀gbọ́n ń kọ́ni ní yunifásítì",
+    "text": "Ọ̀jọ̀gbọ́n ń kọ́ni ní yunifásítì.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "alákòóso ilé-iṣẹ́ náà ń pín iṣẹ́ fún àwọn òṣìṣẹ́",
+    "text": "Alákòóso ilé-iṣẹ́ náà ń pín iṣẹ́ fún àwọn òṣìṣẹ́.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "mo gba ìbùkún lọ́wọ́ àgbàlagbà náà",
+    "text": "Mo gba ìbùkún lọ́wọ́ àgbàlagbà náà.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ó ṣe oore fún mi nígbà tí mo wà nínú ìṣòro",
+    "text": "Ó ṣe oore fún mi nígbà tí mo wà nínú ìṣòro.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ire ń bẹ nílé kò sí ibi",
+    "text": "Ire ń bẹ nílé, kò sí ibi.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ọlọ́run fún wa ní ẹ̀mí gígùn",
+    "text": "Ọlọ́run fún wa ní ẹ̀mí gígùn.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ọrọ̀ ni owó àti ohun ìní tí ó pọ̀",
+    "text": "Ọrọ̀ ni owó àti ohun ìní tí ó pọ̀.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ògo ni fún ọlọ́run lókè",
+    "text": "Ògo ni fún Ọlọ́run lókè.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "a kọ orin ìyìn sí ọlọ́run",
+    "text": "A kọ orin ìyìn sí Ọlọ́run.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ọba dé adé sí orí",
+    "text": "Ọba dé adé sí orí.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ọlá ni fún ẹni tí ó bọ̀wọ̀ fún àgbà",
+    "text": "Ọlá ni fún ẹni tí ó bọ̀wọ̀ fún àgbà.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ọlọ́run ni ààbò wa nígbà ewu",
+    "text": "Ọlọ́run ni ààbò wa nígbà ewu.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ó sọ ọ̀rọ̀ tí ó tù mí nínú",
+    "text": "Ó sọ ọ̀rọ̀ tí ó tù mí nínú.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "a ń pa àlọ́ lálẹ́ lábẹ́ òṣùpá",
+    "text": "A ń pa àlọ́ lálẹ́ lábẹ́ òṣùpá.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "olùkọ́ bi wá ní ìbéèrè kan",
+    "text": "Olùkọ́ bi wá ní ìbéèrè kan.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "mo fún un ní ìdáhùn tí ó tọ́",
+    "text": "Mo fún un ní ìdáhùn tí ó tọ́.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "wọ́n ṣe ìjíròrò gígùn lórí owó ilé-ìwé",
+    "text": "Wọ́n ṣe ìjíròrò gígùn lórí owó ilé-ìwé.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "mo kọ gbólóhùn kan tí ó ní ìbẹ̀rẹ̀ àti òpin",
+    "text": "Mo kọ gbólóhùn kan tí ó ní ìbẹ̀rẹ̀ àti òpin.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "kí ni ìtumọ̀ òwe yìí",
+    "text": "Kí ni ìtumọ̀ òwe yìí?",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ìkíni àwọn yorùbá gùn ó sì ní ọ̀nà púpọ̀",
+    "text": "Ìkíni àwọn Yorùbá gùn, ó sì ní ọ̀nà púpọ̀.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "olùkọ́ fún wa ní ìkìlọ̀ pé kí a má pẹ́",
+    "text": "Olùkọ́ fún wa ní ìkìlọ̀ pé kí a má pẹ́.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "olóyè ṣe àsọyé níwájú gbogbo ènìyàn",
+    "text": "Olóyè ṣe àsọyé níwájú gbogbo ènìyàn.",
     "group": "vocab-sentence",
     "level": "mastery"
   },
@@ -4599,11 +6911,6 @@
     "group": "sound-word"
   },
   {
-    "key": "wàrà",
-    "text": "wàrà",
-    "group": "sound-word"
-  },
-  {
     "key": "ọkọ́",
     "text": "ọkọ́",
     "group": "sound-word"
@@ -4686,11 +6993,6 @@
   {
     "key": "ró",
     "text": "ró",
-    "group": "sound-word"
-  },
-  {
-    "key": "rò",
-    "text": "rò",
     "group": "sound-word"
   },
   {
@@ -5317,5 +7619,800 @@
     "key": "male|wá nígbàkúùgbà tí o bá fẹ́",
     "text": "Wá nígbàkúùgbà tí o bá fẹ́.",
     "group": "dialogue-male"
+  },
+  {
+    "key": "male|ẹ káàárọ̀ èdè wo ni o sọ",
+    "text": "Ẹ káàárọ̀. Èdè wo ni o sọ?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "mo sọ gẹ̀ẹ́sì dáadáa mo gbọ́ yorùbá díẹ̀",
+    "text": "Mo sọ Gẹ̀ẹ́sì dáadáa. Mo gbọ́ Yorùbá díẹ̀.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|mo sọ yorùbá àti gẹ̀ẹ́sì",
+    "text": "Mo sọ Yorùbá àti Gẹ̀ẹ́sì.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "inú mi dùn",
+    "text": "Inú mi dùn.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|inú mi dùn pẹ̀lú",
+    "text": "Inú mi dùn pẹ̀lú.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "èyí ni ìyá mi àti bàbá mi",
+    "text": "Èyí ni ìyá mi àti bàbá mi.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ṣé o ní arábìnrin",
+    "text": "Ṣé o ní arábìnrin?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "mo ní arábìnrin méjì àti arákùnrin kan",
+    "text": "Mo ní arábìnrin méjì àti arákùnrin kan.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|kí ni orúkọ arákùnrin rẹ",
+    "text": "Kí ni orúkọ arákùnrin rẹ?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "orúkọ arákùnrin mi ni láyí",
+    "text": "Orúkọ arákùnrin mi ni Láyí.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|kí ni o fẹ́ràn",
+    "text": "Kí ni o fẹ́ràn?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "mo fẹ́ràn orin àti ijó",
+    "text": "Mo fẹ́ràn orin àti ijó.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|mo fẹ́ràn bọ́ọ̀lù àti oúnjẹ",
+    "text": "Mo fẹ́ràn bọ́ọ̀lù àti oúnjẹ.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "mo fẹ́ràn oúnjẹ yorùbá",
+    "text": "Mo fẹ́ràn oúnjẹ Yorùbá.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó dára",
+    "text": "Ó dára!",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "túndé èyí ni ọ̀rẹ́ mi adé",
+    "text": "Túndé, èyí ni ọ̀rẹ́ mi, Adé.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ẹ káàbọ̀ adé orúkọ mi ni túndé",
+    "text": "Ẹ káàbọ̀, Adé. Orúkọ mi ni Túndé.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "adé wá láti ìlọrin",
+    "text": "Adé wá láti Ìlọrin.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó dára mo wá láti ọ̀yọ́",
+    "text": "Ó dára. Mo wá láti Ọ̀yọ́.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "male|ìlú wo ni ìyá rẹ ti wá",
+    "text": "Ìlú wo ni ìyá rẹ ti wá?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ìyá mi wá láti ìbàdàn",
+    "text": "Ìyá mi wá láti Ìbàdàn.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|àti bàbá rẹ",
+    "text": "Àti bàbá rẹ?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "bàbá mi wá láti abẹ́òkuta",
+    "text": "Bàbá mi wá láti Abẹ́òkuta.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "ẹ káàbọ̀ ẹ jọ̀ọ́ ẹ jókòó",
+    "text": "Ẹ káàbọ̀. Ẹ jọ̀ọ́ ẹ jókòó.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "kí ni ẹ fẹ́ jẹ",
+    "text": "Kí ni ẹ fẹ́ jẹ?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|mo fẹ́ jẹ ẹja",
+    "text": "Mo fẹ́ jẹ ẹja.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó dára ṣé ẹ fẹ́ mu omi",
+    "text": "Ó dára. Ṣé ẹ fẹ́ mu omi?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni jọ̀wọ́ fún mi ní omi",
+    "text": "Bẹ́ẹ̀ ni. Jọ̀wọ́ fún mi ní omi.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "male|ṣé ìrẹsì wà",
+    "text": "Ṣé ìrẹsì wà?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "rárá kò sí ìrẹsì",
+    "text": "Rárá, kò sí ìrẹsì.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ṣé ẹran wà",
+    "text": "Ṣé ẹran wà?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "bẹ́ẹ̀ ni ẹran wà",
+    "text": "Bẹ́ẹ̀ ni, ẹran wà.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ṣé ẹja wà",
+    "text": "Ṣé ẹja wà?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ẹja wà ṣùgbọ́n kò sí búrẹ́dì",
+    "text": "Ẹja wà, ṣùgbọ́n kò sí búrẹ́dì.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó dára mo fẹ́ ẹja",
+    "text": "Ó dára. Mo fẹ́ ẹja.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "male|níbo ni fóònù mi wà",
+    "text": "Níbo ni fóònù mi wà?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé ó wà ní ilé",
+    "text": "Ṣé ó wà ní ilé?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|rárá kò sí ní ilé",
+    "text": "Rárá, kò sí ní ilé.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé ó wà ní ọ́fíìsì",
+    "text": "Ṣé ó wà ní ọ́fíìsì?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni ó wà ní ọ́fíìsì",
+    "text": "Bẹ́ẹ̀ ni! Ó wà ní ọ́fíìsì.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó dára ẹ ṣé",
+    "text": "Ó dára. Ẹ ṣé.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|rárá n kò fẹ́ jẹun mo fẹ́ sùn",
+    "text": "Rárá, n kò fẹ́ jẹun. Mo fẹ́ sùn.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni mo fẹ́ lọ",
+    "text": "Bẹ́ẹ̀ ni. Mo fẹ́ lọ.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó dára ó dàbọ̀",
+    "text": "Ó dára. Ó dàbọ̀.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó dàbọ̀",
+    "text": "Ó dàbọ̀.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "male|mo wà ní ọjà",
+    "text": "Mo wà ní ọjà.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé ẹja wà ní ọjà",
+    "text": "Ṣé ẹja wà ní ọjà?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni ẹja wà mo fẹ́ ra ẹja",
+    "text": "Bẹ́ẹ̀ ni, ẹja wà. Mo fẹ́ ra ẹja.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó dára jọ̀wọ́ ra omi",
+    "text": "Ó dára. Jọ̀wọ́ ra omi.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "ẹ káàárọ̀ kí ni ẹ nílò",
+    "text": "Ẹ káàárọ̀. Kí ni ẹ nílò?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ẹ káàárọ̀ mo nílò oògùn orí",
+    "text": "Ẹ káàárọ̀. Mo nílò oògùn orí.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé orí ń dùn yín gan-an",
+    "text": "Ṣé orí ń dùn yín gan-an?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni orí ń dùn mí gan-an",
+    "text": "Bẹ́ẹ̀ ni, orí ń dùn mí gan-an.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó dára ẹ ní láti mu oògùn yìí lẹ́yìn oúnjẹ",
+    "text": "Ó dára. Ẹ ní láti mu oògùn yìí lẹ́yìn oúnjẹ.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ṣé mo gbọ́dọ̀ mu omi",
+    "text": "Ṣé mo gbọ́dọ̀ mu omi?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "bẹ́ẹ̀ ni ẹ gbọ́dọ̀ mu omi púpọ̀",
+    "text": "Bẹ́ẹ̀ ni, ẹ gbọ́dọ̀ mu omi púpọ̀.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "àpò wo ni ẹ fẹ́",
+    "text": "Àpò wo ni ẹ fẹ́?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|àpò yìí kéré ju àpò yẹn lọ",
+    "text": "Àpò yìí kéré ju àpò yẹn lọ.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "bẹ́ẹ̀ ni àpò yẹn tóbi ju àpò yìí lọ",
+    "text": "Bẹ́ẹ̀ ni. Àpò yẹn tóbi ju àpò yìí lọ.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|èló ni àpò yẹn",
+    "text": "Èló ni àpò yẹn?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "male|àpò yìí dára ṣùgbọ́n ó kéré jù",
+    "text": "Àpò yìí dára, ṣùgbọ́n ó kéré jù.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé ẹ fẹ́ àpò yẹn",
+    "text": "Ṣé ẹ fẹ́ àpò yẹn?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni mo fẹ́ àpò yẹn",
+    "text": "Bẹ́ẹ̀ ni, mo fẹ́ àpò yẹn.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "male|níbo ni kọ́kọ́rọ́ mi wà",
+    "text": "Níbo ni kọ́kọ́rọ́ mi wà?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé ó wà lórí tábìlì",
+    "text": "Ṣé ó wà lórí tábìlì?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|rárá kò sí lórí tábìlì",
+    "text": "Rárá, kò sí lórí tábìlì.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé ó wà nínú àpò rẹ",
+    "text": "Ṣé ó wà nínú àpò rẹ?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|rárá kò sí nínú àpò mi",
+    "text": "Rárá, kò sí nínú àpò mi.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "wò lábẹ́ àga",
+    "text": "Wò lábẹ́ àga!",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó wà níbẹ̀ ó wà lábẹ́ àga",
+    "text": "Ó wà níbẹ̀! Ó wà lábẹ́ àga.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé o fẹ́ wá sí ilé mi lọ́la",
+    "text": "Ṣé o fẹ́ wá sí ilé mi lọ́la?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|mo fẹ́ wá ṣùgbọ́n mo ní láti lọ sí iṣẹ́ ní òwúrọ̀",
+    "text": "Mo fẹ́ wá, ṣùgbọ́n mo ní láti lọ sí iṣẹ́ ní òwúrọ̀.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé o ní láti lọ ní ọ̀sán",
+    "text": "Ṣé o ní láti lọ ní ọ̀sán?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|rárá n kò ní láti lọ ní ọ̀sán",
+    "text": "Rárá, n kò ní láti lọ ní ọ̀sán.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó dára wá ní ọ̀sán",
+    "text": "Ó dára. Wá ní ọ̀sán.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó dára mo máa wá",
+    "text": "Ó dára. Mo máa wá.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "mo máa ṣe oúnjẹ",
+    "text": "Mo máa ṣe oúnjẹ.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "ẹ káàbọ̀ kí ni ẹ fẹ́",
+    "text": "Ẹ káàbọ̀. Kí ni ẹ fẹ́?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|mo nílò yàrá kan fún ọjọ́ méjì",
+    "text": "Mo nílò yàrá kan fún ọjọ́ méjì.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé ẹ fẹ́ yàrá ńlá tàbí yàrá kékeré",
+    "text": "Ṣé ẹ fẹ́ yàrá ńlá tàbí yàrá kékeré?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|mo fẹ́ yàrá kékeré",
+    "text": "Mo fẹ́ yàrá kékeré.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "yàrá kékeré wà ẹ ní láti sanwó nísinsìnyí",
+    "text": "Yàrá kékeré wà. Ẹ ní láti sanwó nísinsìnyí.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|èló ni",
+    "text": "Èló ni?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ẹgbẹ̀rún mẹ́ta náírà",
+    "text": "Ẹgbẹ̀rún mẹ́ta náírà.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó dára ẹ ṣé",
+    "text": "Ó dára. Ẹ ṣé.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ẹ káàbọ̀ sí ibi iṣẹ́ wa",
+    "text": "Ẹ káàbọ̀ sí ibi iṣẹ́ wa.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ẹ ṣé òní ni ọjọ́ àkọ́kọ́ mi",
+    "text": "Ẹ ṣé. Òní ni ọjọ́ àkọ́kọ́ mi.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé o lè lo kọ̀ǹpútà",
+    "text": "Ṣé o lè lo kọ̀ǹpútà?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni mo lè lo kọ̀ǹpútà dáadáa",
+    "text": "Bẹ́ẹ̀ ni, mo lè lo kọ̀ǹpútà dáadáa.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó dára má bẹ̀rù a máa ràn ọ́ lọ́wọ́",
+    "text": "Ó dára. Má bẹ̀rù, a máa ràn ọ́ lọ́wọ́.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ẹ ṣé ṣé mo lè bẹ̀rẹ̀ lónìí",
+    "text": "Ẹ ṣé. Ṣé mo lè bẹ̀rẹ̀ lónìí?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "bẹ́ẹ̀ ni bẹ̀rẹ̀ báyìí",
+    "text": "Bẹ́ẹ̀ ni. Bẹ̀rẹ̀ báyìí.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|alò àbíọ́lá mo gbọ́ pé ọ̀gá wa ti dé",
+    "text": "Alò, Àbíọ́lá. Mo gbọ́ pé ọ̀gá wa ti dé.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé òótọ́ ni",
+    "text": "Ṣé òótọ́ ni?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó sọ pé òun máa wà ní ọ́fíìsì lónìí",
+    "text": "Ó sọ pé òun máa wà ní ọ́fíìsì lónìí.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "mo rò pé ó wà ní abuja",
+    "text": "Mo rò pé ó wà ní Abuja.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|mo mọ̀ pé ó lọ sí abuja lánàá ṣùgbọ́n ó ti padà",
+    "text": "Mo mọ̀ pé ó lọ sí Abuja lánàá, ṣùgbọ́n ó ti padà.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé ó sọ pé ìpàdé yóò wà",
+    "text": "Ṣé ó sọ pé ìpàdé yóò wà?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni ó sọ pé ìpàdé yóò wà ní ọ̀sán",
+    "text": "Bẹ́ẹ̀ ni, ó sọ pé ìpàdé yóò wà ní ọ̀sán.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "male|ẹ má bínú mo ṣe àṣìṣe",
+    "text": "Ẹ má bínú, mo ṣe àṣìṣe.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "má bẹ̀rù kí ni ó ṣẹlẹ̀",
+    "text": "Má bẹ̀rù. Kí ni ó ṣẹlẹ̀?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|mo gbàgbé ìwé mi ní ilé",
+    "text": "Mo gbàgbé ìwé mi ní ilé.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "má lọ sílé ṣé o lè kà ìwé yìí",
+    "text": "Má lọ sílé. Ṣé o lè kà ìwé yìí?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni mo lè kà á",
+    "text": "Bẹ́ẹ̀ ni, mo lè kà á.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó dára má gbàgbé lọ́la",
+    "text": "Ó dára. Má gbàgbé lọ́la.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "ṣé o lè ràn mí lọ́wọ́",
+    "text": "Ṣé o lè ràn mí lọ́wọ́?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni mo lè ràn yín lọ́wọ́",
+    "text": "Bẹ́ẹ̀ ni, mo lè ràn yín lọ́wọ́.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "àpótí yìí wúwo n kò lè gbé e",
+    "text": "Àpótí yìí wúwo. N kò lè gbé e.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|àpótí náà wúwo ṣùgbọ́n mo lè gbé e",
+    "text": "Àpótí náà wúwo, ṣùgbọ́n mo lè gbé e.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé o lè gbé e lọ sí ọ́fíìsì",
+    "text": "Ṣé o lè gbé e lọ sí ọ́fíìsì?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni mo lè gbé e lọ",
+    "text": "Bẹ́ẹ̀ ni, mo lè gbé e lọ.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ẹ ṣé ṣé o fẹ́ omi",
+    "text": "Ẹ ṣé. Ṣé o fẹ́ omi?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|rárá n kò fẹ́ omi",
+    "text": "Rárá, n kò fẹ́ omi.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé o gbọ́ ohun tí ọ̀gá sọ",
+    "text": "Ṣé o gbọ́ ohun tí ọ̀gá sọ?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni ó sọ pé a ní láti parí iṣẹ́ yìí lónìí",
+    "text": "Bẹ́ẹ̀ ni. Ó sọ pé a ní láti parí iṣẹ́ yìí lónìí.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "mo rò pé a ní ọjọ́ méjì",
+    "text": "Mo rò pé a ní ọjọ́ méjì.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|rárá ó sọ pé ọjọ́ kan ni a ní",
+    "text": "Rárá. Ó sọ pé ọjọ́ kan ni a ní.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó dára a gbọ́dọ̀ bẹ̀rẹ̀ báyìí",
+    "text": "Ó dára. A gbọ́dọ̀ bẹ̀rẹ̀ báyìí.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|mo mọ̀ pé iṣẹ́ náà pọ̀",
+    "text": "Mo mọ̀ pé iṣẹ́ náà pọ̀.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣùgbọ́n a lè parí rẹ̀",
+    "text": "Ṣùgbọ́n a lè parí rẹ̀.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni",
+    "text": "Bẹ́ẹ̀ ni.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "male|ẹ káàbọ̀ sí ayẹyẹ wa",
+    "text": "Ẹ káàbọ̀ sí ayẹyẹ wa.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ẹ ṣé kí ọlọ́run bùkún ọmọ yìí",
+    "text": "Ẹ ṣé. Kí Ọlọ́run bùkún ọmọ yìí.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|àmín",
+    "text": "Àmín.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "kí ó dàgbà kí ó sì ní àlàáfíà",
+    "text": "Kí ó dàgbà, kí ó sì ní àlàáfíà.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|àmín kí ọlọ́run bùkún ẹ̀yin náà",
+    "text": "Àmín. Kí Ọlọ́run bùkún ẹ̀yin náà.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "àmín kí ọmọ náà ní ẹ̀mí gígùn",
+    "text": "Àmín. Kí ọmọ náà ní ẹ̀mí gígùn.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|àmín ẹ jẹun ẹ mu",
+    "text": "Àmín. Ẹ jẹun, ẹ mu.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ẹ ṣé gan-an",
+    "text": "Ẹ ṣé gan-an.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "ṣé àlejò ti dé",
+    "text": "Ṣé àlejò ti dé?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|rárá wọn kò tíì dé",
+    "text": "Rárá, wọn kò tíì dé.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé oúnjẹ ti ṣetán",
+    "text": "Ṣé oúnjẹ ti ṣetán?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ìyá mi ṣì ń ṣe oúnjẹ",
+    "text": "Ìyá mi ṣì ń ṣe oúnjẹ.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé orin ti bẹ̀rẹ̀",
+    "text": "Ṣé orin ti bẹ̀rẹ̀?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|rárá orin kò tíì bẹ̀rẹ̀",
+    "text": "Rárá, orin kò tíì bẹ̀rẹ̀.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó dára a ṣì ní àkókò",
+    "text": "Ó dára. A ṣì ní àkókò.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni ẹ jókòó",
+    "text": "Bẹ́ẹ̀ ni. Ẹ jókòó.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "kí ló dé tí o fi bínú",
+    "text": "Kí ló dé tí o fi bínú?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|mo bínú nítorí pé ó sọ ohun tí kò dára",
+    "text": "Mo bínú nítorí pé ó sọ ohun tí kò dára.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé ó mọ̀ pé o bínú",
+    "text": "Ṣé ó mọ̀ pé o bínú?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|rárá kò tíì mọ̀",
+    "text": "Rárá, kò tíì mọ̀.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "bí o bá bá a sọ̀rọ̀ yóò gbọ́",
+    "text": "Bí o bá bá a sọ̀rọ̀, yóò gbọ́.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó dára mo máa bá a sọ̀rọ̀ lọ́la",
+    "text": "Ó dára. Mo máa bá a sọ̀rọ̀ lọ́la.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "kí ọlọ́run ràn yín lọ́wọ́",
+    "text": "Kí Ọlọ́run ràn yín lọ́wọ́.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "kí ni o rà ní ọjà",
+    "text": "Kí ni o rà ní ọjà?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ẹran ni mo rà",
+    "text": "Ẹran ni mo rà.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ta ni ó bá ọ lọ",
+    "text": "Ta ni ó bá ọ lọ?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ìyá mi ni ó bá mi lọ",
+    "text": "Ìyá mi ni ó bá mi lọ.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "níbo ni ẹ ti rà á",
+    "text": "Níbo ni ẹ ti rà á?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ọjà bódìjà ni a ti rà á",
+    "text": "Ọjà Bódìjà ni a ti rà á.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé ó wọ́n",
+    "text": "Ṣé ó wọ́n?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|rárá ó dára",
+    "text": "Rárá, ó dára.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó ti pẹ́ mo ní láti lọ sílé",
+    "text": "Ó ti pẹ́. Mo ní láti lọ sílé.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó ti pẹ́ ní tòótọ́ ṣé ọkọ̀ wà",
+    "text": "Ó ti pẹ́ ní tòótọ́. Ṣé ọkọ̀ wà?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ọkọ̀ wà ṣùgbọ́n n kò tíì rí takisí",
+    "text": "Ọkọ̀ wà, ṣùgbọ́n n kò tíì rí takisí.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|mo máa bá ọ dúró",
+    "text": "Mo máa bá ọ dúró.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ẹ ṣé ẹ má pẹ́ lọ sílé o",
+    "text": "Ẹ ṣé. Ẹ má pẹ́ lọ sílé o.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó dára kí o délé ní àlàáfíà",
+    "text": "Ó dára. Kí o délé ní àlàáfíà.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "àmín ó dàbọ̀",
+    "text": "Àmín. Ó dàbọ̀.",
+    "group": "dialogue-female"
   }
 ]

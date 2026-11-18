@@ -2,9 +2,9 @@ import { strings } from "../validate";
 import { VOCAB_POS, type VocabLevel, type VocabTopic, type VocabWord } from "./types";
 
 export const WORDS_PER_TOPIC = 10;
-export const TOPICS_PER_LEVEL = 5;
-// Numbers one to ten moved to the Numbers section, so Getting Started has four vocab topics.
-export const EXPECTED_TOPICS: Record<string, number> = { "getting-started": 4 };
+export const TOPICS_PER_LEVEL = 8;
+// Numbers one to ten moved to the Numbers section, so Getting Started has one fewer vocab topic.
+export const EXPECTED_TOPICS: Record<string, number> = { "getting-started": 7 };
 const EM_DASH = "\u2014";
 
 export const blankOf = (w: VocabWord): string => w.sentence.blank ?? w.yoruba;

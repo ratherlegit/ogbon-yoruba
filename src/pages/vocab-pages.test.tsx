@@ -45,6 +45,7 @@ vi.mock("@/content/vocab/beginner", () => ({ beginnerTopics: [] }));
 vi.mock("@/content/vocab/intermediate", () => ({ intermediateTopics: [] }));
 vi.mock("@/content/vocab/advanced", () => ({ advancedTopics: [] }));
 vi.mock("@/content/vocab/mastery", () => ({ masteryTopics: [] }));
+vi.mock("@/content/vocab/more", () => ({ moreGettingStarted: [], moreBeginner: [], moreIntermediate: [], moreAdvanced: [], moreMastery: [] }));
 
 async function renderAt(path: string) {
   const router = createRouter({ routeTree, history: createMemoryHistory({ initialEntries: [path] }) });

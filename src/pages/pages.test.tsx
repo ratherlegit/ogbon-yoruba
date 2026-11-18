@@ -69,7 +69,7 @@ describe("pages", () => {
 
   it("finishing the last lesson of a still-locked next level explains instead of linking", async () => {
     const user = userEvent.setup();
-    await renderAt("/lesson/getting-started/gs-4");
+    await renderAt("/lesson/getting-started/gs-5");
     await user.click(await screen.findByRole("button", { name: "Start practice" }));
     for (let n = 0; n < 8; n++) {
       const choices = screen.queryAllByTestId("choice");

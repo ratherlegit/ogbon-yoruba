@@ -5,14 +5,15 @@ import { beginnerTopics } from "./beginner";
 import { gettingStartedTopics } from "./getting-started";
 import { intermediateTopics } from "./intermediate";
 import { masteryTopics } from "./mastery";
+import { moreAdvanced, moreBeginner, moreGettingStarted, moreIntermediate, moreMastery } from "./more";
 import type { VocabLevel, VocabTopic, VocabWord } from "./types";
 
 const TOPICS: Record<LevelId, VocabTopic[]> = {
-  "getting-started": gettingStartedTopics,
-  beginner: beginnerTopics,
-  intermediate: intermediateTopics,
-  advanced: advancedTopics,
-  mastery: masteryTopics,
+  "getting-started": [...gettingStartedTopics, ...moreGettingStarted],
+  beginner: [...beginnerTopics, ...moreBeginner],
+  intermediate: [...intermediateTopics, ...moreIntermediate],
+  advanced: [...advancedTopics, ...moreAdvanced],
+  mastery: [...masteryTopics, ...moreMastery],
 };
 
 export const VOCAB_LEVELS: VocabLevel[] = LEVELS.map((lv) => ({ id: lv.id, title: lv.title, topics: TOPICS[lv.id] }));

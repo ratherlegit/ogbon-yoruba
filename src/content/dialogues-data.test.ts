@@ -15,10 +15,12 @@ describe("DIALOGUES", () => {
   it("passes the validator", () => {
     expect(validateDialogues(SITUATIONS, DIALOGUES)).toEqual([]);
   });
-  it("has one situation per level, in level order, and three conversations in each", () => {
-    expect(SITUATIONS.map((s) => s.level)).toEqual([...LEVEL_IDS]);
-    for (const s of SITUATIONS) expect(DIALOGUES.filter((d) => d.situationId === s.id)).toHaveLength(3);
-    expect(DIALOGUES).toHaveLength(15);
+  it("has at least one situation per level, in level order, with at least three conversations in each", () => {
+    const order = SITUATIONS.map((s) => LEVEL_IDS.indexOf(s.level));
+    expect(order, "situations are listed in level order").toEqual([...order].sort((a, b) => a - b));
+    expect(new Set(SITUATIONS.map((s) => s.level)), "every level has a situation").toEqual(new Set(LEVEL_IDS));
+    for (const s of SITUATIONS) expect(DIALOGUES.filter((d) => d.situationId === s.id).length, s.id).toBeGreaterThanOrEqual(3);
+    expect(DIALOGUES.every((d) => SITUATIONS.some((s) => s.id === d.situationId))).toBe(true);
   });
   it("keeps the early levels shorter", () => {
     for (const d of DIALOGUES) {

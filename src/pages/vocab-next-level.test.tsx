@@ -36,6 +36,7 @@ vi.mock("@/content/vocab/beginner", () => ({
 vi.mock("@/content/vocab/intermediate", () => ({ intermediateTopics: [] }));
 vi.mock("@/content/vocab/advanced", () => ({ advancedTopics: [] }));
 vi.mock("@/content/vocab/mastery", () => ({ masteryTopics: [] }));
+vi.mock("@/content/vocab/more", () => ({ moreGettingStarted: [], moreBeginner: [], moreIntermediate: [], moreAdvanced: [], moreMastery: [] }));
 
 beforeEach(() => {
   localStorage.clear();

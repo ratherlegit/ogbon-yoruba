@@ -104,10 +104,10 @@ describe("validateVocabCatalog", () => {
   it("checks the topics-per-level count only when complete", () => {
     const lv = [{ id: "beginner" as const, title: "B", topics: [{ ...topic(), level: "beginner" as const }] }];
     expect(validateVocabCatalog(lv)).toEqual([]);
-    expect(validateVocabCatalog(lv, { complete: true }).join("\n")).toMatch(/expected 5 topics/);
+    expect(validateVocabCatalog(lv, { complete: true }).join("\n")).toMatch(/expected 8 topics/);
   });
-  it("expects four topics in Getting Started, because numbers moved to the Numbers section", () => {
+  it("expects seven topics in Getting Started, because numbers moved to the Numbers section", () => {
     const lv = [{ id: "getting-started" as const, title: "GS", topics: [topic()] }];
-    expect(validateVocabCatalog(lv, { complete: true }).join("\n")).toMatch(/expected 4 topics/);
+    expect(validateVocabCatalog(lv, { complete: true }).join("\n")).toMatch(/expected 7 topics/);
   });
 });

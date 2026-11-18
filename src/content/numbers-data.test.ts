@@ -95,9 +95,9 @@ describe("step 1 has two examples per number: after a noun, and on its own", () 
 });
 
 describe("vocab after the move", () => {
-  it("no longer has the numbers topic, and Getting Started has 4 topics", () => {
+  it("no longer has the numbers topic, and Getting Started has 7 topics", () => {
     expect(getVocabTopic("getting-started", "gs-numbers")).toBeUndefined();
-    expect(getVocabLevel("getting-started")!.topics).toHaveLength(4);
+    expect(getVocabLevel("getting-started")!.topics).toHaveLength(7);
   });
 });
 

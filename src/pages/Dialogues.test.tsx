@@ -45,11 +45,12 @@ describe("Dialogues index", () => {
     expect(sections).toHaveLength(5);
     expect(sections.map((s) => s.querySelector("h2")!.textContent)).toEqual(LEVELS.map((l) => l.title));
     for (const [i, level] of LEVELS.entries()) {
-      const situation = SITUATIONS.find((s) => s.level === level.id)!;
-      expect(sections[i]!.textContent).toContain(situation.title);
+      const situations = SITUATIONS.filter((s) => s.level === level.id);
+      expect(situations.length).toBeGreaterThan(0);
+      for (const situation of situations) expect(sections[i]!.textContent).toContain(situation.title);
       const links = within(sections[i]!).getAllByTestId("dialogue-card");
       expect(links.map((a) => a.getAttribute("href"))).toEqual(
-        DIALOGUES.filter((d) => d.situationId === situation.id).map((d) => `/dialogues/${d.id}`),
+        situations.flatMap((s) => DIALOGUES.filter((d) => d.situationId === s.id).map((d) => `/dialogues/${d.id}`)),
       );
     }
   });
