@@ -141,7 +141,7 @@ export const b5: Lesson = {
   },
   questions: [
     { type: "pick", prompt: "Which command is spoken to one friend your own age?", choices: ["Jókòó", "Ẹ jókòó", "Ẹ jọ̀ọ́ ẹ jókòó"], answer: 0, wordId: "jowo-jokoo" },
-    { type: "pick", prompt: "Which of these is a statement, not a command?", choices: ["Wá", "Ẹ wá", "O wá"], answer: 2, wordId: "wa-cmd" },
+    { type: "pick", prompt: "Which of these is a statement, not a command?", choices: ["Wá", "Ẹ wá", "O wá"], answer: 2, wordId: "wa-cmd", translation: "You came" },
     { type: "pick", prompt: "Where does the thing you are asking for go?", choices: ["Fún mi ní omi", "Fún omi mi ní", "Fún ní mi omi"], answer: 0, wordId: "fun-mi-omi" },
     { type: "blank", prompt: "Jọ̀wọ́ ___ mi ní omi. (Please give me water.)", answer: "fún", choices: ["fún", "mu", "wá"], wordId: "jowo-fun-mi" },
     { type: "blank", prompt: "Ẹ jọ̀ọ́ ___ jókòó. (Please sit, said to an elder.)", answer: "ẹ", choices: ["ẹ", "o", "jọ̀wọ́"], wordId: "e-jo-e-joko" },

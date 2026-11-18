@@ -44,7 +44,9 @@ async function run(page: Page, mode: "quiz" | "gap", attempt: number, pickRight:
     } else {
       await expect(button).toHaveAttribute("data-state", "wrong");
       await expect(choices.and(page.getByRole("button", { name: answer, exact: true }))).toHaveAttribute("data-state", "correct");
-      await expect(status).toContainText(`Answer: ${answer}`);
+      await expect(status).toHaveText("Not quite.");
+      // The answer sits on its own row, under the message, with the Listen button beside it.
+      await expect(page.getByTestId("feedback-answer")).toContainText(`Answer: ${answer}`);
     }
     await page.getByRole("button", { name: n === 9 ? "See results" : "Continue" }).click();
   }

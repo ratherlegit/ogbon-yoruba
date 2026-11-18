@@ -9,6 +9,7 @@ import { LEVELS, getLesson, getLevel, nextLessonPath } from "@/content/levels";
 import type { Question } from "@/content/types";
 import { useProgress } from "@/hooks/useProgress";
 import { isLevelUnlocked, recordCompletion } from "@/lib/progress";
+import { lessonTranslations } from "@/lib/translations";
 
 type View =
   | { name: "primer" }
@@ -64,6 +65,7 @@ function LessonView({ levelId, lessonId }: { levelId: string; lessonId: string }
           <Activity
             key={view.attempt}
             questions={view.questions}
+            translations={lessonTranslations(lesson)}
             onDone={(r) => finish(r, view.full)}
           />
         </>

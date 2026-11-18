@@ -145,7 +145,7 @@ export const b7: Lesson = {
   questions: [
     { type: "blank", prompt: "Mo ___ ní ọjà. (I am at the market.)", answer: "wà", choices: ["wà", "ní", "jẹ́"], wordId: "mo-wa-ni-oja" },
     { type: "pick", prompt: "Which one is wrong for \"I am at school\"?", choices: ["Mo wà ní ilé-ìwé", "Mo jẹ́ ní ilé-ìwé", "A wà ní ilé-ìwé"], answer: 1, wordId: "a-wa-ni-ile-iwe" },
-    { type: "pick", prompt: "Which answers Níbo ni ọ̀rẹ́ rẹ wà?", choices: ["Ó wà ní ọjà", "Ó jẹ́ ọ̀rẹ́ mi", "Ó ń ra ẹja"], answer: 0, wordId: "nibo-ore-re" },
+    { type: "pick", prompt: "Which answers Níbo ni ọ̀rẹ́ rẹ wà?", choices: ["Ó wà ní ọjà", "Ó jẹ́ ọ̀rẹ́ mi", "Ó ń ra ẹja"], answer: 0, wordId: "nibo-ore-re", translation: "He or she is at the market" },
     { type: "pick", prompt: "Which one is wrong for \"I am here\"?", choices: ["Mo wà níbí", "Mo wà ní níbí", "Mo wà ní ilé"], answer: 1, wordId: "mo-wa-ni-oja" },
     { type: "blank", prompt: "Ṣé o wà ___ ilé? (Are you at home?)", answer: "ní", choices: ["ní", "jẹ́", "ń"], wordId: "o-wa-ni-ile" },
     { type: "pick", prompt: "Which means \"He is not at home\"?", choices: ["Ó wà ní ilé", "Kò sí ní ilé", "Kò ní ilé"], answer: 1, wordId: "o-wa-ni-ile" },

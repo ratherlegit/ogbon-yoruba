@@ -31,7 +31,10 @@ export type WordBreakdown = {
 export type Rule = { id: string; title: string; explanation: string | string[] };
 
 export type BlankQuestion = { type: "blank"; prompt: string; answer: string; choices: string[]; wordId?: string };
-export type PickQuestion = { type: "pick"; prompt: string; choices: string[]; answer: number; wordId?: string };
+// translation: English for the correct choice when it is a Yoruba sentence that no example or table
+// row in the lesson already translates. Leave it out when the correct choice is not good Yoruba
+// (a "which one is wrong?" question), so no meaning is shown for it.
+export type PickQuestion = { type: "pick"; prompt: string; choices: string[]; answer: number; wordId?: string; translation?: string };
 export type OrderQuestion = { type: "order"; english: string; words: string[]; answer: string[] };
 export type Question = BlankQuestion | PickQuestion | OrderQuestion;
 

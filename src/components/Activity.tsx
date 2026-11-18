@@ -1,10 +1,11 @@
 import { useState } from "react";
 import type { Question } from "@/content/types";
-import { checkAnswer, feedbackFor, type AnswerKind } from "@/lib/answer";
+import { checkAnswer, feedbackParts, type AnswerKind } from "@/lib/answer";
 import { ChoiceQuestion } from "./ChoiceQuestion";
 import { OrderQuestion } from "./OrderQuestion";
 import { AudioButton } from "./AudioButton";
 import { playSfx } from "@/lib/sfx";
+import { translationOf, type Translations } from "@/lib/translations";
 
 export type ActivityResult = { correct: number; total: number; missed: Question[] };
 
@@ -14,7 +15,14 @@ function expectedOf(q: Question): string {
   return q.answer.join(" ");
 }
 
-export function Activity({ questions, onDone }: { questions: Question[]; onDone: (r: ActivityResult) => void }) {
+type ActivityProps = {
+  questions: Question[];
+  onDone: (r: ActivityResult) => void;
+  // English for Yoruba pick answers, from the lesson. Omit for activities that have none.
+  translations?: Translations;
+};
+
+export function Activity({ questions, onDone, translations }: ActivityProps) {
   const [i, setI] = useState(0);
   const [chosen, setChosen] = useState<string | null>(null);
   const [kind, setKind] = useState<AnswerKind | null>(null);
@@ -24,6 +32,8 @@ export function Activity({ questions, onDone }: { questions: Question[]; onDone:
   const q = questions[i]!;
   const expected = expectedOf(q);
   const answered = kind !== null;
+  const meaning = translationOf(q, expected, translations);
+  const parts = feedbackParts(kind ?? "wrong", expected);
   const last = i === questions.length - 1;
 
   function submit(given: string) {
@@ -66,11 +76,33 @@ export function Activity({ questions, onDone }: { questions: Question[]; onDone:
       )}
 
       {answered && (
-        <div className="card" role="status" style={{ borderColor: kind === "correct" ? "var(--accent)" : "var(--danger)" }}>
-          <div className="with-audio">
-            <p style={{ margin: 0 }} className="yo">{feedbackFor(kind, expected)}</p>
-            {q.type !== "blank" && <AudioButton text={expected} />}
-          </div>
+        <div
+          className="card"
+          role="status"
+          style={{ borderColor: kind === "correct" ? "var(--accent)" : "var(--danger)", display: "grid", gap: "0.65rem" }}
+        >
+          {parts.answer === null ? (
+            <div className="with-audio">
+              <p style={{ margin: 0, fontWeight: 700 }} className="yo">{parts.message}</p>
+              {q.type !== "blank" && <AudioButton text={expected} />}
+            </div>
+          ) : (
+            <>
+              <p style={{ margin: 0, fontWeight: 700 }} className="yo" data-testid="feedback-message">{parts.message}</p>
+              <div className="with-audio" data-testid="feedback-answer">
+                <p style={{ margin: 0, fontSize: "1.15em" }} className="yo">
+                  <span className="muted">Answer: </span>
+                  <strong>{parts.answer}</strong>
+                </p>
+                {q.type !== "blank" && <AudioButton text={expected} />}
+              </div>
+            </>
+          )}
+          {meaning && (
+            <p className="muted" data-testid="answer-meaning" style={{ margin: 0 }}>
+              Means: {meaning}
+            </p>
+          )}
         </div>
       )}
 

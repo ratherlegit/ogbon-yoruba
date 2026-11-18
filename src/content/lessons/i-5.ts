@@ -145,7 +145,7 @@ export const i5: Lesson = {
   },
   questions: [
     { type: "pick", prompt: "Ajá mi kéré ju ajá rẹ lọ. Whose dog is bigger?", choices: ["Mine", "Yours", "They are the same size"], answer: 1, wordId: "aja-mi-kere" },
-    { type: "pick", prompt: "Which says your car is faster than mine?", choices: ["Ọkọ̀ rẹ yára ju ọkọ̀ mi lọ", "Ọkọ̀ mi yára ju ọkọ̀ rẹ lọ", "Ọkọ̀ rẹ ju yára ọkọ̀ mi lọ"], answer: 0, wordId: "oko-mi-yara" },
+    { type: "pick", prompt: "Which says your car is faster than mine?", choices: ["Ọkọ̀ rẹ yára ju ọkọ̀ mi lọ", "Ọkọ̀ mi yára ju ọkọ̀ rẹ lọ", "Ọkọ̀ rẹ ju yára ọkọ̀ mi lọ"], answer: 0, wordId: "oko-mi-yara", translation: "Your car is faster than my car" },
     { type: "blank", prompt: "Ajá mi kéré ___ ajá rẹ lọ. (My dog is smaller than your dog.)", answer: "ju", choices: ["ju", "jù", "tó"], wordId: "aja-mi-kere" },
     { type: "blank", prompt: "Ilé mi tóbi ju ilé rẹ ___. (My house is bigger than yours.)", answer: "lọ", choices: ["lọ", "wá", "ni"], wordId: "ile-mi-tobi" },
     { type: "pick", prompt: "Which sentence is unfinished?", choices: ["Ilé mi tóbi ju ilé rẹ lọ", "Ilé mi tóbi ju ilé rẹ", "Ajá mi kéré ju ajá rẹ lọ"], answer: 1, wordId: "ile-mi-tobi" },

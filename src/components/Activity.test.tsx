@@ -100,3 +100,59 @@ describe("Activity", () => {
     expect(wrong).toHaveTextContent("✗");
   });
 });
+
+describe("Activity answer meaning", () => {
+  const q: Question = { type: "pick", prompt: "Which is understand?", choices: ["Mo gbọ́ Yorùbá", "Mo sọ Yorùbá"], answer: 0 };
+  const t = new Map([["mo gbọ́ yorùbá", "I understand Yoruba"]]);
+
+  it("shows the English meaning under the answer after a wrong reply", async () => {
+    const user = userEvent.setup();
+    render(<Activity questions={[q]} translations={t} onDone={() => {}} />);
+    await user.click(screen.getByRole("button", { name: "Mo sọ Yorùbá" }));
+    expect(screen.getByTestId("feedback-message")).toHaveTextContent(/^Not quite\.$/);
+    expect(screen.getByTestId("feedback-answer")).toHaveTextContent("Answer: Mo gbọ́ Yorùbá");
+    expect(screen.getByTestId("answer-meaning")).toHaveTextContent("Means: I understand Yoruba");
+  });
+
+  it("shows it after a right reply too, without changing the Correct. text", async () => {
+    const user = userEvent.setup();
+    render(<Activity questions={[q]} translations={t} onDone={() => {}} />);
+    await user.click(screen.getByRole("button", { name: "Mo gbọ́ Yorùbá" }));
+    expect(screen.getByText("Correct.")).toBeInTheDocument();
+    expect(screen.getByTestId("answer-meaning")).toHaveTextContent("I understand Yoruba");
+  });
+
+  it("shows no meaning when there is no translation, and none for blank questions", async () => {
+    const user = userEvent.setup();
+    const blank: Question = { type: "blank", prompt: "Fish is ___ja.", answer: "ẹ", choices: ["ẹ", "e"] };
+    const { unmount } = render(<Activity questions={[q]} onDone={() => {}} />);
+    await user.click(screen.getByRole("button", { name: "Mo sọ Yorùbá" }));
+    expect(screen.queryByTestId("answer-meaning")).not.toBeInTheDocument();
+    unmount();
+    render(<Activity questions={[blank]} translations={new Map([["ẹ", "x"]])} onDone={() => {}} />);
+    await user.click(screen.getByRole("button", { name: "ẹ" }));
+    expect(screen.queryByTestId("answer-meaning")).not.toBeInTheDocument();
+  });
+});
+
+describe("Activity feedback layout", () => {
+  it("puts the message, the answer and the meaning on separate lines, in that order", async () => {
+    const user = userEvent.setup();
+    const q: Question = { type: "pick", prompt: "Which?", choices: ["Mo gbọ́ Yorùbá", "Mo sọ Yorùbá"], answer: 0 };
+    render(<Activity questions={[q]} translations={new Map([["mo gbọ́ yorùbá", "I understand Yoruba"]])} onDone={() => {}} />);
+    await user.click(screen.getByRole("button", { name: "Mo sọ Yorùbá" }));
+    const box = screen.getByRole("status");
+    const rows = [...box.children].map((c) => c.getAttribute("data-testid"));
+    expect(rows).toEqual(["feedback-message", "feedback-answer", "answer-meaning"]);
+    expect(screen.getByTestId("feedback-message")).not.toHaveTextContent("Answer");
+  });
+
+  it("keeps long tone and dot messages apart from the answer too", async () => {
+    const user = userEvent.setup();
+    const q: Question = { type: "blank", prompt: "Child: ___", answer: "ọmọ", choices: ["omo", "ọmọ", "ọmo"] };
+    render(<Activity questions={[q]} onDone={() => {}} />);
+    await user.click(screen.getByRole("button", { name: "omo" }));
+    expect(screen.getByTestId("feedback-message")).toHaveTextContent(/dots under/);
+    expect(screen.getByTestId("feedback-answer")).toHaveTextContent("Answer: ọmọ");
+  });
+});

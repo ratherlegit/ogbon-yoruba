@@ -11,15 +11,22 @@ export function checkAnswer(given: string, expected: string): AnswerKind {
   return "wrong";
 }
 
-export function feedbackFor(kind: AnswerKind, expected: string): string {
+// The feedback split into what to say and the answer to show, so the screen can lay them out on
+// separate lines instead of one run of text. answer is null when the reply was right.
+export function feedbackParts(kind: AnswerKind, expected: string): { message: string; answer: string | null } {
   switch (kind) {
     case "correct":
-      return "Correct.";
+      return { message: "Correct.", answer: null };
     case "tone":
-      return `Right letters, wrong tone. Check the accent marks on each syllable. Answer: ${expected}`;
+      return { message: "Right letters, wrong tone. Check the accent marks on each syllable.", answer: expected };
     case "mark":
-      return `Close. Check the dots under ẹ, ọ and ṣ. Answer: ${expected}`;
+      return { message: "Close. Check the dots under ẹ, ọ and ṣ.", answer: expected };
     case "wrong":
-      return `Not quite. Answer: ${expected}`;
+      return { message: "Not quite.", answer: expected };
   }
+}
+
+export function feedbackFor(kind: AnswerKind, expected: string): string {
+  const { message, answer } = feedbackParts(kind, expected);
+  return answer === null ? message : `${message} Answer: ${answer}`;
 }

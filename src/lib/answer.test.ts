@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { checkAnswer, feedbackFor } from "./answer";
+import { checkAnswer, feedbackFor, feedbackParts } from "./answer";
 
 describe("checkAnswer", () => {
   it("accepts an exact match", () => {
@@ -38,5 +38,22 @@ describe("feedbackFor", () => {
     for (const k of ["correct", "tone", "mark", "wrong"] as const) {
       expect(feedbackFor(k, "x")).not.toContain("\u2014");
     }
+  });
+});
+
+describe("feedbackParts", () => {
+  it("has no answer when the reply was right", () => {
+    expect(feedbackParts("correct", "ọmọ")).toEqual({ message: "Correct.", answer: null });
+  });
+  it("keeps the message and the answer separate for every miss", () => {
+    for (const k of ["tone", "mark", "wrong"] as const) {
+      const p = feedbackParts(k, "ọmọ");
+      expect(p.answer).toBe("ọmọ");
+      expect(p.message).not.toContain("ọmọ");
+      expect(p.message).not.toContain("Answer");
+    }
+  });
+  it("joins back into the same text that feedbackFor gives", () => {
+    expect(feedbackFor("wrong", "ọmọ")).toBe("Not quite. Answer: ọmọ");
   });
 });

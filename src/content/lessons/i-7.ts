@@ -125,7 +125,7 @@ export const i7: Lesson = {
     },
   },
   questions: [
-    { type: "pick", prompt: "Which sentence says you are not allowed to go?", choices: ["N kò ní láti lọ", "N kò gbọ́dọ̀ lọ", "N kò fẹ́ lọ"], answer: 1, wordId: "o-o-gbodo-lo" },
+    { type: "pick", prompt: "Which sentence says you are not allowed to go?", choices: ["N kò ní láti lọ", "N kò gbọ́dọ̀ lọ", "N kò fẹ́ lọ"], answer: 1, wordId: "o-o-gbodo-lo", translation: "I must not go" },
     { type: "pick", prompt: "How do Mo fẹ́ lọ and Mo ní láti lọ differ?", choices: ["The first is wanting to go, the second is having to go", "The first is having to go, the second is wanting to go", "They mean the same"], answer: 0, wordId: "mo-ni-lati-lo" },
     { type: "blank", prompt: "Mo ___ láti lọ. (I have to go.)", answer: "ní", choices: ["ní", "fẹ́", "nílò"], wordId: "mo-ni-lati-lo" },
     { type: "blank", prompt: "Mo ___ owó. (I need money.)", answer: "nílò", choices: ["nílò", "fẹ́ràn", "gbọ́dọ̀"], wordId: "mo-nilo-owo" },

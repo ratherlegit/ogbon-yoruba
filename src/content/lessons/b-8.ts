@@ -146,7 +146,7 @@ export const b8: Lesson = {
     { type: "blank", prompt: "Ó ___ jẹun. (She wants to eat.)", answer: "fẹ́", choices: ["fẹ́", "ń", "kò"], wordId: "o-fe-jeun" },
     { type: "pick", prompt: "Which says someone does not want to eat?", choices: ["N kò fẹ́ jẹun", "N kò jẹun", "N kò fẹ́ràn jẹun"], answer: 0, wordId: "n-ko-fe-jeun" },
     { type: "pick", prompt: "Why is Mo fẹ́ràn lọ wrong?", choices: ["fẹ́ràn goes with a thing, not an action", "lọ cannot follow mo", "fẹ́ràn must come last"], answer: 0 },
-    { type: "pick", prompt: "Which question asks if someone wants to sleep?", choices: ["Ṣé o fẹ́ sùn?", "Ṣé o ń sùn?", "Ṣé o fẹ́ràn sùn?"], answer: 0, wordId: "se-o-fe-lo" },
+    { type: "pick", prompt: "Which question asks if someone wants to sleep?", choices: ["Ṣé o fẹ́ sùn?", "Ṣé o ń sùn?", "Ṣé o fẹ́ràn sùn?"], answer: 0, wordId: "se-o-fe-lo", translation: "Do you want to sleep?" },
     { type: "order", english: "I do not want to eat", words: ["jẹun", "kò", "N", "fẹ́"], answer: ["N", "kò", "fẹ́", "jẹun"] },
     { type: "order", english: "Do you want to go?", words: ["lọ", "fẹ́", "o", "Ṣé"], answer: ["Ṣé", "o", "fẹ́", "lọ"] },
   ],
