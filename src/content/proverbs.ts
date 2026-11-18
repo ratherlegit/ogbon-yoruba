@@ -2,7 +2,7 @@ import type { Confidence } from "./types";
 
 // Proverbs (òwe) shown one at a time on the Proverbs page. The learner reads the
 // Yoruba and its direct translation, then guesses the social meaning from three
-// choices. Text only for now: no audio.
+// choices. Each proverb has a Listen clip once its audio is generated.
 // Every entry is needs-review until a native speaker checks it.
 
 export type Proverb = {
@@ -30,6 +30,7 @@ const wik = (
   usedWhen: string,
   wrong: [string, string],
   note: string,
+  read = "2026-10-19",
 ): Proverb => ({
   id,
   yoruba,
@@ -37,10 +38,23 @@ const wik = (
   meaning,
   usedWhen,
   wrong,
-  source: `Wiktionary, "${page}" (Yoruba section), read 2026-10-19`,
+  source: `Wiktionary, "${page}" (Yoruba section), read ${read}`,
   confidence: "needs-review",
   note: `${note} The "used when" line is the author's reading of Wiktionary's figurative sense.`,
 });
+
+const LING = "Ling App, \"Yoruba Proverbs\" (ling-app.com/blog/yoruba-proverbs), read 2026-11-18, which lists it with this meaning.";
+const OWN = "The author's own knowledge of a widely quoted Yoruba saying; no consulted page gives it. Not checked with a speaker.";
+const ent = (
+  id: string,
+  yoruba: string,
+  literal: string,
+  meaning: string,
+  usedWhen: string,
+  wrong: [string, string],
+  source: string,
+  note: string,
+): Proverb => ({ id, yoruba, literal, meaning, usedWhen, wrong, source, confidence: "needs-review", note });
 
 export const PROVERBS: Proverb[] = [
   wik(
@@ -182,6 +196,161 @@ export const PROVERBS: Proverb[] = [
     "a person who is guilty of something scolds someone else for the same thing.",
     ["Whoever is bigger should be obeyed.", "Bottles are worth more than demijohns."],
     "Wiktionary glosses this as pot calling the kettle black. Confirm the tones.",
+  ),
+  // Added 2026-11-18. Sources are named per entry. The Ling App and Nigerian Finder pages quote
+  // proverbs with inconsistent or missing tone marks, so the wording here is the author's best
+  // standard form and every entry stays needs-review.
+  ent(
+    "suuru-ni-baba-iwa",
+    "Sùúrù ni baba ìwà.",
+    "Patience is the father of character.",
+    "Patience is the root of good character, and good conduct grows from it.",
+    "someone is rushing or losing their temper and is reminded to stay calm.",
+    ["A patient man always becomes a father.", "Character is something you are born with."],
+    LING,
+    "Ling App lists the wording and the meaning that good character grows from patience. Confirm the tones of ìwà and the word-for-word line.",
+  ),
+  ent(
+    "iya-ni-wura",
+    "Ìyá ni wúrà, bàbá ni jígí.",
+    "A mother is gold, a father is a mirror.",
+    "A mother is precious, and a father shows a child the person they may become.",
+    "someone talks about what each parent means to a child.",
+    ["Mothers are rich and fathers are vain.", "Gold and mirrors are the best gifts for parents."],
+    LING,
+    "Ling App gives this wording with the sense that fathers reflect a child's future. Confirm whether jígí or dígí is standard, and the tones.",
+  ),
+  ent(
+    "ogbon-ju-agbara-lo",
+    "Ọgbọ́n ju agbára lọ.",
+    "Wisdom is greater than strength.",
+    "Careful thinking achieves more than force.",
+    "someone tries to solve a problem by force and a calmer person offers a smarter way.",
+    ["Strong people never need advice.", "Wisdom comes only from heavy work."],
+    LING,
+    "Ling App writes Ọgbọ́n ju agbára without lọ. The lọ is added here because ju ... lọ is the comparing pattern (Intermediate 5). Confirm the wording and the tones.",
+  ),
+  ent(
+    "ile-oba-to-jo",
+    "Ilé ọba tó jó, ẹwà ló bù sí.",
+    "The king's house that burned, beauty is what it gained.",
+    "Hardship can lead to something better than what was lost.",
+    "someone has lost something and is told that what comes next may be better.",
+    ["Palaces should be built from stone, not wood.", "Kings always rebuild at the cost of the poor."],
+    "Ling App, \"Yoruba Proverbs\" (ling-app.com/blog/yoruba-proverbs), and Nigerian Finder, \"Owe Yoruba: 100 Yoruba Proverbs & Their Meanings\", both read 2026-11-18. Both give the sense of a burned palace rebuilt more beautiful.",
+    "Ling App has tone marks but writes jọ (probably a slip for jó, burn); Nigerian Finder has none. Confirm the wording and the tones, especially bù sí.",
+  ),
+  ent(
+    "agba-ki-i-wa-loja",
+    "Àgbà kì í wà lójà kí orí ọmọ tuntun wọ́.",
+    "An elder is never in the market while a newborn's head goes crooked.",
+    "When wise elders are present, the young are not left to go wrong.",
+    "someone says a problem would not have happened if the elders had been involved.",
+    ["Elders spend too much time in the market.", "A baby's head should not be touched in public."],
+    "Nigerian Finder, \"Owe Yoruba: 100 Yoruba Proverbs & Their Meanings\", read 2026-11-18, which gives the untoned wording and a sense of correction by an elder's experience.",
+    "The source has no tone marks, so every tone here is the author's. The word-for-word line and the meaning are the author's reading. Very high doubt: confirm.",
+  ),
+  ent(
+    "diedie-imu-eledee",
+    "Díẹ̀díẹ̀ ni imú ẹlẹ́dẹ̀ fi ń wọgbà.",
+    "Little by little is how the pig's snout enters the farm.",
+    "Something big, good or bad, begins as something small, so deal with small things early.",
+    "someone ignores a small problem or dismisses a small gain.",
+    ["Pigs should be kept away from farms.", "Pigs eat slowly because they are greedy."],
+    "Nigerian Finder, \"Owe Yoruba: 100 Yoruba Proverbs & Their Meanings\", read 2026-11-18, which gives the sense of dealing with small problems before they grow.",
+    "The source writes Díẹ̀ díẹ̀ nimú ẹlẹ́dẹ̀ẹ́ fi ń wọgbà. This form is the author's standard reading. Confirm the tones and whether ẹlẹ́dẹ̀ or ẹlẹ́dẹ̀ẹ́ is right.",
+  ),
+  ent(
+    "a-n-pe-gbenagbena",
+    "À ń pe gbẹ́nàgbẹ́nà, àkókó ń yọjú.",
+    "We are calling the carpenter, the woodpecker is peeping in.",
+    "Someone pushes into a matter they were not invited to join.",
+    "someone butts into a conversation or a job meant for another person.",
+    ["Carpenters work best with birds nearby.", "Woodpeckers are better craftsmen than carpenters."],
+    "Nigerian Finder, \"Owe Yoruba: 100 Yoruba Proverbs & Their Meanings\", read 2026-11-18, which gives the sense of overrating yourself and joining conversations you were not invited to.",
+    "The source writes À ń pe gbẹ́nàgbẹ́nà ẹyẹ àkókó ń yọjú. The shortened form here is the author's. Confirm the wording and tones.",
+  ),
+  wik(
+    "osan-ja-orun-dopa",
+    "ọsan ja ọrun dọpa",
+    "Ọsán já, ọ̀run dọ̀pá.",
+    "The sun falls, the sky becomes a staff.",
+    "On hearing of the death of a great person: how the mighty have fallen.",
+    "people react to the death of a powerful or important figure.",
+    ["A good harvest will follow a bright afternoon.", "A sign that the weather is about to change."],
+    "Wiktionary gives no literal line, only the parts ọsán, já, ọrun, di and ọ̀pá. The word-for-word line here is the author's assembly of those parts, so it is a high doubt. Confirm the tones, which the page marks only on the proverb line.",
+    "2026-11-18",
+  ),
+  wik(
+    "di-endi-lopin-sinima",
+    "di ẹndi lopin sinima",
+    "Dì ẹ́ǹdì lòpin sinimá.",
+    "\"The end\" is the end of the film show.",
+    "Once something has ended, it is over for good.",
+    "someone wants to reopen a matter that is finished.",
+    ["Every story needs a sequel.", "Films are better than real life."],
+    "Wiktionary glosses lòpin as ní òpin, and ẹ́ǹdì and sinimá are loanwords from English (end, cinema). Confirm the spelling and tones.",
+    "2026-11-18",
+  ),
+  ent(
+    "owe-lesin-oro",
+    "Òwe lẹ́ṣin ọ̀rọ̀; bí ọ̀rọ̀ bá sọnù, òwe la fi ń wá a.",
+    "A proverb is the horse of speech; if speech is lost, it is with a proverb that we look for it.",
+    "Proverbs carry meaning, and when words fail you, a proverb helps you find the right ones.",
+    "someone searches for the right way to say something and reaches for a proverb.",
+    ["Horses carry messages between towns.", "Only elders may use proverbs."],
+    OWN,
+    "A very widely quoted saying about proverbs themselves. Not found in the pages consulted for this batch. Confirm the wording and the tones of lẹ́ṣin and sọnù.",
+  ),
+  ent(
+    "omode-ba-subu",
+    "Bí ọmọdé bá ṣubú, á wo iwájú; bí àgbà bá ṣubú, á wo ẹ̀yìn.",
+    "If a child falls, he looks ahead; if an elder falls, he looks behind.",
+    "The young rush forward, while the old look back at the past and learn from it.",
+    "an elder urges the young to learn from what came before.",
+    ["Elders fall more often than children.", "Children get up faster than elders."],
+    OWN,
+    "A widely quoted saying. Not found in the pages consulted for this batch. The meaning is the author's reading. Confirm the wording and the tones.",
+  ),
+  ent(
+    "omode-gbon-agba-gbon",
+    "Ọmọdé gbọ́n, àgbà gbọ́n, la fi dá Ilé-Ifẹ̀.",
+    "The child is wise, the elder is wise, this is how we founded Ile-Ife.",
+    "A community thrives when the wisdom of the young and of the old are put together.",
+    "someone says a team needs both fresh ideas and experience.",
+    ["Ile-Ife was founded by children.", "Young people should not question elders."],
+    OWN,
+    "A widely quoted saying about Ile-Ife. Not found in the pages consulted for this batch. Confirm the wording (la fi dá versus la fi ṣe) and the tones.",
+  ),
+  ent(
+    "owo-omode-ko-to-pepe",
+    "Ọwọ́ ọmọdé kò tó pẹpẹ, ti àgbà kò wọ kèrègbè.",
+    "A child's hand does not reach the shelf; an elder's hand does not fit into the gourd.",
+    "The young and the old each have limits, so they need each other.",
+    "someone says elders and young people should work together.",
+    ["Children should stay away from shelves.", "Gourds are too small for any hand."],
+    OWN,
+    "A widely quoted saying. Not found in the pages consulted for this batch. Confirm the wording, the word kèrègbè (a narrow-necked gourd) and the tones.",
+  ),
+  ent(
+    "ise-ni-oogun-ise",
+    "Iṣẹ́ ni oògùn ìṣẹ́.",
+    "Work is the medicine for poverty.",
+    "Hard work is the cure for being poor.",
+    "someone complains of being poor but is not working.",
+    ["Medicine costs money poor people lack.", "Poverty is an illness doctors can treat."],
+    OWN,
+    "A widely quoted saying that plays on iṣẹ́ (work) and ìṣẹ́ (poverty). Not found in the pages consulted for this batch. Confirm the tones, which are the only difference between the two words.",
+  ),
+  ent(
+    "iwa-lewa",
+    "Ìwà lẹ̀wà ọmọ ènìyàn.",
+    "Character is the beauty of a person.",
+    "A person's real beauty is their good character, not their looks.",
+    "someone praises only appearance and is reminded what counts.",
+    ["Beautiful people always have good manners.", "Good character is hidden under a pretty face."],
+    OWN,
+    "A widely quoted saying (ìwà lẹ̀wà is a contraction of ìwà ni ẹ̀wà). Not found in the pages consulted for this batch. Confirm the wording and the tones.",
   ),
   {
     id: "omo-ti-a-ko-ko-proverb",

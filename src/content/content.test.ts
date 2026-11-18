@@ -38,11 +38,11 @@ describe("content", () => {
     expect(nextLessonPath("getting-started", "gs-1")).toEqual({ levelId: "getting-started", lessonId: "gs-2" });
     expect(nextLessonPath("getting-started", "gs-4")).toEqual({ levelId: "getting-started", lessonId: "gs-5" });
     expect(nextLessonPath("getting-started", "gs-5")).toEqual({ levelId: "beginner", lessonId: "b-1" });
-    expect(nextLessonPath("beginner", "b-8")).toEqual({ levelId: "intermediate", lessonId: "i-1" });
+    expect(nextLessonPath("beginner", "b-9")).toEqual({ levelId: "intermediate", lessonId: "i-1" });
     expect(nextLessonPath("advanced", "a-4")).toEqual({ levelId: "advanced", lessonId: "a-5" });
-    expect(nextLessonPath("advanced", "a-7")).toEqual({ levelId: "mastery", lessonId: "m-1" });
+    expect(nextLessonPath("advanced", "a-9")).toEqual({ levelId: "mastery", lessonId: "m-1" });
     expect(nextLessonPath("mastery", "m-4")).toEqual({ levelId: "mastery", lessonId: "m-5" });
-    expect(nextLessonPath("mastery", "m-6")).toBeNull();
+    expect(nextLessonPath("mastery", "m-8")).toBeNull();
     expect(nextLessonPath("mastery", "nope")).toBeNull();
   });
 });

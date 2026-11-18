@@ -5,9 +5,10 @@ import { SOUNDS, MINIMAL_PAIRS } from "../src/content/sounds";
 import { CONSONANT_SETS, TONE_COMPARE } from "../src/content/sound-focus";
 import { NUMBERS, PHRASES } from "../src/content/numbers";
 import { DIALOGUES } from "../src/content/dialogues";
-import { collectAudioStrings, collectDialogueAudioStrings, collectNumbersAudioStrings, collectSoundAudioStrings, collectVocabAudioStrings } from "../src/lib/audio-strings";
+import { PROVERBS } from "../src/content/proverbs";
+import { collectAudioStrings, collectDialogueAudioStrings, collectNumbersAudioStrings, collectProverbAudioStrings, collectSoundAudioStrings, collectVocabAudioStrings } from "../src/lib/audio-strings";
 
-type Item = { key: string; text: string; group: "grammar" | "vocab-word" | "vocab-sentence" | "number-word" | "number-sentence" | "sound-word" | "dialogue-female" | "dialogue-male"; level?: string };
+type Item = { key: string; text: string; group: "grammar" | "vocab-word" | "vocab-sentence" | "number-word" | "number-sentence" | "sound-word" | "dialogue-female" | "dialogue-male" | "proverb"; level?: string };
 
 const grammar: Item[] = collectAudioStrings(LEVELS).map((s) => ({ ...s, group: "grammar" as const }));
 const seen = new Set(grammar.map((s) => s.key));
@@ -20,11 +21,13 @@ const sound: Item[] = collectSoundAudioStrings(SOUNDS, MINIMAL_PAIRS, TONE_COMPA
 const seenAfterSound = new Set([...seenAfterNumbers, ...sound.map((s) => s.key)]);
 // A female dialogue line whose text already has a clip is dropped as a duplicate; male lines have their own keys.
 const dialogue: Item[] = collectDialogueAudioStrings(DIALOGUES).filter((s) => !seenAfterSound.has(s.key));
-const strings = [...grammar, ...vocab, ...numbers, ...sound, ...dialogue];
+const seenAfterDialogue = new Set([...seenAfterSound, ...dialogue.map((s) => s.key)]);
+const proverbs: Item[] = collectProverbAudioStrings(PROVERBS).filter((s) => !seenAfterDialogue.has(s.key));
+const strings = [...grammar, ...vocab, ...numbers, ...sound, ...dialogue, ...proverbs];
 
 mkdirSync("tools/audio", { recursive: true });
 writeFileSync("tools/audio/strings.json", JSON.stringify(strings, null, 2) + "\n");
 const count = (g: Item["group"]) => strings.filter((s) => s.group === g).length;
 console.log(
-  `Wrote tools/audio/strings.json (${strings.length} strings: ${count("grammar")} grammar, ${count("vocab-word")} vocab-word, ${count("vocab-sentence")} vocab-sentence, ${count("number-word")} number-word, ${count("number-sentence")} number-sentence, ${count("sound-word")} sound-word, ${count("dialogue-female")} dialogue-female, ${count("dialogue-male")} dialogue-male)`,
+  `Wrote tools/audio/strings.json (${strings.length} strings: ${count("grammar")} grammar, ${count("vocab-word")} vocab-word, ${count("vocab-sentence")} vocab-sentence, ${count("number-word")} number-word, ${count("number-sentence")} number-sentence, ${count("sound-word")} sound-word, ${count("dialogue-female")} dialogue-female, ${count("dialogue-male")} dialogue-male, ${count("proverb")} proverb)`,
 );

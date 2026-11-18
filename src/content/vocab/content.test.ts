@@ -9,9 +9,9 @@ describe("vocab content", () => {
   it("has a valid catalog", () => {
     expect(validateVocabCatalog(VOCAB_LEVELS)).toEqual([]);
   });
-  it("has 7 topics in Getting Started and 8 in every other level, 10 words each (390 words)", () => {
+  it("has 7 topics in Getting Started, 9 in Mastery and 8 in every other level, 10 words each (400 words)", () => {
     expect(validateVocabCatalog(VOCAB_LEVELS, { complete: true })).toEqual([]);
-    expect(allVocabWords()).toHaveLength(390);
+    expect(allVocabWords()).toHaveLength(400);
   });
   for (const level of VOCAB_LEVELS) {
     for (const topic of level.topics) {

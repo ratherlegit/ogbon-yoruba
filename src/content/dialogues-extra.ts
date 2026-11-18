@@ -28,6 +28,16 @@ const W = (y: string, e: string) => line("Wálé", "male", y, e);
 const I = (y: string, e: string) => line("Ìfẹ́", "female", y, e);
 const Q = (y: string, e: string) => line("Àkàndé", "male", y, e);
 
+// Beginner, school: Fọláké and Rótìmí
+const FO = (y: string, e: string) => line("Fọláké", "female", y, e);
+const RO = (y: string, e: string) => line("Rótìmí", "male", y, e);
+// Intermediate, phones: Dúpẹ́ and Làmídì
+const DU = (y: string, e: string) => line("Dúpẹ́", "female", y, e);
+const LA = (y: string, e: string) => line("Làmídì", "male", y, e);
+// Mastery, hanging out: Ìbùkún and Ṣèyí
+const BU = (y: string, e: string) => line("Ìbùkún", "female", y, e);
+const SE = (y: string, e: string) => line("Ṣèyí", "male", y, e);
+
 export const EXTRA_DIALOGUES: Dialogue[] = [
   // ---------- Getting Started ----------
   {
@@ -532,5 +542,189 @@ export const EXTRA_DIALOGUES: Dialogue[] = [
     ],
     source: SOURCE, confidence: "needs-review",
     note: note("Check \"Kí o délé ní àlàáfíà\" (dé + ilé joined) against Mastery 1 and 5, \"n kò tíì rí takisí\" against Mastery 6, \"Ẹ má pẹ́\" against Advanced 7, and \"Mo máa bá ọ dúró\"."),
+  },
+  {
+    id: "b-whichbook", level: "beginner", situationId: "school", title: "Which book?",
+    setting: "Rótìmí cannot find his book, and his teacher Fọláké helps him.",
+    lines: [
+      RO("Ẹ jọ̀ọ́, ìwé mi kò sí níbí.", "Please, my book is not here."),
+      FO("Ìwé wo ni?", "Which book is it?"),
+      RO("Ìwé Yorùbá mi.", "My Yoruba book."),
+      FO("Èwo ni ìwé rẹ? Ṣé pupa ni?", "Which one is your book? Is it red?"),
+      RO("Bẹ́ẹ̀ ni, pupa ni.", "Yes, it is red."),
+      FO("Ó wà lórí tábìlì.", "It is on the table."),
+      RO("Ẹ ṣé.", "Thank you."),
+    ],
+    questions: [
+      { prompt: "What is Rótìmí looking for?", choices: ["His Yoruba book", "His English book", "His pen"], answer: "His Yoruba book" },
+      { prompt: "What colour is the book?", choices: ["Red", "Blue", "Green"], answer: "Red" },
+      { prompt: "Where is the book?", choices: ["On the table", "Under the table", "At home"], answer: "On the table" },
+    ],
+    source: SOURCE, confidence: "needs-review",
+    note: note("Check \"Ìwé wo ni\" and \"Èwo ni ìwé rẹ\" against Beginner 9, \"kò sí níbí\" against Beginner 6 and \"lórí tábìlì\" against Beginner 7."),
+  },
+  {
+    id: "b-whyabsent", level: "beginner", situationId: "school", title: "Why did you not come?",
+    setting: "Fọláké asks Rótìmí why he was not at school.",
+    lines: [
+      FO("Rótìmí, kílódé tí o kò wá?", "Rótìmí, why did you not come?"),
+      RO("Nítorí pé mo ń ṣiṣẹ́.", "Because I was working."),
+      FO("Ṣé o fẹ́ ìwé mi?", "Do you want my book?"),
+      RO("Bẹ́ẹ̀ ni. Ìwé wo ni?", "Yes. Which book?"),
+      FO("Ìwé Gẹ̀ẹ́sì.", "The English book."),
+      RO("Ẹ ṣé.", "Thank you."),
+    ],
+    questions: [
+      { prompt: "Why was Rótìmí not at school?", choices: ["He was working", "He was sleeping", "He was sick"], answer: "He was working" },
+      { prompt: "What does Fọláké offer him?", choices: ["Her book", "Her pen", "Her bread"], answer: "Her book" },
+      { prompt: "Which book is it?", choices: ["The English book", "The Yoruba book", "The maths book"], answer: "The English book" },
+    ],
+    source: SOURCE, confidence: "needs-review",
+    note: note("Check \"kílódé tí o kò wá\" and \"Nítorí pé mo ń ṣiṣẹ́\" against Beginner 9, and \"Ṣé o fẹ́ ìwé mi\" against Beginner 8."),
+  },
+  {
+    id: "b-gohome", level: "beginner", situationId: "school", title: "I want to go home",
+    setting: "Rótìmí feels hungry in class and asks his teacher to let him go home.",
+    lines: [
+      RO("Ẹ jọ̀ọ́, mo fẹ́ lọ sílé.", "Please, I want to go home."),
+      FO("Kílódé?", "Why?"),
+      RO("Nítorí pé n kò jẹun.", "Because I have not eaten."),
+      FO("Jókòó. Jẹ búrẹ́dì yìí.", "Sit down. Eat this bread."),
+      RO("Ẹ ṣé. Ṣé omi wà?", "Thank you. Is there water?"),
+      FO("Bẹ́ẹ̀ ni, omi wà.", "Yes, there is water."),
+    ],
+    questions: [
+      { prompt: "What does Rótìmí want to do?", choices: ["Go home", "Play", "Read"], answer: "Go home" },
+      { prompt: "Why does he want to go?", choices: ["He has not eaten", "He is tired", "He is late"], answer: "He has not eaten" },
+      { prompt: "What does the teacher give him?", choices: ["Bread", "Rice", "Fish"], answer: "Bread" },
+    ],
+    source: SOURCE, confidence: "needs-review",
+    note: note("Check \"Kílódé?\" against Beginner 9, \"Nítorí pé n kò jẹun\" (the n form before kò) against Beginner 2 and \"Ṣé omi wà\" against Beginner 6."),
+  },
+  {
+    id: "i-phonedead", level: "intermediate", situationId: "phones", title: "My phone has run out",
+    setting: "Làmídì's phone battery has run out, and his friend Dúpẹ́ helps him.",
+    lines: [
+      LA("Dúpẹ́, phone mi ti tán.", "Dúpẹ́, my phone has run out."),
+      DU("Ṣé o ní charger?", "Do you have a charger?"),
+      LA("Rárá, n kò ní charger.", "No, I do not have a charger."),
+      DU("Mo ní ọ̀kan nílé mi.", "I have one at my house."),
+      LA("Ṣé mo lè wá?", "Can I come?"),
+      DU("Bẹ́ẹ̀ ni, jẹ́ ká lọ.", "Yes, let's go."),
+      LA("Mo fẹ́ pe ìyá mi, ṣùgbọ́n phone mi ti tán.", "I want to call my mother, but my phone has run out."),
+      DU("Ó dáa, o lè pe é nílé mi.", "It is fine, you can call her at my house."),
+    ],
+    questions: [
+      { prompt: "What is wrong with Làmídì's phone?", choices: ["It has run out of battery", "It is lost", "It is broken"], answer: "It has run out of battery" },
+      { prompt: "Where is Dúpẹ́'s charger?", choices: ["At her house", "In her bag", "At the office"], answer: "At her house" },
+      { prompt: "Who does Làmídì want to call?", choices: ["His mother", "His father", "His friend"], answer: "His mother" },
+    ],
+    source: SOURCE, confidence: "needs-review",
+    note: note("Check the mixed English words (phone, charger) against Intermediate 12, \"phone mi ti tán\" against Intermediate 1 and 2, \"jẹ́ ká lọ\" against Intermediate 8 and \"Ṣé mo lè wá\" against Advanced 6."),
+  },
+  {
+    id: "i-movie", level: "intermediate", situationId: "phones", title: "Let's watch a movie",
+    setting: "Dúpẹ́ and Làmídì plan an evening in front of the screen.",
+    lines: [
+      DU("Làmídì, jẹ́ ká wo movie.", "Làmídì, let's watch a movie."),
+      LA("Movie wo ni?", "Which movie?"),
+      DU("Movie Yorùbá tuntun.", "A new Yoruba movie."),
+      LA("Ṣé o ti ra data?", "Have you bought data?"),
+      DU("Mo ti ra data díẹ̀.", "I have bought a little data."),
+      LA("Jẹ́ kí n ra data púpọ̀.", "Let me buy a lot of data."),
+      DU("Ó dára. Àwọn ọ̀rẹ́ wa ń wá.", "Good. Our friends are coming."),
+      LA("Ó yá, jẹ́ ká wò ó.", "Okay, let's watch it."),
+    ],
+    questions: [
+      { prompt: "What do they want to do?", choices: ["Watch a movie", "Play football", "Cook"], answer: "Watch a movie" },
+      { prompt: "What does Làmídì ask Dúpẹ́?", choices: ["If she has bought data", "If she has eaten", "If she has a phone"], answer: "If she has bought data" },
+      { prompt: "Who is coming?", choices: ["Their friends", "Their teacher", "Their mothers"], answer: "Their friends" },
+    ],
+    source: SOURCE, confidence: "needs-review",
+    note: note("Check \"Movie wo ni\" and the mixed English words (movie, data) against Beginner 9 and Intermediate 12, \"jẹ́ ká wo\" and \"Jẹ́ kí n ra\" against Intermediate 8, \"data díẹ̀\" and \"data púpọ̀\" against Intermediate 10, and \"wò ó\" (watch it)."),
+  },
+  {
+    id: "i-helpbags", level: "intermediate", situationId: "phones", title: "Let me help you",
+    setting: "Dúpẹ́ sees Làmídì with a lot of bags and offers to help.",
+    lines: [
+      DU("Làmídì, jẹ́ kí n ràn ọ́ lọ́wọ́.", "Làmídì, let me help you."),
+      LA("Ẹ ṣé. Mo ní àpò púpọ̀.", "Thank you. I have many bags."),
+      DU("Àpò wo ni mo máa gbé?", "Which bag shall I carry?"),
+      LA("Gbé àpò pupa yẹn.", "Carry that red bag."),
+      DU("Ṣé gbogbo àwọn àpò yìí ni tìrẹ?", "Are all these bags yours?"),
+      LA("Rárá, díẹ̀ ni tèmi.", "No, only a few are mine."),
+      DU("Ó yá. Jẹ́ ká lọ.", "Okay. Let's go."),
+      LA("Ẹ ṣé o.", "Thank you."),
+    ],
+    questions: [
+      { prompt: "What does Dúpẹ́ offer to do?", choices: ["Help carry the bags", "Buy a bag", "Call a taxi"], answer: "Help carry the bags" },
+      { prompt: "Which bag does she carry?", choices: ["The red one", "The big one", "The new one"], answer: "The red one" },
+      { prompt: "Are all the bags Làmídì's?", choices: ["No, only a few", "Yes, all of them", "None of them"], answer: "No, only a few" },
+    ],
+    source: SOURCE, confidence: "needs-review",
+    note: note("Check \"jẹ́ kí n ràn ọ́ lọ́wọ́\" against Intermediate 8, \"Àpò wo ni\" against Beginner 9, \"gbogbo àwọn àpò\" and \"díẹ̀ ni tèmi\" against Intermediate 10, and \"tìrẹ\" and \"tèmi\" against Intermediate 2."),
+  },
+  {
+    id: "m-letsgo", level: "mastery", situationId: "hangingout", title: "Okay, let's go",
+    setting: "Two friends decide to eat before they go out.",
+    lines: [
+      SE("Ìbùkún, ṣé o ti jẹun?", "Ìbùkún, have you eaten?"),
+      BU("Rárá, n kò tíì jẹun.", "No, I have not eaten yet."),
+      SE("Ó yá, jẹ́ ká jẹun, ká sì lọ.", "Okay, let's eat and then go."),
+      BU("Kò sí wàhálà. Mo fẹ́ jẹ ẹja, ṣé o gbọ́?", "No problem. I want to eat fish, you hear?"),
+      SE("Ṣebí o kò fẹ́ràn ẹja?", "Don't you dislike fish?"),
+      BU("Mo fẹ́ràn rẹ̀ báyìí o.", "I like it now o."),
+      SE("Ó dáa. Èmi náà fẹ́ jẹ ẹja.", "Fine. I want to eat fish too."),
+      BU("Ó yá o. Jẹ́ ká lọ.", "Okay o. Let's go."),
+    ],
+    questions: [
+      { prompt: "Has Ìbùkún eaten?", choices: ["Not yet", "Yes", "She does not say"], answer: "Not yet" },
+      { prompt: "What does she want to eat?", choices: ["Fish", "Rice", "Bread"], answer: "Fish" },
+      { prompt: "Who else wants fish?", choices: ["Ṣèyí", "Nobody", "Her mother"], answer: "Ṣèyí" },
+    ],
+    source: SOURCE, confidence: "needs-review",
+    note: note("Check the casual phrases \"Ó yá\", \"Kò sí wàhálà\", \"ṣé o gbọ́\", \"Ṣebí\" and the closing o against Mastery 8, \"n kò tíì jẹun\" against Mastery 6 and \"Èmi náà\" against Advanced 8."),
+  },
+  {
+    id: "m-maybe", level: "mastery", situationId: "hangingout", title: "Maybe it will rain",
+    setting: "The friends plan to meet tomorrow, but the weather is uncertain.",
+    lines: [
+      BU("Ṣèyí, ṣé o máa wá lọ́la?", "Ṣèyí, will you come tomorrow?"),
+      SE("Bóyá. Bóyá òjò máa rọ̀.", "Maybe. Maybe it will rain."),
+      BU("Òjò? N kò mọ̀ bóyá ó máa rọ̀.", "Rain? I do not know whether it will rain."),
+      SE("Bí òjò bá rọ̀, n kò lè wá.", "If it rains, I cannot come."),
+      BU("Ìbá ṣe pé a ní ọkọ̀.", "If only we had a car."),
+      SE("Bẹ́ẹ̀ ni. Ṣé o mọ̀ bóyá ọkọ̀ wà?", "Yes. Do you know whether there is transport?"),
+      BU("N kò mọ̀. Bóyá ó wà.", "I do not know. Maybe there is."),
+      SE("Ó yá. A máa rí lọ́la.", "Okay. We will see tomorrow."),
+    ],
+    questions: [
+      { prompt: "What might happen tomorrow?", choices: ["It might rain", "It might be sunny", "There might be no school"], answer: "It might rain" },
+      { prompt: "What does Ìbùkún wish they had?", choices: ["A car", "A phone", "A house"], answer: "A car" },
+      { prompt: "What do they decide?", choices: ["To see tomorrow", "To cancel", "To go today"], answer: "To see tomorrow" },
+    ],
+    source: SOURCE, confidence: "needs-review",
+    note: note("Check \"Bóyá\", \"N kò mọ̀ bóyá\" and \"Ìbá ṣe pé\" against Mastery 7 (the most doubtful forms in the course), \"Bí òjò bá rọ̀\" against Mastery 3 and \"n kò lè wá\" against Advanced 6."),
+  },
+  {
+    id: "m-leftearly", level: "mastery", situationId: "hangingout", title: "Gone without a word",
+    setting: "A friend left the party without telling anyone.",
+    lines: [
+      BU("Ṣèyí, Dayọ̀ ti lọ.", "Ṣèyí, Dayọ̀ has gone."),
+      SE("Ó lọ láì sọ̀rọ̀?", "He left without speaking?"),
+      BU("Bẹ́ẹ̀ ni. Ó tún lọ láì jẹun.", "Yes. He left again without eating."),
+      SE("Bóyá ó ń ṣiṣẹ́.", "Maybe he is working."),
+      BU("Bóyá. Ṣùgbọ́n kò tíì pe mí.", "Maybe. But he has not called me yet."),
+      SE("Kò sí wàhálà. Ó máa pe ọ́.", "No problem. He will call you."),
+      BU("Ìbá ṣe pé ó pe mi báyìí.", "If only he called me now."),
+      SE("Ó yá. Èmi náà máa pe é.", "Okay. I will call him too."),
+    ],
+    questions: [
+      { prompt: "What did Dayọ̀ do?", choices: ["Left without saying anything", "Stayed late", "Brought food"], answer: "Left without saying anything" },
+      { prompt: "What does Ṣèyí think Dayọ̀ might be doing?", choices: ["Working", "Sleeping", "Travelling"], answer: "Working" },
+      { prompt: "What will Ṣèyí do?", choices: ["Call Dayọ̀ too", "Wait at home", "Go to bed"], answer: "Call Dayọ̀ too" },
+    ],
+    source: SOURCE, confidence: "needs-review",
+    note: note("Check \"láì sọ̀rọ̀\" and \"láì jẹun\" against Advanced 9, \"tún lọ\" against Advanced 8, \"kò tíì pe mí\" against Mastery 6 and \"Ìbá ṣe pé\" against Mastery 7."),
   },
 ];

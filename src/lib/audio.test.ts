@@ -9,7 +9,8 @@ import { MINIMAL_PAIRS, SOUNDS } from "@/content/sounds";
 import { CONSONANT_SETS, TONE_COMPARE } from "@/content/sound-focus";
 import { NUMBERS, PHRASES } from "@/content/numbers";
 import { DIALOGUES } from "@/content/dialogues";
-import { collectAudioStrings, collectDialogueAudioStrings, collectNumbersAudioStrings, collectSoundAudioStrings, collectVocabAudioStrings } from "./audio-strings";
+import { PROVERBS } from "@/content/proverbs";
+import { collectAudioStrings, collectDialogueAudioStrings, collectNumbersAudioStrings, collectProverbAudioStrings, collectSoundAudioStrings, collectVocabAudioStrings } from "./audio-strings";
 
 describe("audioKey", () => {
   it("lowercases and trims", () => {
@@ -56,8 +57,8 @@ describe("audio matches lesson content", () => {
     expect(file, `no manifest entry for "${key}"`).toBeTruthy();
     expect(existsSync(join("public", "audio", file!)), `missing public/audio/${file}`).toBe(true);
   });
-  it("has no manifest entries without a lesson, vocab, numbers, sound or dialogue string", () => {
-    const keys = new Set([...strings, ...collectVocabAudioStrings(VOCAB_LEVELS), ...collectNumbersAudioStrings(NUMBERS, PHRASES), ...collectSoundAudioStrings(SOUNDS, MINIMAL_PAIRS, TONE_COMPARE, CONSONANT_SETS), ...collectDialogueAudioStrings(DIALOGUES)].map((s) => s.key));
+  it("has no manifest entries without a lesson, vocab, numbers, sound, dialogue or proverb string", () => {
+    const keys = new Set([...strings, ...collectVocabAudioStrings(VOCAB_LEVELS), ...collectNumbersAudioStrings(NUMBERS, PHRASES), ...collectSoundAudioStrings(SOUNDS, MINIMAL_PAIRS, TONE_COMPARE, CONSONANT_SETS), ...collectDialogueAudioStrings(DIALOGUES), ...collectProverbAudioStrings(PROVERBS)].map((s) => s.key));
     expect(Object.keys(manifest).filter((k) => !keys.has(k))).toEqual([]);
   });
 });
@@ -127,5 +128,14 @@ describe("audio matches dialogue content", () => {
       const female = files[s.key.slice("male|".length)];
       if (female) expect(files[s.key], s.text).not.toBe(female);
     }
+  });
+});
+
+describe("audio matches proverb content", () => {
+  const proverbs = collectProverbAudioStrings(PROVERBS);
+  const files = manifest as Record<string, string>;
+  it.each(proverbs.map((s) => [s.text, s.key] as const))("has a manifest entry and file for %s (run npm run audio:generate if this fails)", (_text, key) => {
+    expect(files[key], `no manifest entry for "${key}"`).toBeTruthy();
+    expect(existsSync(join("public", "audio", files[key]!)), `missing public/audio/${files[key]}`).toBe(true);
   });
 });

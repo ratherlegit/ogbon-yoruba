@@ -1030,6 +1030,51 @@
     "group": "grammar"
   },
   {
+    "key": "ìwé wo ni",
+    "text": "Ìwé wo ni",
+    "group": "grammar"
+  },
+  {
+    "key": "èwo ni ìwé rẹ",
+    "text": "Èwo ni ìwé rẹ",
+    "group": "grammar"
+  },
+  {
+    "key": "kílódé",
+    "text": "Kílódé",
+    "group": "grammar"
+  },
+  {
+    "key": "kílódé tí o kò wá",
+    "text": "Kílódé tí o kò wá",
+    "group": "grammar"
+  },
+  {
+    "key": "nítorí pé mo ń ṣiṣẹ́",
+    "text": "Nítorí pé mo ń ṣiṣẹ́",
+    "group": "grammar"
+  },
+  {
+    "key": "ìwé wo",
+    "text": "Ìwé wo",
+    "group": "grammar"
+  },
+  {
+    "key": "ilé wo",
+    "text": "Ilé wo",
+    "group": "grammar"
+  },
+  {
+    "key": "ọmọ wo",
+    "text": "Ọmọ wo",
+    "group": "grammar"
+  },
+  {
+    "key": "èwo ni o fẹ́",
+    "text": "Èwo ni o fẹ́",
+    "group": "grammar"
+  },
+  {
     "key": "mo ti jẹun",
     "text": "Mo ti jẹun",
     "group": "grammar"
@@ -1295,11 +1340,6 @@
     "group": "grammar"
   },
   {
-    "key": "ìwé wo",
-    "text": "Ìwé wo",
-    "group": "grammar"
-  },
-  {
     "key": "ọkùnrin",
     "text": "ọkùnrin",
     "group": "grammar"
@@ -1332,16 +1372,6 @@
   {
     "key": "gíga",
     "text": "gíga",
-    "group": "grammar"
-  },
-  {
-    "key": "ilé wo",
-    "text": "Ilé wo?",
-    "group": "grammar"
-  },
-  {
-    "key": "ọmọ wo",
-    "text": "Ọmọ wo?",
     "group": "grammar"
   },
   {
@@ -1517,6 +1547,246 @@
   {
     "key": "n kò gbọ́dọ̀ lọ",
     "text": "N kò gbọ́dọ̀ lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "jẹ́ kí n lọ",
+    "text": "Jẹ́ kí n lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "jẹ́ kí ó wá",
+    "text": "Jẹ́ kí ó wá",
+    "group": "grammar"
+  },
+  {
+    "key": "jẹ́ ká lọ",
+    "text": "Jẹ́ ká lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "jẹ́ ká jẹun",
+    "text": "Jẹ́ ká jẹun",
+    "group": "grammar"
+  },
+  {
+    "key": "jẹ́ kí n jẹun",
+    "text": "Jẹ́ kí n jẹun",
+    "group": "grammar"
+  },
+  {
+    "key": "jẹ́ kí n kà ìwé",
+    "text": "Jẹ́ kí n kà ìwé",
+    "group": "grammar"
+  },
+  {
+    "key": "jẹ́ kí ó sùn",
+    "text": "Jẹ́ kí ó sùn",
+    "group": "grammar"
+  },
+  {
+    "key": "jẹ́ kí wọ́n lọ",
+    "text": "Jẹ́ kí wọ́n lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "ọmọ kejì",
+    "text": "ọmọ kejì",
+    "group": "grammar"
+  },
+  {
+    "key": "ọmọ kẹta",
+    "text": "ọmọ kẹta",
+    "group": "grammar"
+  },
+  {
+    "key": "ọmọ kìíní",
+    "text": "ọmọ kìíní",
+    "group": "grammar"
+  },
+  {
+    "key": "ọmọ méjì",
+    "text": "ọmọ méjì",
+    "group": "grammar"
+  },
+  {
+    "key": "kìíní",
+    "text": "kìíní",
+    "group": "grammar"
+  },
+  {
+    "key": "kejì",
+    "text": "kejì",
+    "group": "grammar"
+  },
+  {
+    "key": "kẹta",
+    "text": "kẹta",
+    "group": "grammar"
+  },
+  {
+    "key": "kẹrin",
+    "text": "kẹrin",
+    "group": "grammar"
+  },
+  {
+    "key": "karùn-ún",
+    "text": "karùn-ún",
+    "group": "grammar"
+  },
+  {
+    "key": "kẹfà",
+    "text": "kẹfà",
+    "group": "grammar"
+  },
+  {
+    "key": "keje",
+    "text": "keje",
+    "group": "grammar"
+  },
+  {
+    "key": "kẹjọ",
+    "text": "kẹjọ",
+    "group": "grammar"
+  },
+  {
+    "key": "kẹsàn-án",
+    "text": "kẹsàn-án",
+    "group": "grammar"
+  },
+  {
+    "key": "kẹwàá",
+    "text": "kẹwàá",
+    "group": "grammar"
+  },
+  {
+    "key": "gbogbo ọmọ",
+    "text": "gbogbo ọmọ",
+    "group": "grammar"
+  },
+  {
+    "key": "ọ̀pọ̀ èèyàn",
+    "text": "ọ̀pọ̀ èèyàn",
+    "group": "grammar"
+  },
+  {
+    "key": "ọ̀rẹ́ púpọ̀",
+    "text": "ọ̀rẹ́ púpọ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "owó díẹ̀",
+    "text": "owó díẹ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "àwọn ọmọ kan",
+    "text": "àwọn ọmọ kan",
+    "group": "grammar"
+  },
+  {
+    "key": "owó púpọ̀",
+    "text": "owó púpọ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "ìwé díẹ̀",
+    "text": "ìwé díẹ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "ọ̀pọ̀ ọ̀rẹ́",
+    "text": "ọ̀pọ̀ ọ̀rẹ́",
+    "group": "grammar"
+  },
+  {
+    "key": "mo ní ọ̀rẹ́ púpọ̀",
+    "text": "Mo ní ọ̀rẹ́ púpọ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "mo fẹ́ràn ara mi",
+    "text": "Mo fẹ́ràn ara mi",
+    "group": "grammar"
+  },
+  {
+    "key": "ó kọ́ ara rẹ̀ ní yorùbá",
+    "text": "Ó kọ́ ara rẹ̀ ní Yorùbá",
+    "group": "grammar"
+  },
+  {
+    "key": "ṣe ara rẹ nílé",
+    "text": "Ṣe ara rẹ nílé",
+    "group": "grammar"
+  },
+  {
+    "key": "ara mi kò yá",
+    "text": "Ara mi kò yá",
+    "group": "grammar"
+  },
+  {
+    "key": "ara mi",
+    "text": "ara mi",
+    "group": "grammar"
+  },
+  {
+    "key": "ara rẹ",
+    "text": "ara rẹ",
+    "group": "grammar"
+  },
+  {
+    "key": "ara rẹ̀",
+    "text": "ara rẹ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "ara wa",
+    "text": "ara wa",
+    "group": "grammar"
+  },
+  {
+    "key": "ara yín",
+    "text": "ara yín",
+    "group": "grammar"
+  },
+  {
+    "key": "ara wọn",
+    "text": "ara wọn",
+    "group": "grammar"
+  },
+  {
+    "key": "mo wà ní office",
+    "text": "Mo wà ní office",
+    "group": "grammar"
+  },
+  {
+    "key": "mo ń wo movie",
+    "text": "Mo ń wo movie",
+    "group": "grammar"
+  },
+  {
+    "key": "phone mi ti tán",
+    "text": "Phone mi ti tán",
+    "group": "grammar"
+  },
+  {
+    "key": "kò sí network",
+    "text": "Kò sí network",
+    "group": "grammar"
+  },
+  {
+    "key": "àwọn friends mi ń wá",
+    "text": "Àwọn friends mi ń wá",
+    "group": "grammar"
+  },
+  {
+    "key": "ṣé o ti ra data",
+    "text": "Ṣé o ti ra data",
+    "group": "grammar"
+  },
+  {
+    "key": "mo ń charge phone mi",
+    "text": "Mo ń charge phone mi",
     "group": "grammar"
   },
   {
@@ -1920,6 +2190,71 @@
     "group": "grammar"
   },
   {
+    "key": "mo tún lọ",
+    "text": "Mo tún lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "ó tún wá",
+    "text": "Ó tún wá",
+    "group": "grammar"
+  },
+  {
+    "key": "èmi náà fẹ́ lọ",
+    "text": "Èmi náà fẹ́ lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "òun náà ń ṣiṣẹ́",
+    "text": "Òun náà ń ṣiṣẹ́",
+    "group": "grammar"
+  },
+  {
+    "key": "mo tún kà á",
+    "text": "Mo tún kà á",
+    "group": "grammar"
+  },
+  {
+    "key": "tún ṣe é",
+    "text": "Tún ṣe é",
+    "group": "grammar"
+  },
+  {
+    "key": "èmi náà",
+    "text": "Èmi náà",
+    "group": "grammar"
+  },
+  {
+    "key": "ìwọ náà",
+    "text": "Ìwọ náà",
+    "group": "grammar"
+  },
+  {
+    "key": "ó lọ láì jẹun",
+    "text": "Ó lọ láì jẹun",
+    "group": "grammar"
+  },
+  {
+    "key": "mo sùn láì jẹun",
+    "text": "Mo sùn láì jẹun",
+    "group": "grammar"
+  },
+  {
+    "key": "ó wá láì sọ̀rọ̀",
+    "text": "Ó wá láì sọ̀rọ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "mo wá láìsí owó",
+    "text": "Mo wá láìsí owó",
+    "group": "grammar"
+  },
+  {
+    "key": "ó jáde láìsí ìwé",
+    "text": "Ó jáde láìsí ìwé",
+    "group": "grammar"
+  },
+  {
     "key": "nílé",
     "text": "nílé",
     "group": "grammar"
@@ -2282,6 +2617,71 @@
   {
     "key": "rárá n kò tíì jẹun",
     "text": "Rárá, n kò tíì jẹun",
+    "group": "grammar"
+  },
+  {
+    "key": "bóyá ó wà ní ilé",
+    "text": "Bóyá ó wà ní ilé",
+    "group": "grammar"
+  },
+  {
+    "key": "bóyá òjò máa rọ̀",
+    "text": "Bóyá òjò máa rọ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "n kò mọ̀ bóyá ó wà ní ilé",
+    "text": "N kò mọ̀ bóyá ó wà ní ilé",
+    "group": "grammar"
+  },
+  {
+    "key": "ìbá ṣe pé mo mọ̀",
+    "text": "Ìbá ṣe pé mo mọ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "bóyá ó ti lọ",
+    "text": "Bóyá ó ti lọ",
+    "group": "grammar"
+  },
+  {
+    "key": "ìbá ṣe pé ó wá",
+    "text": "Ìbá ṣe pé ó wá",
+    "group": "grammar"
+  },
+  {
+    "key": "pẹ̀lẹ́ o",
+    "text": "Pẹ̀lẹ́ o",
+    "group": "grammar"
+  },
+  {
+    "key": "ṣé o gbọ́",
+    "text": "Ṣé o gbọ́",
+    "group": "grammar"
+  },
+  {
+    "key": "ó yá",
+    "text": "Ó yá",
+    "group": "grammar"
+  },
+  {
+    "key": "kò sí wàhálà",
+    "text": "Kò sí wàhálà",
+    "group": "grammar"
+  },
+  {
+    "key": "ṣebí ìwọ ni",
+    "text": "Ṣebí ìwọ ni",
+    "group": "grammar"
+  },
+  {
+    "key": "ẹ ṣé o",
+    "text": "Ẹ ṣé o",
+    "group": "grammar"
+  },
+  {
+    "key": "ó dáa",
+    "text": "Ó dáa",
     "group": "grammar"
   },
   {
@@ -4147,6 +4547,60 @@
   {
     "key": "àsọyé",
     "text": "àsọyé",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "wàhálà",
+    "text": "wàhálà",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "pẹ̀lẹ́",
+    "text": "pẹ̀lẹ́",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ṣebí",
+    "text": "ṣebí",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "àbí",
+    "text": "àbí",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "jẹ́jẹ́",
+    "text": "jẹ́jẹ́",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "kúkú",
+    "text": "kúkú",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ó tó",
+    "text": "ó tó",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "ọ̀fẹ́",
+    "text": "ọ̀fẹ́",
+    "group": "vocab-word",
+    "level": "mastery"
+  },
+  {
+    "key": "gan-an",
+    "text": "gan-an",
     "group": "vocab-word",
     "level": "mastery"
   },
@@ -6491,6 +6945,66 @@
     "level": "mastery"
   },
   {
+    "key": "mo ní wàhálà púpọ̀ ní ibi iṣẹ́ lónìí",
+    "text": "Mo ní wàhálà púpọ̀ ní ibi iṣẹ́ lónìí.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "mo sọ pé pẹ̀lẹ́ nígbà tí mo gbọ́ pé ó ṣubú",
+    "text": "Mo sọ pé pẹ̀lẹ́ nígbà tí mo gbọ́ pé ó ṣubú.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ó ní kí a lọ mo sì dáhùn pé ó yá",
+    "text": "Ó ní kí a lọ, mo sì dáhùn pé, ó yá.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "mo mọ̀ pé ìwọ ni o pè mí lánàá ṣebí bẹ́ẹ̀ ni",
+    "text": "Mo mọ̀ pé ìwọ ni o pè mí lánàá, ṣebí bẹ́ẹ̀ ni?",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ṣé o fẹ́ jẹ ìrẹsì àbí o fẹ́ jẹ iṣu",
+    "text": "Ṣé o fẹ́ jẹ ìrẹsì, àbí o fẹ́ jẹ iṣu?",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ó ń rìn jẹ́jẹ́ nítorí ọmọ ń sùn",
+    "text": "Ó ń rìn jẹ́jẹ́ nítorí ọmọ ń sùn.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "mo kúkú mọ̀ ọ̀nà nítorí náà mo lọ nìkan",
+    "text": "Mo kúkú mọ̀ ọ̀nà, nítorí náà mo lọ nìkan.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ìrẹsì tí o fún mi ti pọ̀ jù ó tó",
+    "text": "Ìrẹsì tí o fún mi ti pọ̀ jù, ó tó.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "ó fún mi ní ìwé ní ọ̀fẹ́ n kò sì san owó",
+    "text": "Ó fún mi ní ìwé ní ọ̀fẹ́, n kò sì san owó.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
+    "key": "oúnjẹ yìí dùn gan-an mo sì fẹ́ jẹ òmíràn",
+    "text": "Oúnjẹ yìí dùn gan-an, mo sì fẹ́ jẹ òmíràn.",
+    "group": "vocab-sentence",
+    "level": "mastery"
+  },
+  {
     "key": "ọ̀kan",
     "text": "ọ̀kan",
     "group": "number-word"
@@ -6818,11 +7332,6 @@
   {
     "key": "ọmọ kan",
     "text": "ọmọ kan",
-    "group": "number-sentence"
-  },
-  {
-    "key": "ọmọ méjì",
-    "text": "ọmọ méjì",
     "group": "number-sentence"
   },
   {
@@ -7314,11 +7823,6 @@
     "key": "male|ẹ ṣé",
     "text": "Ẹ ṣé.",
     "group": "dialogue-male"
-  },
-  {
-    "key": "kò sí wàhálà",
-    "text": "Kò sí wàhálà.",
-    "group": "dialogue-female"
   },
   {
     "key": "male|ẹ jọ̀wọ́ ibo ni ilé ìwòsàn wà",
@@ -8414,5 +8918,445 @@
     "key": "àmín ó dàbọ̀",
     "text": "Àmín. Ó dàbọ̀.",
     "group": "dialogue-female"
+  },
+  {
+    "key": "male|ẹ jọ̀ọ́ ìwé mi kò sí níbí",
+    "text": "Ẹ jọ̀ọ́, ìwé mi kò sí níbí.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "male|ìwé yorùbá mi",
+    "text": "Ìwé Yorùbá mi.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "èwo ni ìwé rẹ ṣé pupa ni",
+    "text": "Èwo ni ìwé rẹ? Ṣé pupa ni?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni pupa ni",
+    "text": "Bẹ́ẹ̀ ni, pupa ni.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "rótìmí kílódé tí o kò wá",
+    "text": "Rótìmí, kílódé tí o kò wá?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|nítorí pé mo ń ṣiṣẹ́",
+    "text": "Nítorí pé mo ń ṣiṣẹ́.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé o fẹ́ ìwé mi",
+    "text": "Ṣé o fẹ́ ìwé mi?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni ìwé wo ni",
+    "text": "Bẹ́ẹ̀ ni. Ìwé wo ni?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ìwé gẹ̀ẹ́sì",
+    "text": "Ìwé Gẹ̀ẹ́sì.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ẹ jọ̀ọ́ mo fẹ́ lọ sílé",
+    "text": "Ẹ jọ̀ọ́, mo fẹ́ lọ sílé.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "male|nítorí pé n kò jẹun",
+    "text": "Nítorí pé n kò jẹun.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "jókòó jẹ búrẹ́dì yìí",
+    "text": "Jókòó. Jẹ búrẹ́dì yìí.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ẹ ṣé ṣé omi wà",
+    "text": "Ẹ ṣé. Ṣé omi wà?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "bẹ́ẹ̀ ni omi wà",
+    "text": "Bẹ́ẹ̀ ni, omi wà.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|dúpẹ́ phone mi ti tán",
+    "text": "Dúpẹ́, phone mi ti tán.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé o ní charger",
+    "text": "Ṣé o ní charger?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|rárá n kò ní charger",
+    "text": "Rárá, n kò ní charger.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "mo ní ọ̀kan nílé mi",
+    "text": "Mo ní ọ̀kan nílé mi.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ṣé mo lè wá",
+    "text": "Ṣé mo lè wá?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "bẹ́ẹ̀ ni jẹ́ ká lọ",
+    "text": "Bẹ́ẹ̀ ni, jẹ́ ká lọ.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|mo fẹ́ pe ìyá mi ṣùgbọ́n phone mi ti tán",
+    "text": "Mo fẹ́ pe ìyá mi, ṣùgbọ́n phone mi ti tán.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó dáa o lè pe é nílé mi",
+    "text": "Ó dáa, o lè pe é nílé mi.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "làmídì jẹ́ ká wo movie",
+    "text": "Làmídì, jẹ́ ká wo movie.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|movie wo ni",
+    "text": "Movie wo ni?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "movie yorùbá tuntun",
+    "text": "Movie Yorùbá tuntun.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ṣé o ti ra data",
+    "text": "Ṣé o ti ra data?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "mo ti ra data díẹ̀",
+    "text": "Mo ti ra data díẹ̀.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|jẹ́ kí n ra data púpọ̀",
+    "text": "Jẹ́ kí n ra data púpọ̀.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó dára àwọn ọ̀rẹ́ wa ń wá",
+    "text": "Ó dára. Àwọn ọ̀rẹ́ wa ń wá.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó yá jẹ́ ká wò ó",
+    "text": "Ó yá, jẹ́ ká wò ó.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "làmídì jẹ́ kí n ràn ọ́ lọ́wọ́",
+    "text": "Làmídì, jẹ́ kí n ràn ọ́ lọ́wọ́.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ẹ ṣé mo ní àpò púpọ̀",
+    "text": "Ẹ ṣé. Mo ní àpò púpọ̀.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "àpò wo ni mo máa gbé",
+    "text": "Àpò wo ni mo máa gbé?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|gbé àpò pupa yẹn",
+    "text": "Gbé àpò pupa yẹn.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣé gbogbo àwọn àpò yìí ni tìrẹ",
+    "text": "Ṣé gbogbo àwọn àpò yìí ni tìrẹ?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|rárá díẹ̀ ni tèmi",
+    "text": "Rárá, díẹ̀ ni tèmi.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó yá jẹ́ ká lọ",
+    "text": "Ó yá. Jẹ́ ká lọ.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ẹ ṣé o",
+    "text": "Ẹ ṣé o.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "male|ìbùkún ṣé o ti jẹun",
+    "text": "Ìbùkún, ṣé o ti jẹun?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "male|ó yá jẹ́ ká jẹun ká sì lọ",
+    "text": "Ó yá, jẹ́ ká jẹun, ká sì lọ.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "kò sí wàhálà mo fẹ́ jẹ ẹja ṣé o gbọ́",
+    "text": "Kò sí wàhálà. Mo fẹ́ jẹ ẹja, ṣé o gbọ́?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ṣebí o kò fẹ́ràn ẹja",
+    "text": "Ṣebí o kò fẹ́ràn ẹja?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "mo fẹ́ràn rẹ̀ báyìí o",
+    "text": "Mo fẹ́ràn rẹ̀ báyìí o.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó dáa èmi náà fẹ́ jẹ ẹja",
+    "text": "Ó dáa. Èmi náà fẹ́ jẹ ẹja.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ó yá o jẹ́ ká lọ",
+    "text": "Ó yá o. Jẹ́ ká lọ.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "ṣèyí ṣé o máa wá lọ́la",
+    "text": "Ṣèyí, ṣé o máa wá lọ́la?",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bóyá bóyá òjò máa rọ̀",
+    "text": "Bóyá. Bóyá òjò máa rọ̀.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "òjò n kò mọ̀ bóyá ó máa rọ̀",
+    "text": "Òjò? N kò mọ̀ bóyá ó máa rọ̀.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bí òjò bá rọ̀ n kò lè wá",
+    "text": "Bí òjò bá rọ̀, n kò lè wá.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ìbá ṣe pé a ní ọkọ̀",
+    "text": "Ìbá ṣe pé a ní ọkọ̀.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bẹ́ẹ̀ ni ṣé o mọ̀ bóyá ọkọ̀ wà",
+    "text": "Bẹ́ẹ̀ ni. Ṣé o mọ̀ bóyá ọkọ̀ wà?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "n kò mọ̀ bóyá ó wà",
+    "text": "N kò mọ̀. Bóyá ó wà.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó yá a máa rí lọ́la",
+    "text": "Ó yá. A máa rí lọ́la.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ṣèyí dayọ̀ ti lọ",
+    "text": "Ṣèyí, Dayọ̀ ti lọ.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó lọ láì sọ̀rọ̀",
+    "text": "Ó lọ láì sọ̀rọ̀?",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "bẹ́ẹ̀ ni ó tún lọ láì jẹun",
+    "text": "Bẹ́ẹ̀ ni. Ó tún lọ láì jẹun.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|bóyá ó ń ṣiṣẹ́",
+    "text": "Bóyá ó ń ṣiṣẹ́.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "bóyá ṣùgbọ́n kò tíì pe mí",
+    "text": "Bóyá. Ṣùgbọ́n kò tíì pe mí.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|kò sí wàhálà ó máa pe ọ́",
+    "text": "Kò sí wàhálà. Ó máa pe ọ́.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "ìbá ṣe pé ó pe mi báyìí",
+    "text": "Ìbá ṣe pé ó pe mi báyìí.",
+    "group": "dialogue-female"
+  },
+  {
+    "key": "male|ó yá èmi náà máa pe é",
+    "text": "Ó yá. Èmi náà máa pe é.",
+    "group": "dialogue-male"
+  },
+  {
+    "key": "àìsí-ńlé ẹkùn ajá ń gbó",
+    "text": "Àìsí-ńlé ẹkùn, ajá ń gbó.",
+    "group": "proverb"
+  },
+  {
+    "key": "ajá kì í rorò kó ṣọ́ ojúlé méjì",
+    "text": "Ajá kì í rorò kó ṣọ́ ojúlé méjì.",
+    "group": "proverb"
+  },
+  {
+    "key": "àjò kì í dùn kónílé má relé",
+    "text": "Àjò kì í dùn kónílé má relé.",
+    "group": "proverb"
+  },
+  {
+    "key": "bí agbada ò bá gbóná àgbàdo ò lè ta",
+    "text": "Bí agbada ò bá gbóná, àgbàdo ò lè ta.",
+    "group": "proverb"
+  },
+  {
+    "key": "èpè la fi ń wo èpè sàn",
+    "text": "Èpè la fi ń wo èpè sàn.",
+    "group": "proverb"
+  },
+  {
+    "key": "ìṣe ènìyàn nìṣe ẹranko",
+    "text": "Ìṣe ènìyàn nìṣe ẹranko.",
+    "group": "proverb"
+  },
+  {
+    "key": "ká rìn ká pọ̀ yíyẹ ní ń yẹni",
+    "text": "Ká rìn ká pọ̀, yíyẹ ní ń yẹni.",
+    "group": "proverb"
+  },
+  {
+    "key": "omi tuntun ti rú ẹja tuntun ti wọ̀ ọ́",
+    "text": "Omi tuntun ti rú, ẹja tuntun ti wọ̀ ọ́.",
+    "group": "proverb"
+  },
+  {
+    "key": "ọbẹ̀ tó dùn owó ló pa á",
+    "text": "Ọbẹ̀ tó dùn, owó ló pa á.",
+    "group": "proverb"
+  },
+  {
+    "key": "ọ̀nà kan ò wọjà",
+    "text": "Ọ̀nà kan ò wọjà.",
+    "group": "proverb"
+  },
+  {
+    "key": "ṣágo ń búgò",
+    "text": "Ṣágo ń búgò.",
+    "group": "proverb"
+  },
+  {
+    "key": "sùúrù ni baba ìwà",
+    "text": "Sùúrù ni baba ìwà.",
+    "group": "proverb"
+  },
+  {
+    "key": "ìyá ni wúrà bàbá ni jígí",
+    "text": "Ìyá ni wúrà, bàbá ni jígí.",
+    "group": "proverb"
+  },
+  {
+    "key": "ọgbọ́n ju agbára lọ",
+    "text": "Ọgbọ́n ju agbára lọ.",
+    "group": "proverb"
+  },
+  {
+    "key": "ilé ọba tó jó ẹwà ló bù sí",
+    "text": "Ilé ọba tó jó, ẹwà ló bù sí.",
+    "group": "proverb"
+  },
+  {
+    "key": "àgbà kì í wà lójà kí orí ọmọ tuntun wọ́",
+    "text": "Àgbà kì í wà lójà kí orí ọmọ tuntun wọ́.",
+    "group": "proverb"
+  },
+  {
+    "key": "díẹ̀díẹ̀ ni imú ẹlẹ́dẹ̀ fi ń wọgbà",
+    "text": "Díẹ̀díẹ̀ ni imú ẹlẹ́dẹ̀ fi ń wọgbà.",
+    "group": "proverb"
+  },
+  {
+    "key": "à ń pe gbẹ́nàgbẹ́nà àkókó ń yọjú",
+    "text": "À ń pe gbẹ́nàgbẹ́nà, àkókó ń yọjú.",
+    "group": "proverb"
+  },
+  {
+    "key": "ọsán já ọ̀run dọ̀pá",
+    "text": "Ọsán já, ọ̀run dọ̀pá.",
+    "group": "proverb"
+  },
+  {
+    "key": "dì ẹ́ǹdì lòpin sinimá",
+    "text": "Dì ẹ́ǹdì lòpin sinimá.",
+    "group": "proverb"
+  },
+  {
+    "key": "òwe lẹ́ṣin ọ̀rọ̀ bí ọ̀rọ̀ bá sọnù òwe la fi ń wá a",
+    "text": "Òwe lẹ́ṣin ọ̀rọ̀; bí ọ̀rọ̀ bá sọnù, òwe la fi ń wá a.",
+    "group": "proverb"
+  },
+  {
+    "key": "bí ọmọdé bá ṣubú á wo iwájú bí àgbà bá ṣubú á wo ẹ̀yìn",
+    "text": "Bí ọmọdé bá ṣubú, á wo iwájú; bí àgbà bá ṣubú, á wo ẹ̀yìn.",
+    "group": "proverb"
+  },
+  {
+    "key": "ọmọdé gbọ́n àgbà gbọ́n la fi dá ilé-ifẹ̀",
+    "text": "Ọmọdé gbọ́n, àgbà gbọ́n, la fi dá Ilé-Ifẹ̀.",
+    "group": "proverb"
+  },
+  {
+    "key": "ọwọ́ ọmọdé kò tó pẹpẹ ti àgbà kò wọ kèrègbè",
+    "text": "Ọwọ́ ọmọdé kò tó pẹpẹ, ti àgbà kò wọ kèrègbè.",
+    "group": "proverb"
+  },
+  {
+    "key": "iṣẹ́ ni oògùn ìṣẹ́",
+    "text": "Iṣẹ́ ni oògùn ìṣẹ́.",
+    "group": "proverb"
+  },
+  {
+    "key": "ìwà lẹ̀wà ọmọ ènìyàn",
+    "text": "Ìwà lẹ̀wà ọmọ ènìyàn.",
+    "group": "proverb"
+  },
+  {
+    "key": "òní l'a rí ọba òkè l'ó rọ́la",
+    "text": "Òní l'a rí, ọba òkè l'ó rọ́la.",
+    "group": "proverb"
   }
 ]

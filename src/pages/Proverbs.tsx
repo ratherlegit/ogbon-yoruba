@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { AudioButton } from "@/components/AudioButton";
 import { ChoiceQuestion } from "@/components/ChoiceQuestion";
 import { Hero } from "@/components/Hero";
 import { useStats } from "@/hooks/useStats";
@@ -32,7 +33,7 @@ export function Proverbs({ proverbs = PROVERBS }: { proverbs?: Proverb[] }) {
           Proverb {index + 1} of {proverbs.length}
         </p>
         <section className="card proverb-card" data-testid="proverb-card" key={proverb.id}>
-          <p className="yo proverb-yoruba">{proverb.yoruba}</p>
+          <p className="yo proverb-yoruba">{proverb.yoruba} <AudioButton text={proverb.yoruba} /></p>
           <p className="proverb-literal">
             <span className="muted">Word for word</span>
             <span>{proverb.literal}</span>

@@ -33,12 +33,15 @@ export const SITUATIONS: Situation[] = [
   { id: "new-friends", level: "getting-started", title: "Chatting with a new friend", summary: "Talk about languages, family, what you like and where you are from." },
   { id: "market", level: "beginner", title: "At the market", summary: "Ask for food, say what you do not want, and talk about the price." },
   { id: "at-home", level: "beginner", title: "At home with a friend", summary: "Ask politely, say what there is, say where things are and what you want." },
+  { id: "school", level: "beginner", title: "At school", summary: "Ask which one and why, and ask your teacher for what you need." },
   { id: "getting-around", level: "intermediate", title: "Getting around", summary: "Ask where someone is going, ask the way, and take a bus." },
   { id: "errands", level: "intermediate", title: "Errands and plans", summary: "Buy what you need, find what you lost, and make plans." },
+  { id: "phones", level: "intermediate", title: "Phones and data", summary: "Talk about phones and plans the way friends mix Yoruba and English, and offer to help." },
   { id: "friends-home", level: "advanced", title: "Visiting a friend's home", summary: "Be welcomed, talk about family, and say goodbye." },
   { id: "work", level: "advanced", title: "At work", summary: "Help each other, pass on news, and say what not to worry about." },
   { id: "elder", level: "mastery", title: "Talking with an elder", summary: "Ask for advice, hear a proverb, and give thanks." },
   { id: "celebration", level: "mastery", title: "At a celebration", summary: "Give blessings, say what has or has not happened yet, and settle a quarrel." },
+  { id: "hangingout", level: "mastery", title: "Hanging out with friends", summary: "Use casual talk, maybe, if only, again and without." },
 ];
 
 const SOURCE = "Written by the author of this code for this site, using words and patterns from the level's lessons; no published source.";

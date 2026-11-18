@@ -1,7 +1,7 @@
 import type { LevelId } from "../types";
 import type { VocabPos, VocabTopic, VocabWord } from "./types";
 
-// More vocab topics, three per level. Each topic has ten words, and each example sentence carries a
+// More vocab topics, three per level (four in Mastery). Each topic has ten words, and each example sentence carries a
 // detail that only its own word fits, so a sibling word from the same topic cannot truthfully
 // complete the blank. All of the Yoruba, the tone marks and the sentences are the author's own
 // knowledge with no dictionary entry checked, so every word is needs-review.
@@ -224,5 +224,17 @@ export const moreMastery: VocabTopic[] = [
     ["ikini", "ìkíni", "greeting", "noun", "Ìkíni àwọn Yorùbá gùn, ó sì ní ọ̀nà púpọ̀.", "The Yoruba greeting is long and has many forms."],
     ["ikilo", "ìkìlọ̀", "warning", "noun", "Olùkọ́ fún wa ní ìkìlọ̀ pé kí a má pẹ́.", "The teacher gave us a warning that we must not be late."],
     ["asoye", "àsọyé", "speech, lecture", "noun", "Olóyè ṣe àsọyé níwájú gbogbo ènìyàn.", "The chief gave a speech before everyone."],
+  ]),
+  topic("m-casual", "mastery", "Casual and everyday talk", "Short words and phrases friends use in relaxed speech, with the tone of a chat rather than a lesson.", [
+    ["wahala", "wàhálà", "trouble, problem", "noun", "Mo ní wàhálà púpọ̀ ní ibi iṣẹ́ lónìí.", "I have a lot of trouble at work today.", "A very common word in casual speech, often in Kò sí wàhálà (no problem). Confirm the spelling and tones."],
+    ["pele", "pẹ̀lẹ́", "sorry, take it easy", "other", "Mo sọ pé pẹ̀lẹ́ nígbà tí mo gbọ́ pé ó ṣubú.", "I said sorry when I heard that he fell.", "Said to someone who is hurt, tired or has had bad luck. Confirm the tones."],
+    ["oya", "ó yá", "okay, let's go", "phrase", "Ó ní kí a lọ, mo sì dáhùn pé, ó yá.", "He said we should go, and I answered, okay.", "A casual reply. Confirm that it is Ó yá and the tones."],
+    ["sebi", "ṣebí", "isn't it so, right?", "other", "Mo mọ̀ pé ìwọ ni o pè mí lánàá, ṣebí bẹ́ẹ̀ ni?", "I know it was you who called me yesterday, right?", "Starts a question that expects yes. Confirm the tones and the word order."],
+    ["abi", "àbí", "or, or is it", "other", "Ṣé o fẹ́ jẹ ìrẹsì, àbí o fẹ́ jẹ iṣu?", "Do you want to eat rice, or do you want to eat yam?", "The casual form of or between two choices. Confirm the tones, and whether tàbí is preferred in careful speech."],
+    ["jeje", "jẹ́jẹ́", "gently, calmly", "adverb", "Ó ń rìn jẹ́jẹ́ nítorí ọmọ ń sùn.", "He walks gently because the child is sleeping.", "Confirm the tones."],
+    ["kuku", "kúkú", "actually, indeed, after all", "adverb", "Mo kúkú mọ̀ ọ̀nà, nítorí náà mo lọ nìkan.", "I actually know the way, so I went alone.", "A word that adds a note of after all. Confirm its use and tones."],
+    ["oto", "ó tó", "that is enough", "phrase", "Ìrẹsì tí o fún mi ti pọ̀ jù, ó tó.", "The rice you gave me is already too much, that is enough.", "Confirm Ó tó for enough, and the tones."],
+    ["ofe", "ọ̀fẹ́", "free, free of charge", "adjective", "Ó fún mi ní ìwé ní ọ̀fẹ́, n kò sì san owó.", "He gave me a book for free, and I did not pay any money.", "Confirm ní ọ̀fẹ́ and the tones."],
+    ["gan-an", "gan-an", "really, very", "adverb", "Oúnjẹ yìí dùn gan-an, mo sì fẹ́ jẹ òmíràn.", "This food is very tasty, and I want to eat another one.", "Used throughout the course after adjectives and verbs. Confirm òmíràn (another)."],
   ]),
 ];

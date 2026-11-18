@@ -32,13 +32,23 @@ import { m3 } from "./lessons/m-3";
 import { m4 } from "./lessons/m-4";
 import { m5 } from "./lessons/m-5";
 import { m6 } from "./lessons/m-6";
+import { b9 } from "./lessons/b-9";
+import { i8 } from "./lessons/i-8";
+import { i9 } from "./lessons/i-9";
+import { i10 } from "./lessons/i-10";
+import { i11 } from "./lessons/i-11";
+import { i12 } from "./lessons/i-12";
+import { a8 } from "./lessons/a-8";
+import { a9 } from "./lessons/a-9";
+import { m7 } from "./lessons/m-7";
+import { m8 } from "./lessons/m-8";
 
 export const LEVELS: Level[] = [
   { id: "getting-started", title: "Getting Started", summary: "Sounds, tones, greetings, and pronouns.", lessons: [gs1, gs2, gs3, gs4, gs5] },
-  { id: "beginner", title: "Beginner", summary: "Simple sentences, negation, and questions.", lessons: [b1, b2, b3, b4, b5, b6, b7, b8] },
-  { id: "intermediate", title: "Intermediate", summary: "Tense, possession, and building nouns.", lessons: [i1, i2, i3, i4, i5, i6, i7] },
-  { id: "advanced", title: "Advanced", summary: "Contraction, verbal nouns, and longer clauses.", lessons: [a1, a2, a3, a4, a5, a6, a7] },
-  { id: "mastery", title: "Mastery", summary: "Fused forms, focus, and proverbs.", lessons: [m1, m2, m3, m4, m5, m6] },
+  { id: "beginner", title: "Beginner", summary: "Simple sentences, negation, and questions.", lessons: [b1, b2, b3, b4, b5, b6, b7, b8, b9] },
+  { id: "intermediate", title: "Intermediate", summary: "Tense, possession, and building nouns.", lessons: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12] },
+  { id: "advanced", title: "Advanced", summary: "Contraction, verbal nouns, and longer clauses.", lessons: [a1, a2, a3, a4, a5, a6, a7, a8, a9] },
+  { id: "mastery", title: "Mastery", summary: "Fused forms, focus, and proverbs.", lessons: [m1, m2, m3, m4, m5, m6, m7, m8] },
 ];
 
 export const getLevel = (id: string): Level | undefined => LEVELS.find((l) => l.id === id);

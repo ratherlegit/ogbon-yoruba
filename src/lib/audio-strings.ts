@@ -4,6 +4,7 @@ import type { VocabLevel } from "@/content/vocab/types";
 import type { MinimalPair, Sound } from "@/content/sounds";
 import type { ConsonantSet, ToneCompareRow } from "@/content/sound-focus";
 import type { Dialogue } from "@/content/dialogues";
+import type { Proverb } from "@/content/proverbs";
 import { audioKey, voiceKey } from "./audio";
 
 // Pick answers that are English sentences or glossed fragments, not Yoruba speech.
@@ -126,4 +127,14 @@ export function collectDialogueAudioStrings(dialogues: Dialogue[]): { key: strin
     }
   }
   return [...seen].map(([key, v]) => ({ key, text: v.text, group: v.group }));
+}
+
+// Each proverb's Yoruba line, spoken in the default voice. Keyed by text, so it reuses any clip that already exists for the same words.
+export function collectProverbAudioStrings(proverbs: Proverb[]): { key: string; text: string; group: "proverb" }[] {
+  const seen = new Map<string, string>();
+  for (const p of proverbs) {
+    const key = audioKey(p.yoruba);
+    if ([...key].length > 1 && !seen.has(key)) seen.set(key, p.yoruba);
+  }
+  return [...seen].map(([key, text]) => ({ key, text, group: "proverb" as const }));
 }
