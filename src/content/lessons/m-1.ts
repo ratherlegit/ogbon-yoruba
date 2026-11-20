@@ -14,7 +14,7 @@ export const m1: Lesson = {
   ],
   primer: {
     rule: "Some words are so often said together that they are written as one word. Many start with ní (at, in) joined to a word for a place or a day.",
-    formula: "ní + ilé → nílé (at home); ní + ọ̀la → lọ́la (tomorrow); tí + ó → tó",
+    formula: "ní + ilé → nílé (at home); ní + ọ̀la → lọ́la (tomorrow); tí + ó → tó (who or that, with he or she)",
     tables: [
       {
         id: "fused-forms",

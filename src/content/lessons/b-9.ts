@@ -10,7 +10,7 @@ export const b9: Lesson = {
   ],
   primer: {
     rule: "Put wo after a noun to ask which one: ìwé wo, which book. Use èwo on its own for which one. Use kílódé to ask why, and answer with nítorí pé.",
-    formula: "noun + wo; èwo ni + noun; kílódé tí + clause?",
+    formula: "noun + wo (Which book is it?); èwo ni + noun (Which is your book?); kílódé tí + clause? (Why ...?)",
     tables: [
       {
         id: "which-and-why",

@@ -10,7 +10,7 @@ export const i11: Lesson = {
   ],
   primer: {
     rule: "Yoruba says myself with the word ara, body, and the owner after it: ara mi, my body, so myself. The same owner words as in ìwé mi follow ara.",
-    formula: "ara + owner: ara mi, ara rẹ, ara rẹ̀",
+    formula: "ara + owner (ara mi: myself, ara rẹ: yourself, ara rẹ̀: himself or herself)",
     tables: [
       {
         id: "ara-owners",

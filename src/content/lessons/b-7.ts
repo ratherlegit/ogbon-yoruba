@@ -10,7 +10,7 @@ export const b7: Lesson = {
   ],
   primer: {
     rule: "To say where someone or something is, use wà and then ní (at) with the place. To ask where, say níbo ni and end with wà.",
-    formula: "subject + wà + ní + place; Níbo ni + subject + wà?",
+    formula: "subject + wà + ní + place (I am at the market); Níbo ni + subject + wà? (Where is ...?)",
     tables: [
       {
         id: "places",
@@ -58,7 +58,7 @@ export const b7: Lesson = {
         title: "A place is not jẹ́",
         explanation: [
           "jẹ́ names what someone is: Mo jẹ́ olùkọ́, I am a teacher.",
-          "A place uses wà: Mo wà ní ọjà. Never jẹ́.",
+          "A place uses wà, not jẹ́: Mo wà ní ọjà.",
         ],
       },
       {

@@ -10,7 +10,7 @@ export const b6: Lesson = {
   ],
   primer: {
     rule: "Use wà to say something is there and kò sí to say there is none. Neither names an owner. To say who has nothing, use kò ní with the owner.",
-    formula: "thing + wà; kò sí + thing; owner + kò ní + thing",
+    formula: "thing + wà (There is water); kò sí + thing (There is no water); owner + kò ní + thing (I do not have money)",
     tables: [
       {
         id: "things-to-look-for",
@@ -68,7 +68,7 @@ export const b6: Lesson = {
         explanation: [
           "This is mo ní (I have) from Getting Started 4, with kò before it: N kò ní owó.",
           "Mo becomes n before kò, and kò can shorten to ò: A ò ní omi.",
-          "You must name the owner. Never put an owner before sí.",
+          "You must name the owner. Kò sí takes no owner, so use kò ní for that.",
         ],
       },
       {

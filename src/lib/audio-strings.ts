@@ -26,6 +26,11 @@ export function listenTexts(cell: string): string[] {
   return cell.split(" / ").map((t) => t.trim()).filter(Boolean);
 }
 
+// The columns a table's Listen cell reads from, in order.
+export function listenColumns(listen: number | number[] | undefined): number[] {
+  return listen === undefined ? [] : Array.isArray(listen) ? listen : [listen];
+}
+
 export function collectAudioStrings(levels: Level[]): { key: string; text: string }[] {
   const seen = new Map<string, string>();
   const add = (text: string, allowShort = false) => {
@@ -38,7 +43,7 @@ export function collectAudioStrings(levels: Level[]): { key: string; text: strin
     for (const lesson of level.lessons) {
       for (const w of lesson.primer.examples) add(w.surface);
       for (const t of lesson.primer.tables ?? []) {
-        if (t.listen !== undefined) for (const row of t.rows) for (const text of listenTexts(row[t.listen]!)) add(text, true);
+        for (const col of listenColumns(t.listen)) for (const row of t.rows) for (const text of listenTexts(row[col]!)) add(text, true);
       }
       for (const q of lesson.questions) {
         if (q.type === "pick") add(q.choices[q.answer]!);

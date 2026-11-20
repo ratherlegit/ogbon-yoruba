@@ -9,6 +9,7 @@
     "test": "vitest run",
     "validate": "tsx scripts/validate-content.ts",
     "review": "tsx scripts/generate-review.ts",
+    "lesson:warnings": "tsx scripts/question-warnings.ts",
     "audio:list": "tsx scripts/list-audio-strings.ts",
     "audio:test": "tools/audio/.venv/bin/python tools/audio/test_split.py",
     "audio:generate": "npm run audio:list && tools/audio/.venv/bin/python tools/audio/generate_elevenlabs.py",

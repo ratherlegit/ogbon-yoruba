@@ -10,7 +10,7 @@ export const a5: Lesson = {
   ],
   primer: {
     rule: "After a verb of saying, hearing, thinking or knowing, use pé to introduce what was said, heard, thought or known. A whole sentence follows pé.",
-    formula: "subject + sọ / gbọ́ / rò / mọ̀ + pé + sentence",
+    formula: "subject + sọ / gbọ́ / rò / mọ̀ + pé + sentence (He said that he has gone: say, hear, think or know + that + sentence)",
     tables: [
       {
         id: "pe-verbs",

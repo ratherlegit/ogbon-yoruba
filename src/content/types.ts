@@ -45,7 +45,8 @@ export type PrimerTable = {
   columns: { label: string; yo?: boolean }[];
   rows: string[][];
   // Adds a trailing Listen column with a speaker for the text in this column of each row.
-  listen?: number;
+  // A list of columns gives one speaker per column, in the order given.
+  listen?: number | number[];
   note?: string;
 };
 

@@ -10,7 +10,7 @@ export const i9: Lesson = {
   ],
   primer: {
     rule: "To say first, second, third, put an order word after the noun. Take the counting number and change its first sound from m to k: méjì becomes kejì, mẹ́ta becomes kẹta. First is the exception: kìíní.",
-    formula: "noun + order word: ọmọ kejì, the second child",
+    formula: "noun + order word (ọmọ kejì: the second child)",
     tables: [
       {
         id: "order-words",

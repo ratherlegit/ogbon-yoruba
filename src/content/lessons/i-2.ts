@@ -15,7 +15,7 @@ export const i2: Lesson = {
   ],
   primer: {
     rule: "To show who owns something, put two nouns side by side: the thing owned first, the owner second. No extra word for \"of\" is needed.",
-    formula: "thing owned + owner",
+    formula: "thing owned + owner (ilé ọba: the king's house)",
     tables: [
       {
         id: "possessives",

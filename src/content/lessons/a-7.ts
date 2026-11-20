@@ -10,7 +10,7 @@ export const a7: Lesson = {
   ],
   primer: {
     rule: "To tell someone not to do something, put má before the verb. Start with ẹ to speak to several people or to an older person.",
-    formula: "má + verb; ẹ má + verb; jọ̀wọ́ má + verb",
+    formula: "má + verb (Do not go); ẹ má + verb (Do not come, to several people); jọ̀wọ́ má + verb (Please do not go)",
     tables: [
       {
         id: "ma-verbs",

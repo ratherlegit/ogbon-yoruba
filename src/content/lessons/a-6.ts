@@ -10,7 +10,7 @@ export const a6: Lesson = {
   ],
   primer: {
     rule: "Put lè before a verb to say someone can do it. For cannot, say kò lè. lè says you are able, not that you want to or must.",
-    formula: "subject + lè + verb; subject + kò lè + verb; ṣé + subject + lè + verb?",
+    formula: "subject + lè + verb (I can go); subject + kò lè + verb (I cannot go); ṣé + subject + lè + verb? (Can you go?)",
     tables: [
       {
         id: "can-sentences",

@@ -14,7 +14,7 @@ export const a1: Lesson = {
   ],
   primer: {
     rule: "When a word ending in a vowel meets a word starting with a vowel, speech usually drops one vowel or changes one to match the other. The result is a shorter word. Sometimes nothing is dropped: one vowel just changes to match its neighbour.",
-    formula: "verb + noun becomes one word: ra + ẹran = rẹran; kú + ilé = kúulé",
+    formula: "verb + noun becomes one word: ra + ẹran = rẹran (buy + meat = to buy meat); kú + ilé = kúulé (greeting word + house = welcome into the house)",
     tables: [
       {
         id: "elision-words",

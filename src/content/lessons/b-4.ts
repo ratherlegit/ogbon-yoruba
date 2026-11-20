@@ -16,7 +16,7 @@ export const b4: Lesson = {
   ],
   primer: {
     rule: "Put ṣé at the start of a statement to make a yes or no question. Start with kí ni to ask \"what\". A question word is a word that starts a question. An adverb is a word that tells how an action is done, such as dáadáa, well.",
-    formula: "ṣé + statement?; kí ni + rest of the question?",
+    formula: "ṣé + statement? (Do you want to eat?); kí ni + rest of the question? (What do you want?)",
     tables: [
       {
         id: "look-alikes",

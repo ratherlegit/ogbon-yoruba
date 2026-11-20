@@ -10,7 +10,7 @@ export const i5: Lesson = {
   ],
   primer: {
     rule: "To say one thing is more than another, say the first thing, then a describing word, then ju and the second thing, and finish with lọ.",
-    formula: "A + describing word + ju + B + lọ",
+    formula: "A + describing word + ju + B + lọ (My house is bigger than your house)",
     tables: [
       {
         id: "compare-words",

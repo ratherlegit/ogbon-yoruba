@@ -10,7 +10,7 @@ export const m6: Lesson = {
   ],
   primer: {
     rule: "Put ṣì before the verb to say something is still going on. Put kò tíì before the verb to say it has not happened yet. kò tíì is the opposite of ti (already).",
-    formula: "subject + ṣì + verb; subject + kò tíì + verb",
+    formula: "subject + ṣì + verb (He is still at home); subject + kò tíì + verb (I have not eaten yet)",
     tables: [
       {
         id: "still-and-not-yet",

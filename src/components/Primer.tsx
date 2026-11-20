@@ -1,7 +1,8 @@
 import { Link } from "@tanstack/react-router";
 import type { Lesson } from "@/content/types";
 import { hasConstruction, primerHeading } from "@/lib/construction";
-import { listenTexts } from "@/lib/audio-strings";
+import { splitFormulaLine } from "@/lib/formula";
+import { listenColumns, listenTexts } from "@/lib/audio-strings";
 import { AudioButton } from "./AudioButton";
 import { ToneChip } from "./ToneChip";
 import { WordBreakdownCard } from "./WordBreakdownCard";
@@ -19,7 +20,15 @@ export function Primer({ lesson, onStart }: { lesson: Lesson; onStart?: () => vo
         <p className="primer-rule"><LinkedText text={primer.rule} /></p>
         {primer.formula && (
           <div className="yo primer-formula">
-            {primer.formula.split(";").map((line) => <p key={line}>{line.trim()}</p>)}
+            {primer.formula.split(";").map((line) => {
+              const { pattern, gloss } = splitFormulaLine(line);
+              return (
+                <p key={line}>
+                  {pattern}
+                  {gloss && <em className="formula-gloss">{gloss}</em>}
+                </p>
+              );
+            })}
           </div>
         )}
         {primer.toneFocus && (
@@ -52,7 +61,7 @@ export function Primer({ lesson, onStart }: { lesson: Lesson; onStart?: () => vo
                   {t.listen !== undefined && (
                     <td data-label="Listen">
                       <span className="listen-cell">
-                        {listenTexts(row[t.listen]!).map((text) => <AudioButton key={text} text={text} />)}
+                        {listenColumns(t.listen).flatMap((col) => listenTexts(row[col]!)).map((text) => <AudioButton key={text} text={text} />)}
                       </span>
                     </td>
                   )}

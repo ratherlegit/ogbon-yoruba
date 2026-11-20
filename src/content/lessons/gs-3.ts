@@ -11,7 +11,7 @@ export const gs3: Lesson = {
   ],
   primer: {
     rule: "A pronoun stands in for a person, and Yoruba uses a short form right before the verb. To say where you come from, use a short pronoun, then wá láti, then the place.",
-    formula: "pronoun + wá láti + place; kind of place + wo + ni o ti wá (asking); kind of place + mi + ni + name (answering)",
+    formula: "pronoun + wá láti + place (I come from Nigeria); kind of place + wo + ni o ti wá (asking: Which town are you from?); kind of place + mi + ni + name (answering: My town is Ibadan)",
     tables: [
       {
         id: "pronouns",
@@ -201,7 +201,7 @@ export const gs3: Lesson = {
     { type: "blank", prompt: "Ìlú ___ ni Ìbàdàn. (My town is Ibadan.)", answer: "mi", choices: ["mi", "wo", "wá"], wordId: "ilu-mi" },
     { type: "pick", prompt: "In Ìlú wo ni o ti wá?, where does wo (which) go?", choices: ["Right after the kind of place", "At the very end", "Before the kind of place"], answer: 0, wordId: "ilu-wo" },
     { type: "pick", prompt: "Which pronoun do you use to speak politely to one older person?", choices: ["o", "ó", "ẹ"], answer: 2 },
-    { type: "pick", prompt: "In Àwọn àti ẹ̀yin (they and you), why are the long forms used?", choices: ["No verb follows, so a short form cannot be used", "Long forms are more polite", "Short forms are only for children"], answer: 0, wordId: "won-wa" },
+    { type: "pick", prompt: "In Àwọn àti ẹ̀yin (they and you), why are the long forms used?", choices: ["No verb follows, so a short form cannot be used", "Long forms are more polite", "Long forms are only used in writing"], answer: 0, wordId: "won-wa" },
     { type: "order", english: "Which town are you from?", words: ["wá", "Ìlú", "o", "ni", "wo", "ti"], answer: ["Ìlú", "wo", "ni", "o", "ti", "wá"] },
     { type: "order", english: "My state is Oyo", words: ["ni", "Ọ̀yọ́", "mi", "Ìpínlẹ̀"], answer: ["Ìpínlẹ̀", "mi", "ni", "Ọ̀yọ́"] },
   ],

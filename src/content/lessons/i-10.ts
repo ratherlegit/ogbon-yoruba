@@ -10,7 +10,7 @@ export const i10: Lesson = {
   ],
   primer: {
     rule: "Some amount words go before the noun and some go after it. gbogbo (all) and ọ̀pọ̀ (many) go before. púpọ̀ (many, much) and díẹ̀ (a few, a little) go after. For some, use àwọn before the noun and kan after it.",
-    formula: "gbogbo + noun; ọ̀pọ̀ + noun; noun + púpọ̀; noun + díẹ̀; àwọn + noun + kan",
+    formula: "gbogbo + noun (all the children); ọ̀pọ̀ + noun (many people); noun + púpọ̀ (many friends); noun + díẹ̀ (a little money); àwọn + noun + kan (some children)",
     tables: [
       {
         id: "amounts",

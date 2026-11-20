@@ -14,8 +14,8 @@ export const i4: Lesson = {
     "The extra nouns (ọkùnrin, obìnrin), describing words (dára, tuntun, ńlá, kékeré, gíga) and the phrases ilé ńlá yẹn and Ìwé wo were added for this lesson. Not checked against a consulted source here. Needs a native speaker's check before verifying.",
   ],
   primer: {
-    rule: "A demonstrative is a word like \"this\" or \"that\". In Yoruba it comes after the noun. A plural means more than one; Yoruba shows it with àwọn before the noun, and the noun itself never changes. A particle is a small word that has a job but no meaning on its own, such as àwọn.",
-    formula: "noun + yìí (this) or yẹn (that); àwọn + noun (plural)",
+    rule: "A demonstrative is a word like \"this\" or \"that\". In Yoruba it comes after the noun. A plural means more than one; Yoruba shows it with àwọn before the noun, and the noun itself does not change. A particle is a small word that has a job but no meaning on its own, such as àwọn.",
+    formula: "noun + yìí or yẹn (this or that); àwọn + noun (plural)",
     tables: [
       {
         id: "demonstratives",

@@ -10,7 +10,7 @@ export const gs5: Lesson = {
   ],
   primer: {
     rule: "Use gbọ́ with a language to say you understand it and sọ to say you speak it. Put díẹ̀ (a little) or dáadáa (well) after the language.",
-    formula: "Mo gbọ́ + language; Mo sọ + language; language + díẹ̀ or dáadáa",
+    formula: "Mo gbọ́ + language (I understand Yoruba); Mo sọ + language (I speak English); language + díẹ̀ or dáadáa (a little or well)",
     tables: [
       {
         id: "languages",

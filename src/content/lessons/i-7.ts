@@ -10,7 +10,7 @@ export const i7: Lesson = {
   ],
   primer: {
     rule: "Use ní láti before a verb to say you have to do something, and gbọ́dọ̀ before a verb to say you must. Use nílò before a thing you need.",
-    formula: "subject + ní láti + verb; subject + gbọ́dọ̀ + verb; subject + nílò + thing",
+    formula: "subject + ní láti + verb (I have to go); subject + gbọ́dọ̀ + verb (I must read the book); subject + nílò + thing (I need + thing)",
     tables: [
       {
         id: "obligation-sentences",

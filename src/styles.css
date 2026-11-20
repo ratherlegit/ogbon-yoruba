@@ -121,6 +121,7 @@ a.card:hover { transform: translateY(-3px); border-color: var(--gold); box-shado
 .primer-rule a { text-decoration: underline; text-underline-offset: 0.15em; }
 .primer-formula p { margin: 0; }
 .primer-formula p + p { margin-top: 0.45rem; }
+.formula-gloss { display: block; margin-top: 0.15rem; font-weight: 400; font-style: italic; color: var(--text-muted); }
 .primer-formula { margin: 0; padding: 0.6rem 0.8rem; border-left: 4px solid var(--gold); border-radius: 0.4rem; background: color-mix(in srgb, var(--gold) 14%, transparent); font-weight: 600; }
 .rule-points { margin: 0.35rem 0 0; padding-left: 1.2rem; list-style: disc; }
 .rule-points li + li { margin-top: 0.3rem; }
@@ -136,6 +137,7 @@ a.card:hover { transform: translateY(-3px); border-color: var(--gold); box-shado
 }
 .btn:not(:disabled):hover { transform: translateY(-2px); }
 .btn:not(:disabled):active { transform: translateY(1px) scale(0.98); }
+.btn-gold { background: var(--gold); color: #101a3d; border-color: var(--gold); }
 .btn-primary { background: var(--primary); color: var(--on-primary); border-color: var(--primary); }
 .card-feature .btn-primary { color: #f0cd78; }
 .btn-icon { width: 2.75rem; padding: 0; flex: none; border-radius: 999px; background: var(--primary); color: var(--on-primary); border-color: var(--primary); }

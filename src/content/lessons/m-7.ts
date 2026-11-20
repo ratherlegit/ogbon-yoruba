@@ -10,7 +10,7 @@ export const m7: Lesson = {
   ],
   primer: {
     rule: "Put bóyá before a sentence to say maybe. The same word after a verb such as know means whether. Put ìbá ṣe pé before a sentence to say if only, a wish about something that did not happen.",
-    formula: "bóyá + clause; kò mọ̀ bóyá + clause; ìbá ṣe pé + clause",
+    formula: "bóyá + clause (Maybe he is at home); kò mọ̀ bóyá + clause (I do not know whether ...); ìbá ṣe pé + clause (If only ...)",
     tables: [
       {
         id: "maybe-whether-if-only",

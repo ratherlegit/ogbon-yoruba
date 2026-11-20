@@ -10,7 +10,7 @@ export const m8: Lesson = {
   ],
   primer: {
     rule: "Friends speak in short, relaxed forms. Put o at the end of a greeting, thanks or warning to add warmth. Put ṣé o gbọ́ or ṣebí after a statement to ask for agreement. Use short replies such as Ó yá, Ó dáa and Kò sí wàhálà.",
-    formula: "greeting + o; statement + ṣé o gbọ́; Ṣebí + sentence?",
+    formula: "greeting + o (Pẹ̀lẹ́ o: Sorry, take it easy); statement + ṣé o gbọ́ (... you hear?); Ṣebí + sentence? (It is you, right?)",
     tables: [
       {
         id: "casual-phrases",

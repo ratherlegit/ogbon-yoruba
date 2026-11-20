@@ -29,7 +29,7 @@ export function Results({ correct, total, missedCount, onRetryMissed, onReviewIn
         )}
         <button className="btn" onClick={onReviewInstructions}>Review instructions</button>
         {next ? (
-          <Link className="btn" to="/lesson/$levelId/$lessonId" params={{ levelId: next.levelId, lessonId: next.lessonId }}>
+          <Link className="btn btn-gold" to="/lesson/$levelId/$lessonId" params={{ levelId: next.levelId, lessonId: next.lessonId }}>
             Next lesson
           </Link>
         ) : (

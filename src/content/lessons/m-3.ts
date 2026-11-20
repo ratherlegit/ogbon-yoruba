@@ -15,7 +15,7 @@ export const m3: Lesson = {
   ],
   primer: {
     rule: "A clause is a group of words with its own verb. A complex sentence joins two clauses, for example an \"if\" clause and a main clause. Yoruba uses bí ... bá for \"if\" and nítorí pé for \"because\".",
-    formula: "Bí + subject + bá + verb, main clause: Bí òjò bá rọ̀, a ò níí lọ",
+    formula: "Bí + subject + bá + verb, main clause: Bí òjò bá rọ̀, a ò níí lọ (If it rains, we will not go)",
     tables: [
       {
         id: "joining-words",

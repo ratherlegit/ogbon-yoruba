@@ -10,7 +10,7 @@ export const i8: Lesson = {
   ],
   primer: {
     rule: "Put jẹ́ kí before a subject and a verb to say let someone do something. For let me use jẹ́ kí n. For let us use the joined form jẹ́ ká.",
-    formula: "jẹ́ kí + subject + verb; jẹ́ kí n + verb; jẹ́ ká + verb",
+    formula: "jẹ́ kí + subject + verb (Let him come); jẹ́ kí n + verb (Let me go); jẹ́ ká + verb (Let us go)",
     tables: [
       {
         id: "let-sentences",

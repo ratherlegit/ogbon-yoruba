@@ -17,7 +17,7 @@ export const b2: Lesson = {
   ],
   primer: {
     rule: "Negation means saying \"not\". Yoruba puts kò right before the verb. After a pronoun, kò is often shortened to ò.",
-    formula: "subject + kò + verb; pronoun + ò + verb",
+    formula: "subject + kò + verb (He did not go); pronoun + ò + verb (We did not go)",
     tables: [
       {
         id: "neg-verbs",

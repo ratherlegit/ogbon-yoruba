@@ -14,7 +14,7 @@ export const b3: Lesson = {
   ],
   primer: {
     rule: "ń is a small word before the verb. It says the action is going on. In the formula, the subject is who or what the sentence is about.",
-    formula: "subject + ń + verb",
+    formula: "subject + ń + verb (I am eating)",
     tables: [
       {
         id: "n-verbs",

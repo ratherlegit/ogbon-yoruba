@@ -90,6 +90,11 @@
     "group": "grammar"
   },
   {
+    "key": "ẹ kúuṣẹ́",
+    "text": "ẹ kúuṣẹ́",
+    "group": "grammar"
+  },
+  {
     "key": "ẹ káalẹ́",
     "text": "ẹ káalẹ́",
     "group": "grammar"
@@ -105,13 +110,38 @@
     "group": "grammar"
   },
   {
-    "key": "ẹ káàsán",
-    "text": "Ẹ káàsán",
+    "key": "ẹ kú àárọ̀",
+    "text": "Ẹ kú àárọ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "ẹ kú ọ̀sán",
+    "text": "Ẹ kú ọ̀sán",
+    "group": "grammar"
+  },
+  {
+    "key": "ẹ kú alẹ́",
+    "text": "Ẹ kú alẹ́",
     "group": "grammar"
   },
   {
     "key": "ẹ kú ìrọ̀lẹ́",
     "text": "Ẹ kú ìrọ̀lẹ́",
+    "group": "grammar"
+  },
+  {
+    "key": "ó di àárọ̀",
+    "text": "Ó di àárọ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "ẹ káàsán",
+    "text": "Ẹ káàsán",
+    "group": "grammar"
+  },
+  {
+    "key": "ẹ kúùrọ̀lẹ́",
+    "text": "Ẹ kúùrọ̀lẹ́",
     "group": "grammar"
   },
   {
@@ -127,6 +157,11 @@
   {
     "key": "ẹ kú àbọ̀",
     "text": "Ẹ kú àbọ̀",
+    "group": "grammar"
+  },
+  {
+    "key": "ẹ káàbọ̀",
+    "text": "Ẹ káàbọ̀",
     "group": "grammar"
   },
   {
@@ -2683,18 +2718,6 @@
     "key": "ó dáa",
     "text": "Ó dáa",
     "group": "grammar"
-  },
-  {
-    "key": "ẹ kúuṣẹ́",
-    "text": "ẹ kúuṣẹ́",
-    "group": "vocab-word",
-    "level": "getting-started"
-  },
-  {
-    "key": "ẹ káàbọ̀",
-    "text": "ẹ káàbọ̀",
-    "group": "vocab-word",
-    "level": "getting-started"
   },
   {
     "key": "ẹ ṣeun",

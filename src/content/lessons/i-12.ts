@@ -10,7 +10,7 @@ export const i12: Lesson = {
   ],
   primer: {
     rule: "In casual speech, an English noun can take the place of a Yoruba noun. The Yoruba grammar words around it stay Yoruba: ń, ti, kò, ṣé, àwọn, and the owner words such as mi. The English word keeps its English shape.",
-    formula: "Yoruba sentence with an English noun: Mo ń wo movie",
+    formula: "Yoruba sentence with an English noun (Mo ń wo movie: I am watching a movie)",
     tables: [
       {
         id: "mixed-sentences",

@@ -14,7 +14,7 @@ export const m4: Lesson = {
   ],
   primer: {
     rule: "A proverb (òwe) is a short traditional saying that teaches a lesson. Speakers quote proverbs word for word, so the exact words and tones matter. Read them in chunks, using the grammar you already know.",
-    formula: "read the proverb chunk by chunk; Ọmọ tí a kò kọ́; ni yóò gbé; ilé tí a kọ́ tà",
+    formula: "read the proverb chunk by chunk (the whole proverb is in the examples); Ọmọ tí a kò kọ́ (the child who is not taught); ni yóò gbé (is the one who will carry); ilé tí a kọ́ tà (the house that is built, sell)",
     tables: [
       {
         id: "proverb-words",
@@ -192,7 +192,7 @@ export const m4: Lesson = {
     { type: "blank", prompt: "Ọmọ tí a kò kọ́ ___ yóò gbé ilé tí a kọ́ tà. (The word that puts the spotlight on the child.)", answer: "ni", choices: ["ni", "tí", "kò"], wordId: "owe-omo" },
     { type: "blank", prompt: "Bí iná bá jó ___, màjàlà á fò wá sílé. (When a fire burns in the field, ...)", answer: "lóko", choices: ["lóko", "nílé", "lọ́jà"], wordId: "owe-ina" },
     { type: "pick", prompt: "What does Ọmọ tí a kò kọ́ ni yóò gbé ilé tí a kọ́ tà mean?", choices: ["The child who is not taught will sell the house that is built", "The child who is not taught will build a house", "A house that is not built cannot be sold"], answer: 0, wordId: "owe-omo" },
-    { type: "pick", prompt: "What does Bí ewé bá pẹ́ lára ọṣẹ, á dọṣẹ teach?", choices: ["People who spend long together take on each other's ways", "Leaves make the best soap", "Soap takes a long time to make"], answer: 0 },
+    { type: "pick", prompt: "What does Bí ewé bá pẹ́ lára ọṣẹ, á dọṣẹ teach?", choices: ["People who spend long together take on each other's ways", "Hard work is rewarded in the end", "A clean person never needs soap"], answer: 0 },
     { type: "order", english: "The child who is not taught", words: ["kọ́", "tí", "Ọmọ", "kò", "a"], answer: ["Ọmọ", "tí", "a", "kò", "kọ́"] },
   ],
 };

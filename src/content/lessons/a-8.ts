@@ -10,7 +10,7 @@ export const a8: Lesson = {
   ],
   primer: {
     rule: "Put tún right before a verb to say you do it again. Put náà right after a pronoun to say you too. tún goes before the verb and náà goes after the person.",
-    formula: "subject + tún + verb; pronoun + náà + verb",
+    formula: "subject + tún + verb (I went again); pronoun + náà + verb (I want to go too)",
     tables: [
       {
         id: "again-and-too",

@@ -14,7 +14,7 @@ export const m2: Lesson = {
   ],
   primer: {
     rule: "Focus means putting the spotlight on one part of a sentence, like \"It was Adé who...\" in English. Yoruba moves that part to the front and puts ni right after it.",
-    formula: "focused word + ni + rest of the sentence",
+    formula: "focused word + ni + rest of the sentence (Adé ni ó ra ìwé: It was Adé who bought the book)",
     tables: [
       {
         id: "focus-patterns",

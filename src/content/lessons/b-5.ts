@@ -10,7 +10,7 @@ export const b5: Lesson = {
   ],
   primer: {
     rule: "To tell one person to do something, say just the verb. Start with ẹ to speak to several people or to someone older. Add jọ̀wọ́ (please) to be polite.",
-    formula: "verb; ẹ + verb; jọ̀wọ́ + verb; fún mi ní + thing",
+    formula: "verb (Come); ẹ + verb (Come, to several people); jọ̀wọ́ + verb (Please sit); fún mi ní + thing (give me + thing)",
     tables: [
       {
         id: "command-verbs",

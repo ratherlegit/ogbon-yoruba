@@ -10,7 +10,7 @@ export const a9: Lesson = {
   ],
   primer: {
     rule: "Put láì before a verb to say without doing it: ó lọ láì jẹun, he left without eating. Put láìsí before a noun to say without something: láìsí owó, without money.",
-    formula: "verb + láì + verb; verb + láìsí + noun",
+    formula: "verb + láì + verb (He left without eating); verb + láìsí + noun (without + thing)",
     tables: [
       {
         id: "without",

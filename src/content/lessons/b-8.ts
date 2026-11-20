@@ -10,7 +10,7 @@ export const b8: Lesson = {
   ],
   primer: {
     rule: "Put fẹ́ before a verb to say you want to do something. fẹ́ràn (like) goes with a thing, not with a verb.",
-    formula: "subject + fẹ́ + verb; subject + kò fẹ́ + verb; ṣé + subject + fẹ́ + verb?",
+    formula: "subject + fẹ́ + verb (I want to go); subject + kò fẹ́ + verb (I do not want to eat); ṣé + subject + fẹ́ + verb? (Does she want to eat?)",
     tables: [
       {
         id: "want-verbs",

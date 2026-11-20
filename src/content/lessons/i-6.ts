@@ -11,7 +11,7 @@ export const i6: Lesson = {
   ],
   primer: {
     rule: "To say where one thing is in relation to another, use wà and then lórí (on), nínú (in) or lábẹ́ (under), followed by the thing.",
-    formula: "thing + wà + lórí / nínú / lábẹ́ + other thing",
+    formula: "thing + wà + lórí / nínú / lábẹ́ + other thing (The book is on the table: on, in or under)",
     tables: [
       {
         id: "place-words",

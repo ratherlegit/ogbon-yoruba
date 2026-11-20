@@ -9,7 +9,7 @@ export const m5: Lesson = {
     "Builds on fún (Beginner 5), wà ní (Beginner 7), kí ni from Beginner 4 (a different use of kí) and the ó and o pronouns from Getting Started 3. Mastery vocab lists kí wọ́n and kí ẹ in sentences. This lesson teaches the wish pattern on its own.",
   ],
   primer: {
-    rule: "To wish something for someone, start with kí, then the person or thing that gets the wish, then the verb. Wishes and blessings all use this pattern.",
+    rule: "To wish something for someone, start with kí, then the person or thing that gets the wish, then the verb. Many wishes and blessings use this pattern.",
     formula: "kí + subject + verb (+ fún ọ)",
     tables: [
       {
@@ -48,7 +48,7 @@ export const m5: Lesson = {
         title: "kí + subject + verb makes a wish",
         explanation: [
           "Put kí first: Kí Ọlọ́run bá ọ lọ, may God go with you.",
-          "A wish names who or what is to receive it, so the subject is always there.",
+          "A wish names who or what is to receive it, so a subject follows kí.",
         ],
       },
       {
@@ -144,7 +144,7 @@ export const m5: Lesson = {
     },
   },
   questions: [
-    { type: "pick", prompt: "Which one is a wish, not a question?", choices: ["Kí ni o fẹ́?", "Kí Ọlọ́run bá ọ lọ", "Ṣé o fẹ́ lọ?"], answer: 1, wordId: "ki-olorun-ba-o-lo" },
+    { type: "pick", prompt: "Which one is a wish, not a question?", choices: ["Kí ni o fẹ́", "Kí Ọlọ́run bá ọ lọ", "Ṣé o fẹ́ lọ"], answer: 1, wordId: "ki-olorun-ba-o-lo" },
     { type: "pick", prompt: "Which is correct for \"let me go with you\"?", choices: ["Kí mo bá ọ lọ", "Kí n bá ọ lọ", "Mo kí bá ọ lọ"], answer: 1, wordId: "ki-n-ba-o-lo" },
     { type: "blank", prompt: "___ Ọlọ́run bá ọ lọ. (May God go with you.)", answer: "Kí", choices: ["Kí", "Ṣé", "Bí"], wordId: "ki-olorun-ba-o-lo" },
     { type: "blank", prompt: "Kí ó dára ___ ọ. (May it go well for you.)", answer: "fún", choices: ["fún", "láti", "pé"], wordId: "ki-o-dara-fun-o" },
