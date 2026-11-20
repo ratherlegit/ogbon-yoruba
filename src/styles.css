@@ -122,6 +122,8 @@ a.card:hover { transform: translateY(-3px); border-color: var(--gold); box-shado
 .primer-formula p { margin: 0; }
 .primer-formula p + p { margin-top: 0.45rem; }
 .formula-gloss { display: block; margin-top: 0.15rem; font-weight: 400; font-style: italic; color: var(--text-muted); }
+.formula-label { margin-right: 0.4rem; font-style: normal; font-weight: 700; color: var(--gold-text); }
+.formula-label::after { content: ":"; }
 .primer-formula { margin: 0; padding: 0.6rem 0.8rem; border-left: 4px solid var(--gold); border-radius: 0.4rem; background: color-mix(in srgb, var(--gold) 14%, transparent); font-weight: 600; }
 .rule-points { margin: 0.35rem 0 0; padding-left: 1.2rem; list-style: disc; }
 .rule-points li + li { margin-top: 0.3rem; }

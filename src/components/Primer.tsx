@@ -21,11 +21,16 @@ export function Primer({ lesson, onStart }: { lesson: Lesson; onStart?: () => vo
         {primer.formula && (
           <div className="yo primer-formula">
             {primer.formula.split(";").map((line) => {
-              const { pattern, gloss } = splitFormulaLine(line);
+              const { pattern, label, gloss } = splitFormulaLine(line);
               return (
                 <p key={line}>
                   {pattern}
-                  {gloss && <em className="formula-gloss">{gloss}</em>}
+                  {gloss && (
+                    <em className="formula-gloss">
+                      {label && <span className="formula-label">{label}</span>}
+                      {gloss}
+                    </em>
+                  )}
                 </p>
               );
             })}

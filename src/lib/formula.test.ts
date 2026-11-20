@@ -4,10 +4,16 @@ import { splitFormulaLine } from "./formula";
 
 describe("splitFormulaLine", () => {
   it("splits the pattern from its trailing gloss", () => {
-    expect(splitFormulaLine("pronoun + wá láti + place (I come from Nigeria)")).toEqual({ pattern: "pronoun + wá láti + place", gloss: "I come from Nigeria" });
+    expect(splitFormulaLine("pronoun + wá láti + place (I come from Nigeria)")).toEqual({ pattern: "pronoun + wá láti + place", label: null, gloss: "I come from Nigeria" });
+  });
+  it("pulls a purpose label out of the gloss", () => {
+    expect(splitFormulaLine("kind of place + wo + ni o ti wá (asking: Which town are you from?)")).toEqual({ pattern: "kind of place + wo + ni o ti wá", label: "asking", gloss: "Which town are you from?" });
+  });
+  it("keeps other colons in the gloss", () => {
+    expect(splitFormulaLine("ara + owner (ara mi: myself)").label).toBeNull();
   });
   it("leaves a line with no gloss alone", () => {
-    expect(splitFormulaLine("a + b")).toEqual({ pattern: "a + b", gloss: null });
+    expect(splitFormulaLine("a + b")).toEqual({ pattern: "a + b", label: null, gloss: null });
   });
 });
 
